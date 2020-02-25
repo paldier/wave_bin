@@ -1,0 +1,15 @@
+Version 610.17 rev 5b63b7176b39f9c4a70d88ffc1e4ca94e93ca099 of branch release/6.1.0, 13/05/2019
+
+Content\Fixes:
+*  Merge pull request #33 in SW_WAVE/dut from bugfix/WLANRTSYS-11438-modify-umi_set_bss-reserved-field-to-support-er2 to release/6.1.0
+	- Changed UMI_SET_BSS reserved field to support ER2 branch modifications
+
+*  Merge pull request #30 in SW_WAVE/dut from bugfix/6.1.0-revise-WLANRTSYS-10517-tx-power-in-band-edge-channel-on-dut_gui to release/6.1.0
+	- revised fcc regulatory check box callback
+
+
+Release files location:
+G:\Wireless\SW\ReleaseVersions\DUT\6.1.0\610.17
+
+Shared headers hash:
+851b5da125767b39e28cc7ac16f54b6f59415d2e
