@@ -16,51 +16,52 @@ H 4 1 1 562 RcrUser_t
 S 4 1 1 668 Delia status = 0x%08X
 S 4 1 1 690 tx_finish : start recovery flow, DMA jobs = %d
 S 4 1 1 785 tx_finish : END recovery flow
-S 4 1 1 2180 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_post_tx_common_tasks_handle_one_shot_clear_bits_in_phase_valid
-S 4 1 1 2253 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_post_tx_common_tasks_handle_move_to_su
-S 4 1 1 2290 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_seq_filler_type_not_supported
-S 4 1 1 2302 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: TxSender_HandleBfReport_NonUnicastQueueGroup
-S 4 1 1 2414 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_pas_pac_tx_error
-S 4 1 1 2436 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_sec_not_in_idle
-S 4 1 1 2452 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_duration_calc
-S 4 1 1 2466 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_duration_and_tf_generator_pending
-S 4 1 1 2502 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_tx_main
-S 4 1 1 2540 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_tx_beacon_probe_res
-S 4 1 1 2568 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_cts_2_self
-S 4 1 1 2580 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_sendTriggerFrameFromFw_initInputError
-S 4 1 1 2593 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_mailboxFifoOutFull_error
-S 4 1 1 2606 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_mailboxDisabled_error
-S 4 1 1 2617 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_security_fail
-S 4 1 1 2628 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_dma_idle_error
-S 4 1 1 2639 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_dma_aligner_idle_error
-S 4 1 1 2650 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_multicastChannelSwitch_error
-S 4 1 1 2661 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_controlPdTypeNotCts2Self_error
-S 4 1 1 2672 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_plannedFlowZero_error
-S 4 1 1 2683 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_stdOwnership_error
-S 4 1 1 2694 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_tidValidBitmapError
-S 4 1 1 2705 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_tidValidBitError
-S 4 1 1 2716 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_userValidError
-S 4 1 1 2727 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_seq_bar_baaActiveUidError
-S 4 1 1 2738 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_baa_idle_error
-S 4 1 1 2749 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_pd_acc_not_idle_error
-S 4 1 1 2760 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_fake_ptd_not_first_error
-S 4 1 1 2771 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_num_of_tids_zero_error
-S 4 1 1 2782 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_qos_ndp_no_valid_data_tid_error
-S 4 1 1 2793 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_mac_ht_ndp_tx_to_non_qos_capable_station
-S 4 1 1 2803 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_pd_error
-S 4 1 1 2814 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_ctrl_pd_post_tx_error
-S 4 1 1 2825 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_tf_uplink_post_tx_error
-S 4 1 1 2836 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_he_su_ndpa_num_of_users_error
-S 4 1 1 2847 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_filler_cause_not_supported_error
-S 4 1 1 2857 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_he_mu_ndpa_num_of_users_error
-S 4 1 1 2868 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_security_counter_error
-S 4 1 1 2879 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_delia_desc_lists_not_empty_after_recovery
-S 4 1 1 2890 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_zero_during_polling_on_pac_extrapollator_idle
-S 4 1 1 2904 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_error_zero_before_finish_last_tx_flow
-S 4 1 1 2918 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_error_zero_during_polling_on_interrupt
-S 4 1 1 2932 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_zero_interrupt_during_enc_activate_abort_error
-S 4 1 2 166 Tx Start: Main Tx
-S 4 1 2 358 tx_main_pre_dma_start
+S 4 1 1 2190 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_post_tx_common_tasks_handle_one_shot_clear_bits_in_phase_valid
+S 4 1 1 2263 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_post_tx_common_tasks_handle_move_to_su
+S 4 1 1 2300 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_seq_filler_type_not_supported
+S 4 1 1 2312 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: TxSender_HandleBfReport_NonUnicastQueueGroup
+S 4 1 1 2424 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_pas_pac_tx_error
+S 4 1 1 2446 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_sec_not_in_idle
+S 4 1 1 2462 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_duration_calc
+S 4 1 1 2476 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_duration_and_tf_generator_pending
+S 4 1 1 2512 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_tx_main
+S 4 1 1 2550 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_tx_beacon_probe_res
+S 4 1 1 2578 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_end_error_delia_end_during_cts_2_self
+S 4 1 1 2590 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_sendTriggerFrameFromFw_initInputError
+S 4 1 1 2603 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_mailboxFifoOutFull_error
+S 4 1 1 2616 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_mailboxDisabled_error
+S 4 1 1 2627 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_security_fail
+S 4 1 1 2638 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_dma_idle_error
+S 4 1 1 2649 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_dma_aligner_idle_error
+S 4 1 1 2660 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_multicastChannelSwitch_error
+S 4 1 1 2671 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_controlPdTypeNotCts2Self_error
+S 4 1 1 2682 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_plannedFlowZero_error
+S 4 1 1 2693 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_stdOwnership_error
+S 4 1 1 2704 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_tidValidBitmapError
+S 4 1 1 2715 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_tidValidBitError
+S 4 1 1 2726 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_userValidError
+S 4 1 1 2737 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_seq_bar_baaActiveUidError
+S 4 1 1 2748 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_baa_idle_error
+S 4 1 1 2759 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_pd_acc_not_idle_error
+S 4 1 1 2770 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_fake_ptd_not_first_error
+S 4 1 1 2781 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_num_of_tids_zero_error
+S 4 1 1 2792 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_qos_ndp_no_valid_data_tid_error
+S 4 1 1 2803 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_mac_ht_ndp_tx_to_non_qos_capable_station
+S 4 1 1 2813 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_pd_error
+S 4 1 1 2824 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_ctrl_pd_post_tx_error
+S 4 1 1 2835 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_tf_uplink_post_tx_error
+S 4 1 1 2846 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_he_su_ndpa_num_of_users_error
+S 4 1 1 2857 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_filler_cause_not_supported_error
+S 4 1 1 2867 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_he_mu_ndpa_num_of_users_error
+S 4 1 1 2878 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_security_counter_error
+S 4 1 1 2889 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_delia_desc_lists_not_empty_after_recovery
+S 4 1 1 2900 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_zero_during_polling_on_pac_extrapollator_idle
+S 4 1 1 2914 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_error_zero_before_finish_last_tx_flow
+S 4 1 1 2928 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_finish_error_zero_during_polling_on_interrupt
+S 4 1 1 2942 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_zero_interrupt_during_enc_activate_abort_error
+S 4 1 1 2957 Fatal Error in file: "../../Code/Source/Wave600D2/TxSender.c"; Fatal Print: tx_sender_zero_interrupt_during_delia_pend_sm_error
+S 4 1 2 167 Tx Start: Main Tx
+S 4 1 2 355 tx_main_pre_dma_start
 S 4 1 3 49 tx_main_post_hc_start
 S 4 1 3 105 TX END DURING DELAY LOOP
 H 4 1 3 161 TxMpduDescriptor_t

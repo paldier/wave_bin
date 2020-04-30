@@ -179,71 +179,71 @@ S 1 4 0 2607 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE
 S 1 4 0 2612 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_LOCK_STOP_UNBUFFER
 S 1 4 0 2617 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_LOCK_STOP_DROP
 S 1 4 0 2623 [Atf_SetStationState] stationId: %d, state:%d
-S 1 4 1 320 [printGrants] stationID:%d grant:%d
-S 1 4 1 346 [printGrants] stationID:%d grant:%d
-S 1 4 1 374 [printPdTypeList] PdType:%d head:%x; tail:%x
-S 1 4 1 478 Assert in file: "Atf.c" in line: 478
-S 1 4 1 590 Atf_Manager_setAgeing AtfDb.AgeingEnable:%d, AtfDb.AgeingTtlCriteria:%d, AtfDb.end_of_interval_ttl:%d end_of_interval_ttl:%d
-S 1 4 1 707 [Atf_Manager_transition] newAtmDistributionType:%d
-S 1 4 1 708 [Atf_Manager_transition] AtfDb.AtmDistributionType: %d; newAtmAlgorithmType: %d interval:%d freeTime:%d
-S 1 4 1 735 Assert in file: "Atf.c" in line: 735
-S 1 4 1 753 Assert in file: "Atf.c" in line: 753
-S 1 4 1 768 Assert in file: "Atf.c" in line: 768
-S 1 4 1 775 [Atf_Manager_transition] NO_ERRORS
-S 1 4 1 782 [Atf_Manager_transition] Error %d
-S 1 4 1 788 Assert in file: "Atf.c" in line: 788
-S 1 4 1 826 [Atf_Manager_ValidateStationConnected] ATF_NOT_ALL_CONNECTED_STATIONS_RECEIVED_GRANT stationId:%d
-S 1 4 1 846 [Atf_Manager_ValidateStationConnected] ATF_STATION_IN_GRANT_LIST_IS_NOT_CONNECTED stationId:%d
-S 1 4 1 993 [Atf_Buffering_timerExpiredMsg]
-S 1 4 1 1052 Assert in file: "Atf.c" in line: 1052
-S 1 4 1 1112 Assert in file: "Atf.c" in line: 1112
-S 1 4 1 1135 Assert in file: "Atf.c" in line: 1135
-S 1 4 1 1287 [Atf_GrantCalc_dynamicWeighted] maxGrant %d; ac %d
-S 1 4 1 1330 [Atf_GrantCalc_dynamicWeighted] stationID:%d sta_TXOP_limit:%d AtfShramDb.maxGrant[stationId][ATF_USED_AC]:%d
-S 1 4 1 1403 [Atf_GrantCalc_staticWeighted] stationID:%d grant:%d AtfShramDb.maxGrant[stationId]:%d
-S 1 4 1 1429 [Atf_Buffering_lockReqHandler] stationId:%d
-S 1 4 1 1467 [Atf_Buffering_lockReq] pushToStack stationId:%d
-S 1 4 1 1510 [Atf_Buffering_lockCfmMsg] ATF_INVALID_LOCK_IDX stationId:%d
-S 1 4 1 1519 [Atf_Buffering_lockCfmMsg] station:%d Lock Cfm msg in wait for lock state
-S 1 4 1 1531 [Atf_Buffering_lockCfmMsg] station:%d During locking got timer event
-S 1 4 1 1543 [Atf_Buffering_lockCfmMsg] station:%d During locking got stop traffic
-S 1 4 1 1555 Assert in file: "Atf.c" in line: 1555
-S 1 4 1 1586 [Atf_Buffering_himBufferReq] station:%d 
-S 1 4 1 1591 Assert in file: "Atf.c" in line: 1591
-S 1 4 1 1592 Assert in file: "Atf.c" in line: 1592
-S 1 4 1 1647 [Atf_Buffering_himBufferCfmHandler] stationId:%d
-S 1 4 1 1659 [Atf_Buffering_himBufferCfmMsg] During locking the station:%d got timer event
-S 1 4 1 1666 [Atf_Buffering_himBufferCfmMsg] During locking the station:%d got stop traffic
-S 1 4 1 1695 Assert in file: "Atf.c" in line: 1695
-S 1 4 1 1717 [Atf_Buffering_unbufferHim], stationId %d
-S 1 4 1 1750 [Atf_Buffering_flushStationQueues] station:%d Flush start
-S 1 4 1 1808 [Atf_Buffering_flushStationQueues] managements exist
-S 1 4 1 1822 [Atf_Buffering_flushStationQueues] aged exist
-S 1 4 1 1846 2[Atf_Buffering_flushStationQueues] AtfBufferedList[%d][%d].head:%x tail:%x
-S 1 4 1 1872 [---Atf_Buffering_Unbuffer---], stationId %d
-S 1 4 1 1939 [Atf_Buffering_unbufferPushBuffered] AtfBufferedList[%d][%d].head:%x tail:%x
-S 1 4 1 1974 [Atf_Buffering_unbufferDropToLiberator] station:%d unbuffer drop start
-S 1 4 1 1998 [Atf_Buffering_unbufferPushToQueues] station:%d unbuffer queues start
-S 1 4 1 2024 [Atf_Buffering_drop_buffered], stationId %d
-S 1 4 1 2070 [Atf_Manager_stopTrafficMsg] stationId:%d
-S 1 4 1 2123 [Atf_Buffering_AddStaMsg] stationId:%d
-S 1 4 1 2183 [---Atf_Buffering_senderStopTxMsg---], stationId %d
-S 1 4 1 2207 [Atf_Buffering_PushPacketToTail] pDesc:%x
-S 1 4 1 2209 Assert in file: "Atf.c" in line: 2209
-S 1 4 1 2252 [Atf_Buffering_PushListToHead]
-S 1 4 1 2502 Assert in file: "Atf.c" in line: 2502
-S 1 4 1 2527 Assert in file: "Atf.c" in line: 2527
-S 1 4 1 2532 [Atf_buffering_StaSmRun] stationId:%d event:%d currentState:%d
-S 1 4 1 2614 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATE_IDLE
-S 1 4 1 2619 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_BUFFERED
-S 1 4 1 2624 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_UNBUFFERED
-S 1 4 1 2629 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_HOSTINTERFACE
-S 1 4 1 2634 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_HOSTINTERFACE_STOP_UNBUFFER
-S 1 4 1 2639 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_HOSTINTERFACE_STOP_DROP
-S 1 4 1 2644 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_LOCK
-S 1 4 1 2649 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_LOCK_STOP_UNBUFFER
-S 1 4 1 2654 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_LOCK_STOP_DROP
-S 1 4 1 2660 [Atf_SetStationState] stationId: %d, state:%d
+S 1 4 1 322 [printGrants] stationID:%d grant:%d
+S 1 4 1 348 [printGrants] stationID:%d grant:%d
+S 1 4 1 376 [printPdTypeList] PdType:%d head:%x; tail:%x
+S 1 4 1 480 Assert in file: "Atf.c" in line: 480
+S 1 4 1 592 Atf_Manager_setAgeing AtfDb.AgeingEnable:%d, AtfDb.AgeingTtlCriteria:%d, AtfDb.end_of_interval_ttl:%d end_of_interval_ttl:%d
+S 1 4 1 709 [Atf_Manager_transition] newAtmDistributionType:%d
+S 1 4 1 710 [Atf_Manager_transition] AtfDb.AtmDistributionType: %d; newAtmAlgorithmType: %d interval:%d freeTime:%d
+S 1 4 1 737 Assert in file: "Atf.c" in line: 737
+S 1 4 1 755 Assert in file: "Atf.c" in line: 755
+S 1 4 1 770 Assert in file: "Atf.c" in line: 770
+S 1 4 1 777 [Atf_Manager_transition] NO_ERRORS
+S 1 4 1 784 [Atf_Manager_transition] Error %d
+S 1 4 1 790 Assert in file: "Atf.c" in line: 790
+S 1 4 1 828 [Atf_Manager_ValidateStationConnected] ATF_NOT_ALL_CONNECTED_STATIONS_RECEIVED_GRANT stationId:%d
+S 1 4 1 848 [Atf_Manager_ValidateStationConnected] ATF_STATION_IN_GRANT_LIST_IS_NOT_CONNECTED stationId:%d
+S 1 4 1 995 [Atf_Buffering_timerExpiredMsg]
+S 1 4 1 1054 Assert in file: "Atf.c" in line: 1054
+S 1 4 1 1114 Assert in file: "Atf.c" in line: 1114
+S 1 4 1 1137 Assert in file: "Atf.c" in line: 1137
+S 1 4 1 1289 [Atf_GrantCalc_dynamicWeighted] maxGrant %d; ac %d
+S 1 4 1 1332 [Atf_GrantCalc_dynamicWeighted] stationID:%d sta_TXOP_limit:%d AtfShramDb.maxGrant[stationId][ATF_USED_AC]:%d
+S 1 4 1 1405 [Atf_GrantCalc_staticWeighted] stationID:%d grant:%d AtfShramDb.maxGrant[stationId]:%d
+S 1 4 1 1431 [Atf_Buffering_lockReqHandler] stationId:%d
+S 1 4 1 1469 [Atf_Buffering_lockReq] pushToStack stationId:%d
+S 1 4 1 1512 [Atf_Buffering_lockCfmMsg] ATF_INVALID_LOCK_IDX stationId:%d
+S 1 4 1 1521 [Atf_Buffering_lockCfmMsg] station:%d Lock Cfm msg in wait for lock state
+S 1 4 1 1533 [Atf_Buffering_lockCfmMsg] station:%d During locking got timer event
+S 1 4 1 1545 [Atf_Buffering_lockCfmMsg] station:%d During locking got stop traffic
+S 1 4 1 1557 Assert in file: "Atf.c" in line: 1557
+S 1 4 1 1588 [Atf_Buffering_himBufferReq] station:%d 
+S 1 4 1 1593 Assert in file: "Atf.c" in line: 1593
+S 1 4 1 1594 Assert in file: "Atf.c" in line: 1594
+S 1 4 1 1649 [Atf_Buffering_himBufferCfmHandler] stationId:%d
+S 1 4 1 1661 [Atf_Buffering_himBufferCfmMsg] During locking the station:%d got timer event
+S 1 4 1 1668 [Atf_Buffering_himBufferCfmMsg] During locking the station:%d got stop traffic
+S 1 4 1 1697 Assert in file: "Atf.c" in line: 1697
+S 1 4 1 1719 [Atf_Buffering_unbufferHim], stationId %d
+S 1 4 1 1752 [Atf_Buffering_flushStationQueues] station:%d Flush start
+S 1 4 1 1810 [Atf_Buffering_flushStationQueues] managements exist
+S 1 4 1 1824 [Atf_Buffering_flushStationQueues] aged exist
+S 1 4 1 1848 2[Atf_Buffering_flushStationQueues] AtfBufferedList[%d][%d].head:%x tail:%x
+S 1 4 1 1874 [---Atf_Buffering_Unbuffer---], stationId %d
+S 1 4 1 1941 [Atf_Buffering_unbufferPushBuffered] AtfBufferedList[%d][%d].head:%x tail:%x
+S 1 4 1 1977 [Atf_Buffering_unbufferDropToLiberator] station:%d unbuffer drop start
+S 1 4 1 2001 [Atf_Buffering_unbufferPushToQueues] station:%d unbuffer queues start
+S 1 4 1 2027 [Atf_Buffering_drop_buffered], stationId %d
+S 1 4 1 2073 [Atf_Manager_stopTrafficMsg] stationId:%d
+S 1 4 1 2126 [Atf_Buffering_AddStaMsg] stationId:%d
+S 1 4 1 2186 [---Atf_Buffering_senderStopTxMsg---], stationId %d
+S 1 4 1 2210 [Atf_Buffering_PushPacketToTail] pDesc:%x
+S 1 4 1 2212 Assert in file: "Atf.c" in line: 2212
+S 1 4 1 2255 [Atf_Buffering_PushListToHead]
+S 1 4 1 2505 Assert in file: "Atf.c" in line: 2505
+S 1 4 1 2530 Assert in file: "Atf.c" in line: 2530
+S 1 4 1 2535 [Atf_buffering_StaSmRun] stationId:%d event:%d currentState:%d
+S 1 4 1 2617 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATE_IDLE
+S 1 4 1 2622 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_BUFFERED
+S 1 4 1 2627 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_UNBUFFERED
+S 1 4 1 2632 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_HOSTINTERFACE
+S 1 4 1 2637 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_HOSTINTERFACE_STOP_UNBUFFER
+S 1 4 1 2642 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_HOSTINTERFACE_STOP_DROP
+S 1 4 1 2647 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_LOCK
+S 1 4 1 2652 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_LOCK_STOP_UNBUFFER
+S 1 4 1 2657 [Atf_SetStationState] stationId: %d, state:ATF_STATION_STATIC_STATE_CONNECTED_WAIT_FOR_LOCK_STOP_DROP
+S 1 4 1 2663 [Atf_SetStationState] stationId: %d, state:%d
 S 1 5 18 127 Assert in file: "AutoResponse.c" in line: 127
 S 1 5 18 134 Assert in file: "AutoResponse.c" in line: 134
 S 1 5 18 161 AutoResponse_ErrorFifoNotEmpty, error type: %x, error word value: %x
@@ -282,24 +282,25 @@ S 1 6 1 399 Assert in file: "Beacon_CsaManager.c" in line: 399
 S 1 6 1 659 Fatal Error in file: "Beacon_CsaManager.c"; Fatal Print: Beacon CSA Manager Fatal
 S 1 6 1 691 Assert in file: "Beacon_CsaManager.c" in line: 691
 S 1 6 1 722 Assert in file: "Beacon_CsaManager.c" in line: 722
-S 1 6 2 136 [beaconHandlerConfigureHwForMbssId]
-S 1 6 2 194 [beaconHandlerActivateHw] vapId %d
-S 1 6 2 255 beaconHandlerDeactivateHw for vap:%d
-S 1 6 2 287 beaconHandlerSendTemplateWasSetIndication for vap:%d
-S 1 6 2 370 beaconHandlerUpdateIEsPdList for vap:%d
-S 1 6 2 779 Assert in file: "BeaconHandler.c" in line: 779
-S 1 6 2 807 beaconHandlerUpdateIEsPdList Vap Id:%d is active so calling Locker
-S 1 6 2 815 beaconHandlerUpdateIEsPdList Vap Id:%d is inactive sending template was set indication
-S 1 6 2 859 BeaconHandler_AddVap for vap:%d operation Mode %d
-S 1 6 2 882 Assert in file: "BeaconHandler.c" in line: 882
-S 1 6 2 887 Assert in file: "BeaconHandler.c" in line: 887
-S 1 6 2 1009 beaconHandlerDeactivateBeacon for vap:%d
-S 1 6 2 1300 Assert in file: "BeaconHandler.c" in line: 1300
+S 1 6 2 178 [beaconHandlerConfigureHwForMbssId]
+S 1 6 2 237 [beaconHandlerActivateHw] vapId %d
+S 1 6 2 298 beaconHandlerDeactivateHw for vap:%d
+S 1 6 2 330 beaconHandlerSendTemplateWasSetIndication for vap:%d
+S 1 6 2 413 beaconHandlerUpdateIEsPdList for vap:%d
+S 1 6 2 822 Assert in file: "BeaconHandler.c" in line: 822
+S 1 6 2 850 beaconHandlerUpdateIEsPdList Vap Id:%d is active so calling Locker
+S 1 6 2 858 beaconHandlerUpdateIEsPdList Vap Id:%d is inactive sending template was set indication
+S 1 6 2 902 BeaconHandler_AddVap for vap:%d operation Mode %d
+S 1 6 2 925 Assert in file: "BeaconHandler.c" in line: 925
+S 1 6 2 930 Assert in file: "BeaconHandler.c" in line: 930
+S 1 6 2 1052 beaconHandlerDeactivateBeacon for vap:%d
+S 1 6 2 1343 Assert in file: "BeaconHandler.c" in line: 1343
 S 1 6 3 175 Beacon CSA Manager changed from %d to %d
 S 1 6 3 441 Assert in file: "Beacon_CsaManager.c" in line: 441
-S 1 6 3 702 Fatal Error in file: "Beacon_CsaManager.c"; Fatal Print: Beacon CSA Manager Fatal
-S 1 6 3 734 Assert in file: "Beacon_CsaManager.c" in line: 734
-S 1 6 3 765 Assert in file: "Beacon_CsaManager.c" in line: 765
+S 1 6 3 492 [CSA] BeaconCsaManager_LockInStart channelCount %d = time %d / beacon interval %d
+S 1 6 3 703 Fatal Error in file: "Beacon_CsaManager.c"; Fatal Print: Beacon CSA Manager Fatal
+S 1 6 3 735 Assert in file: "Beacon_CsaManager.c" in line: 735
+S 1 6 3 766 Assert in file: "Beacon_CsaManager.c" in line: 766
 S 1 7 0 81 Assert in file: "actionPoints.c" in line: 81
 S 1 7 0 123 Assert in file: "actionPoints.c" in line: 123
 S 1 7 0 124 Assert in file: "actionPoints.c" in line: 124
@@ -323,35 +324,35 @@ S 1 9 0 161 vBSS_Initialize, send PAC_MANAGER_START_REQ
 S 1 10 0 200 BssManager_StartActivateProcess
 S 1 10 0 202 Assert in file: "BSSmanager.c" in line: 202
 S 1 10 0 236 Assert in file: "BSSmanager.c" in line: 236
-S 1 10 1 557 BSS Manager STA Manager, Station %d changed from %d to %d
-S 1 10 1 594 Assert in file: "BssManager_StaManager.c" in line: 594
-S 1 10 1 596 Assert in file: "BssManager_StaManager.c" in line: 596
-S 1 10 1 598 Assert in file: "BssManager_StaManager.c" in line: 598
-S 1 10 1 599 BSS MNG, STA MNG, Dispatch Reg %d, SID %d, num %d
-S 1 10 1 614 BSS MNG, STA MNG, Dispatch Client %d, MsgId %d, TaskId %d
-S 1 10 1 652 BSS MNG, STA MNG, Check Dispatcher, SID %d, state %d
+S 1 10 1 548 BSS Manager STA Manager, Station %d changed from %d to %d
+S 1 10 1 585 Assert in file: "BssManager_StaManager.c" in line: 585
+S 1 10 1 587 Assert in file: "BssManager_StaManager.c" in line: 587
+S 1 10 1 589 Assert in file: "BssManager_StaManager.c" in line: 589
+S 1 10 1 590 BSS MNG, STA MNG, Dispatch Reg %d, SID %d, num %d
+S 1 10 1 605 BSS MNG, STA MNG, Dispatch Client %d, MsgId %d, TaskId %d
+S 1 10 1 643 BSS MNG, STA MNG, Check Dispatcher, SID %d, state %d
+S 1 10 1 646 Assert in file: "BssManager_StaManager.c" in line: 646
+S 1 10 1 649 Assert in file: "BssManager_StaManager.c" in line: 649
+S 1 10 1 652 Assert in file: "BssManager_StaManager.c" in line: 652
 S 1 10 1 655 Assert in file: "BssManager_StaManager.c" in line: 655
-S 1 10 1 658 Assert in file: "BssManager_StaManager.c" in line: 658
-S 1 10 1 661 Assert in file: "BssManager_StaManager.c" in line: 661
-S 1 10 1 664 Assert in file: "BssManager_StaManager.c" in line: 664
-S 1 10 1 734 BSS MNG, STA MNG, STA Open Done, SID %d
-S 1 10 1 796 BSS MNG, STA MNG, Set Filter Done, SID %d
-S 1 10 1 838 BSS MNG, STA MNG, Stop Traffic Done, SID %d
-S 1 10 1 881 BSS MNG, STA MNG, STA Close Done, SID %d
-S 1 10 1 916 BSS MNG, STA MNG, Check Confirm, SID %d, pending %x
-S 1 10 1 926 Assert in file: "BssManager_StaManager.c" in line: 926
-S 1 10 1 1008 Fatal Error in file: "BssManager_StaManager.c"; Fatal Print: BSS Manager STA Manager Fatal
-S 1 10 1 1047 Assert in file: "BssManager_StaManager.c" in line: 1047
-S 1 10 1 1051 BSS MNG, STA MNG, Reg Confirm, SID %d, Client %d, Pending Bitmap %x
-S 1 10 1 1090 Assert in file: "BssManager_StaManager.c" in line: 1090
-S 1 10 1 1093 Assert in file: "BssManager_StaManager.c" in line: 1093
-S 1 10 1 1114 BSS MNG, STA MNG, ADD STA, SID %d
-S 1 10 1 1151 Assert in file: "BssManager_StaManager.c" in line: 1151
-S 1 10 1 1155 BSS MNG, STA MNG, Set Filter, SID %d
-S 1 10 1 1192 Assert in file: "BssManager_StaManager.c" in line: 1192
-S 1 10 1 1196 BSS MNG, STA MNG, Stop Traffic, SID %d
-S 1 10 1 1233 Assert in file: "BssManager_StaManager.c" in line: 1233
-S 1 10 1 1237 BSS MNG, STA MNG, Close STA, SID %d
+S 1 10 1 725 BSS MNG, STA MNG, STA Open Done, SID %d
+S 1 10 1 787 BSS MNG, STA MNG, Set Filter Done, SID %d
+S 1 10 1 829 BSS MNG, STA MNG, Stop Traffic Done, SID %d
+S 1 10 1 872 BSS MNG, STA MNG, STA Close Done, SID %d
+S 1 10 1 907 BSS MNG, STA MNG, Check Confirm, SID %d, pending %x
+S 1 10 1 917 Assert in file: "BssManager_StaManager.c" in line: 917
+S 1 10 1 999 Fatal Error in file: "BssManager_StaManager.c"; Fatal Print: BSS Manager STA Manager Fatal
+S 1 10 1 1038 Assert in file: "BssManager_StaManager.c" in line: 1038
+S 1 10 1 1042 BSS MNG, STA MNG, Reg Confirm, SID %d, Client %d, Pending Bitmap %x
+S 1 10 1 1081 Assert in file: "BssManager_StaManager.c" in line: 1081
+S 1 10 1 1084 Assert in file: "BssManager_StaManager.c" in line: 1084
+S 1 10 1 1105 BSS MNG, STA MNG, ADD STA, SID %d
+S 1 10 1 1142 Assert in file: "BssManager_StaManager.c" in line: 1142
+S 1 10 1 1146 BSS MNG, STA MNG, Set Filter, SID %d
+S 1 10 1 1183 Assert in file: "BssManager_StaManager.c" in line: 1183
+S 1 10 1 1187 BSS MNG, STA MNG, Stop Traffic, SID %d
+S 1 10 1 1224 Assert in file: "BssManager_StaManager.c" in line: 1224
+S 1 10 1 1228 BSS MNG, STA MNG, Close STA, SID %d
 S 1 10 2 593 BssManager_VapManager_SetState, vapId:%d, vapManagerNewState:%d
 S 1 10 2 639 Assert in file: "BSSmanager_VapManager.c" in line: 639
 S 1 10 2 725 Assert in file: "BSSmanager_VapManager.c" in line: 725
@@ -445,21 +446,21 @@ S 1 11 0 1751 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: channe
 S 1 11 0 1776 state: %d, event: Csa Manager Stop Tx Cfm
 S 1 11 0 1853 [channelSwitchManager_SendConfirmationToHost] channelSwitchManagerParams.pUmSetChannelParams->rssi[%d] = %d
 S 1 11 0 1862 [channelSwitchManager_SendConfirmationToHost] --------------------------end]
-S 1 11 0 1891 [channelSwitchManager_ChannelSwitchDone]
-S 1 11 0 1970 PhyStatistics_ChannelLoadTimerExpired, phyStatisticDb.totalChannelLoadBssLoad:%d, currentTime:%d, phyStatisticDb.channelLoadMesStartTimeBssLoad:%d, channelUtilization:%d
-S 1 11 0 1974 PhyStatistics_ChannelLoadTimerExpired, phyStatisticDb.totalChannelLoadBssLoad:%d, currentTime:%d, phyStatisticDb.channelLoadMesStartTimeBssLoad:%d, channelUtilization:%d
-S 1 11 0 2474 Assert in file: "ChannelSwitchManager.c" in line: 2474
-S 1 11 0 2523 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: 80+80 not supported
-S 1 11 0 2526 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: Illegal rate
-S 1 11 0 2570 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetChannelWidth: 160 not supported
-S 1 11 0 2574 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetChannelWidth: 80+80 not supported
-S 1 11 0 2577 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetChannelWidth: Illegal channel width
-S 1 11 0 2635 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq0Idx: 160 not supported
-S 1 11 0 2639 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq0Idx: 80+80 not supported
-S 1 11 0 2642 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq0Idx: Illegal channel width
-S 1 11 0 2687 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq1Idx: 80+80 not supported
-S 1 11 0 2690 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq1Idx: Illegal channel width
-S 1 11 0 2747 Assert in file: "ChannelSwitchManager.c" in line: 2747
+S 1 11 0 1903 [channelSwitchManager_ChannelSwitchDone]
+S 1 11 0 1982 PhyStatistics_ChannelLoadTimerExpired, phyStatisticDb.totalChannelLoadBssLoad:%d, currentTime:%d, phyStatisticDb.channelLoadMesStartTimeBssLoad:%d, channelUtilization:%d
+S 1 11 0 1986 PhyStatistics_ChannelLoadTimerExpired, phyStatisticDb.totalChannelLoadBssLoad:%d, currentTime:%d, phyStatisticDb.channelLoadMesStartTimeBssLoad:%d, channelUtilization:%d
+S 1 11 0 2486 Assert in file: "ChannelSwitchManager.c" in line: 2486
+S 1 11 0 2535 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: 80+80 not supported
+S 1 11 0 2538 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: Utils_GetSecondayChannelOffset: Illegal rate
+S 1 11 0 2582 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetChannelWidth: 160 not supported
+S 1 11 0 2586 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetChannelWidth: 80+80 not supported
+S 1 11 0 2589 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetChannelWidth: Illegal channel width
+S 1 11 0 2647 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq0Idx: 160 not supported
+S 1 11 0 2651 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq0Idx: 80+80 not supported
+S 1 11 0 2654 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq0Idx: Illegal channel width
+S 1 11 0 2699 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq1Idx: 80+80 not supported
+S 1 11 0 2702 Fatal Error in file: "ChannelSwitchManager.c"; Fatal Print: ChannelSwitchManager_GetCenterFreq1Idx: Illegal channel width
+S 1 11 0 2759 Assert in file: "ChannelSwitchManager.c" in line: 2759
 S 1 12 0 106 Assert in file: "CoC.c" in line: 106
 S 1 12 0 107 Assert in file: "CoC.c" in line: 107
 S 1 12 0 156 Assert in file: "CoC.c" in line: 156
@@ -470,49 +471,85 @@ S 1 12 0 242 Assert in file: "CoC.c" in line: 242
 S 1 12 0 323 Assert in file: "CoC.c" in line: 323
 S 1 12 0 351 Assert in file: "CoC.c" in line: 351
 S 1 12 0 379 Assert in file: "CoC.c" in line: 379
-S 1 13 0 215 Fatal Error in file: "ConfigurationManager.c"; Fatal Print: TEST PLATFORM TYPE not supported!
-S 1 13 0 254 Assert in file: "ConfigurationManager.c" in line: 254
+S 1 13 0 216 Fatal Error in file: "ConfigurationManager.c"; Fatal Print: TEST PLATFORM TYPE not supported!
 S 1 13 0 255 Assert in file: "ConfigurationManager.c" in line: 255
-S 1 13 0 269 Assert in file: "ConfigurationManager.c" in line: 269
+S 1 13 0 256 Assert in file: "ConfigurationManager.c" in line: 256
 S 1 13 0 270 Assert in file: "ConfigurationManager.c" in line: 270
-S 1 13 0 276 Fatal Error in file: "ConfigurationManager.c"; Fatal Print: ConfigurationManager_ReadDmaConfiguration
-S 1 13 0 279 Assert in file: "ConfigurationManager.c" in line: 279
-S 1 13 0 339 Assert in file: "ConfigurationManager.c" in line: 339
-S 1 13 0 374 Assert in file: "ConfigurationManager.c" in line: 374
-S 1 13 0 460 Assert in file: "ConfigurationManager.c" in line: 460
-S 1 13 0 470 Assert in file: "ConfigurationManager.c" in line: 470
-S 1 13 0 525 Assert in file: "ConfigurationManager.c" in line: 525
-S 1 13 0 566 Assert in file: "ConfigurationManager.c" in line: 566
-S 1 13 0 576 Assert in file: "ConfigurationManager.c" in line: 576
-S 1 13 0 632 Assert in file: "ConfigurationManager.c" in line: 632
-S 1 13 0 676 Assert in file: "ConfigurationManager.c" in line: 676
-S 1 13 0 692 Assert in file: "ConfigurationManager.c" in line: 692
-S 1 13 0 771 Assert in file: "ConfigurationManager.c" in line: 771
+S 1 13 0 271 Assert in file: "ConfigurationManager.c" in line: 271
+S 1 13 0 277 Fatal Error in file: "ConfigurationManager.c"; Fatal Print: ConfigurationManager_ReadDmaConfiguration
+S 1 13 0 280 Assert in file: "ConfigurationManager.c" in line: 280
+S 1 13 0 340 Assert in file: "ConfigurationManager.c" in line: 340
+S 1 13 0 375 Assert in file: "ConfigurationManager.c" in line: 375
+S 1 13 0 461 Assert in file: "ConfigurationManager.c" in line: 461
+S 1 13 0 471 Assert in file: "ConfigurationManager.c" in line: 471
+S 1 13 0 526 Assert in file: "ConfigurationManager.c" in line: 526
+S 1 13 0 567 Assert in file: "ConfigurationManager.c" in line: 567
+S 1 13 0 577 Assert in file: "ConfigurationManager.c" in line: 577
+S 1 13 0 633 Assert in file: "ConfigurationManager.c" in line: 633
+S 1 13 0 677 Assert in file: "ConfigurationManager.c" in line: 677
+S 1 13 0 706 Assert in file: "ConfigurationManager.c" in line: 706
 S 1 13 0 785 Assert in file: "ConfigurationManager.c" in line: 785
 S 1 13 0 799 Assert in file: "ConfigurationManager.c" in line: 799
-S 1 13 0 821 Assert in file: "ConfigurationManager.c" in line: 821
-S 1 13 0 836 Assert in file: "ConfigurationManager.c" in line: 836
-S 1 13 0 841 Assert in file: "ConfigurationManager.c" in line: 841
-S 1 14 1 191 CSA Manager changed from %d to %d
-S 1 14 1 647 Assert in file: "csaManager.c" in line: 647
-S 1 14 1 912 Fatal Error in file: "csaManager.c"; Fatal Print: CSA Manager Fatal
-S 1 14 1 1315 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetCenterFreq0Idx: 80+80 not supported
-S 1 14 1 1318 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetCenterFreq0Idx: Illegal channel width
-S 1 14 1 1361 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetCenterFreq1Idx: 80+80 not supported
-S 1 14 1 1364 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetCenterFreq1Idx: Illegal channel width
-S 1 14 1 1407 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetChannelWidth: 80+80 not supported
-S 1 14 1 1410 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetChannelWidth: Illegal channel width
+S 1 13 0 813 Assert in file: "ConfigurationManager.c" in line: 813
+S 1 13 0 835 Assert in file: "ConfigurationManager.c" in line: 835
+S 1 13 0 850 Assert in file: "ConfigurationManager.c" in line: 850
+S 1 13 0 855 Assert in file: "ConfigurationManager.c" in line: 855
+S 1 14 1 190 CSA Manager changed from %d to %d
+S 1 14 1 223 [CSA] CsaManager_RemoveVapFromList vap = %d prevVap = %d nextVap = %d
+S 1 14 1 333 [CSA] CsaManager_AddVapToConfirmList vapId = %d confirmHead = %d
+S 1 14 1 408 [CSA] CsaManager_TxCfmHandler pendingVaps = %d
+S 1 14 1 464 [CSA] CsaManagerSetEnabledVaps txSegmentsEnabledVaps[CSA_TYPE_UC_DEAUTH] = 0x%x txSegmentsEnabledVaps[CSA_TYPE_MC_DEAUTH] = 0x%x
+S 1 14 1 465 [CSA] CsaManagerSetEnabledVaps txSegmentsEnabledVaps[CSA_TYPE_UC_DEAUTH] = 0x%x txSegmentsEnabledVaps[CSA_TYPE_MC_DEAUTH] = 0x%x
+S 1 14 1 503 [CSA] CsaManager_StartTxInIdle 1
+S 1 14 1 507 [CSA] CsaManager_StartTxInIdle 2
+S 1 14 1 512 [CSA] CsaManager_StartTxInIdle 3
+S 1 14 1 529 [CSA] CsaManager_StartTxInIdle 4 startTxUcDeauthTime = %d
+S 1 14 1 545 [CSA] CsaManager_StartTxInIdle 5 startTxMcDeauthTime = %d
+S 1 14 1 614 [CSA] CsaManager_StopTxInIdle 1
+S 1 14 1 645 [CSA] CsaManager_StopTxInWaitForCfm 1
+S 1 14 1 700 [CSA] CsaManager_TxCfmInWaitForCfm 1 pendingVaps = 0x%x current segments = 0x%x
+S 1 14 1 705 [CSA] CsaManager_TxCfmInWaitForCfm 2 planned segments = 0x%x
+S 1 14 1 712 [CSA] CsaManager_TxCfmInWaitForCfm 3 planned segments = 0x%x
+S 1 14 1 714 Assert in file: "csaManager.c" in line: 714
+S 1 14 1 718 [CSA] CsaManager_TxCfmInWaitForCfm 4
+S 1 14 1 729 [CSA] CsaManager_TxCfmInWaitForCfm 5
+S 1 14 1 735 [CSA] CsaManager_TxCfmInWaitForCfm 6
+S 1 14 1 768 [CSA] CsaManager_TxCfmInWaitForStopCfm pendingVaps = %d
+S 1 14 1 803 [CSA] CsaManager_Ignore
+S 1 14 1 899 [CSA] CsaManager_TxStartSegment 1
+S 1 14 1 907 [CSA] CsaManager_TxStartSegment 2 vapId = %d enabledVaps = %d pendingVaps = %d
+S 1 14 1 912 [CSA] CsaManager_TxStartSegment 3 vapId = %d
+S 1 14 1 918 [CSA] CsaManager_TxStartSegment 4 vapId = %d
+S 1 14 1 963 [CSA] CsaManager_TxStopSegment 1 pendingVaps = %d
+S 1 14 1 1011 Fatal Error in file: "csaManager.c"; Fatal Print: CSA Manager Fatal
+S 1 14 1 1170 [CSA] csaManagerTxCfm 1
+S 1 14 1 1174 [CSA] csaManagerTxCfm 2 MULTICAST
+S 1 14 1 1179 [CSA] csaManagerTxCfm 3 UNICAST
+S 1 14 1 1418 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetCenterFreq0Idx: 80+80 not supported
+S 1 14 1 1421 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetCenterFreq0Idx: Illegal channel width
+S 1 14 1 1464 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetCenterFreq1Idx: 80+80 not supported
+S 1 14 1 1467 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetCenterFreq1Idx: Illegal channel width
+S 1 14 1 1510 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetChannelWidth: 80+80 not supported
+S 1 14 1 1513 Fatal Error in file: "csaManager.c"; Fatal Print: csaManager_GetChannelWidth: Illegal channel width
+S 1 14 1 1568 [CSA] csaManagerStartTxUcDeauthTimerExpired
 S 1 14 3 362 CSA Manager STA Manager, STA %d changed from %d to %d
-S 1 14 3 630 Fatal Error in file: "CsaManager_StaManager.c"; Fatal Print: CsaManager_StaManagerStartTx: WRONG csaType
-S 1 14 3 1571 Fatal Error in file: "CsaManager_StaManager.c"; Fatal Print: CsaManager_StaManagerStartTx: WRONG csaType
-S 1 14 3 1868 Fatal Error in file: "CsaManager_StaManager.c"; Fatal Print: Csa Manager STA Manager Fatal
-S 1 14 3 1905 Assert in file: "CsaManager_StaManager.c" in line: 1905
-S 1 14 3 1943 Assert in file: "CsaManager_StaManager.c" in line: 1943
+S 1 14 3 465 [CSA] CsaManager_StaManagerTxCfmDone 1
+S 1 14 3 631 Fatal Error in file: "CsaManager_StaManager.c"; Fatal Print: CsaManager_StaManagerStartTx: WRONG csaType
+S 1 14 3 1572 Fatal Error in file: "CsaManager_StaManager.c"; Fatal Print: CsaManager_StaManagerStartTx: WRONG csaType
+S 1 14 3 1869 Fatal Error in file: "CsaManager_StaManager.c"; Fatal Print: Csa Manager STA Manager Fatal
+S 1 14 3 1906 Assert in file: "CsaManager_StaManager.c" in line: 1906
+S 1 14 3 1944 Assert in file: "CsaManager_StaManager.c" in line: 1944
 S 1 14 5 272 CSA Manager VAP Manager, VAP %d changed from %d to %d
-S 1 14 5 1156 Assert in file: "CsaManager_VapManager.c" in line: 1156
+S 1 14 5 1147 [CSA] CsaManager_VapManagerStartTxInIdle 1
+S 1 14 5 1151 [CSA] CsaManager_VapManagerStartTxInIdle 2
 S 1 14 5 1159 Assert in file: "CsaManager_VapManager.c" in line: 1159
-S 1 14 5 1438 Assert in file: "CsaManager_VapManager.c" in line: 1438
-S 1 14 5 1969 Fatal Error in file: "CsaManager_VapManager.c"; Fatal Print: CSA Manager VAP Manager Fatal
+S 1 14 5 1162 Assert in file: "CsaManager_VapManager.c" in line: 1162
+S 1 14 5 1198 [CSA] CsaManager_VapManagerStartTxInIdle 3
+S 1 14 5 1201 [CSA] CsaManager_VapManagerStartTxInIdle 4 sid = %d
+S 1 14 5 1213 [CSA] CsaManager_VapManagerStartTxInIdle 5 sid = %d
+S 1 14 5 1444 Assert in file: "CsaManager_VapManager.c" in line: 1444
+S 1 14 5 1661 [CSA] CsaManager_VapManagerTxCfmInWaitStopCfm 1
+S 1 14 5 2003 Fatal Error in file: "CsaManager_VapManager.c"; Fatal Print: CSA Manager VAP Manager Fatal
 S 1 15 0 209 CTS Manager changed from %d to %d
 S 1 15 0 747 Fatal Error in file: "CtsManager.c"; Fatal Print: CTS Manager Fatal
 S 1 15 0 793 Assert in file: "CtsManager.c" in line: 793
@@ -536,13 +573,13 @@ S 1 7 9 140 [PhyStatistics_MetricsFifoNotEmpty], rdType = %d
 S 1 7 9 148 Assert in file: "StatisticsPhyHandler.c" in line: 148
 S 1 7 9 197 CurrRxTimes : %d, packetLength:%d, rate:%d
 S 1 7 9 217 [PhyStatistics_MetricsFifoNotEmpty], stationId = %d, isAmpdu = %d, packetLength = %d
-S 1 7 7 167 Assert in file: "StatisticsHandler.c" in line: 167
+S 1 7 7 169 Assert in file: "StatisticsHandler.c" in line: 169
 S 1 7 10 148 ***PhyStatistics_ChannelLoadCalculated***channel_load Band0:%d, totalChannelUtilization Band0:%d, channel_load Band1:%d, totalChannelUtilization Band1:%d
 S 1 7 10 152 ***PhyStatistics_ChannelLoadCalculated***channel_load Band0:%d, totalChannelUtilization Band0:%d, channel_load Band1:%d, totalChannelUtilization Band1:%d
 S 1 7 11 148 ***PhyStatistics_ChannelLoadCalculated***channel_load Band0:%d, totalChannelUtilization Band0:%d, channel_load Band1:%d, totalChannelUtilization Band1:%d
 S 1 7 11 152 ***PhyStatistics_ChannelLoadCalculated***channel_load Band0:%d, totalChannelUtilization Band0:%d, channel_load Band1:%d, totalChannelUtilization Band1:%d
 S 1 7 11 211 PhyStatistics_ChannelSwitchNotify
-S 1 7 8 171 Assert in file: "StatisticsHandler.c" in line: 171
+S 1 7 8 173 Assert in file: "StatisticsHandler.c" in line: 173
 S 1 17 2 67 Assert in file: "DmaManager.c" in line: 67
 S 1 17 0 651 Assert in file: "DmaDriver.c" in line: 651
 S 1 17 0 669 Assert in file: "DmaDriver.c" in line: 669
@@ -580,20 +617,20 @@ S 1 18 1 977 dutHwAccessReadTxPowerFeedBack, powerIndex:%x, validSamples:0x%x, t
 S 1 18 1 988 dutHwAccessReadTxPowerFeedBack, ant:%d, voltageMeasure:%d
 S 1 18 1 997 voltageMeasure, voltageMeasure:%d , ant = %d
 S 1 18 2 225 Assert in file: "Dut_Managment.c" in line: 225
-S 1 18 2 346 Assert in file: "Dut_Managment.c" in line: 346
-S 1 18 2 436 dutStartCalibration, abort request, calibration in process: %d
-S 1 18 2 454 dutStartCalibration, start DUT_CALIBRATION_TYPE_ONLINE
-S 1 18 2 463 dutStartCalibration, start DUT_CALIBRATION_TYPE_OFFLINE
-S 1 18 2 469 Assert in file: "Dut_Managment.c" in line: 469
-S 1 18 2 489 Assert in file: "Dut_Managment.c" in line: 489
-S 1 18 2 511 Assert in file: "Dut_Managment.c" in line: 511
-S 1 18 2 530 DUT_HandleCalibDone, calibration type: %d ended
-S 1 18 2 695 GET RATE %d 
-S 1 18 2 727 DUT_getRateCfm pLaGetPhyRateParams= %d ,pDutGetRate->rate = %d
-S 1 18 2 742 rfchip:%x,bbchipId:%x
-S 1 18 2 780 Assert in file: "Dut_Managment.c" in line: 780
-S 1 18 2 781 Assert in file: "Dut_Managment.c" in line: 781
-S 1 18 2 806 Assert in file: "Dut_Managment.c" in line: 806
+S 1 18 2 358 Assert in file: "Dut_Managment.c" in line: 358
+S 1 18 2 448 dutStartCalibration, abort request, calibration in process: %d
+S 1 18 2 466 dutStartCalibration, start DUT_CALIBRATION_TYPE_ONLINE
+S 1 18 2 475 dutStartCalibration, start DUT_CALIBRATION_TYPE_OFFLINE
+S 1 18 2 481 Assert in file: "Dut_Managment.c" in line: 481
+S 1 18 2 501 Assert in file: "Dut_Managment.c" in line: 501
+S 1 18 2 523 Assert in file: "Dut_Managment.c" in line: 523
+S 1 18 2 542 DUT_HandleCalibDone, calibration type: %d ended
+S 1 18 2 707 GET RATE %d 
+S 1 18 2 739 DUT_getRateCfm pLaGetPhyRateParams= %d ,pDutGetRate->rate = %d
+S 1 18 2 754 rfchip:%x,bbchipId:%x
+S 1 18 2 792 Assert in file: "Dut_Managment.c" in line: 792
+S 1 18 2 793 Assert in file: "Dut_Managment.c" in line: 793
+S 1 18 2 818 Assert in file: "Dut_Managment.c" in line: 818
 S 1 18 3 131 packetLength:%d
 S 1 18 3 147 Assert in file: "Dut_Tx.c" in line: 147
 S 1 18 3 157 dutTxSetState, old state:%d, new state:%d
@@ -631,17 +668,17 @@ S 1 18 3 660 dutTxReleaseManagementPacket, toReleasePacket?? = TRUE
 S 1 18 3 719 dutHandleTxActionPublicFrameCb, m_DutTrafficParams_p->trafficState:%d, m_DutTrafficParams_p->txPacketIsOngoing:%d, packetsTransmitted:%d
 S 1 18 3 722 dutHandleTxActionPublicFrameCb, m_DutTrafficParams_p->trafficState:%d, m_DutTrafficParams_p->txPacketIsOngoing:%d, packetsTransmitted:%d
 S 1 18 3 742 Assert in file: "Dut_Tx.c" in line: 742
-S 1 19 0 261 errorHandlerTriggerCore not set
-S 1 19 0 265 vAPP_Assert assertGroupId=%d assertFileId=%d assertLine=%d
-S 1 19 0 388 errorHandlerTriggerCore not set
-S 1 19 0 719 Fatal Error in file: "ErrorHandler.c"; Fatal Print: Assert Requested by the Host
-S 1 19 0 948 Assert in file: "ErrorHandler.c" in line: 948
-S 1 19 0 1034 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 0: core 2 triggered assert
-S 1 19 0 1058 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 2: core 0 triggered assert
-S 1 19 0 1077 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 2: core 1 triggered assert
-S 1 19 0 1101 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 0: core 1 triggered assert
-S 1 19 0 1124 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 1: core 2 triggered assert
-S 1 19 0 1143 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 1: core 0 triggered assert
+S 1 19 0 265 errorHandlerTriggerCore not set
+S 1 19 0 269 vAPP_Assert assertGroupId=%d assertFileId=%d assertLine=%d
+S 1 19 0 406 errorHandlerTriggerCore not set
+S 1 19 0 737 Fatal Error in file: "ErrorHandler.c"; Fatal Print: Assert Requested by the Host
+S 1 19 0 966 Assert in file: "ErrorHandler.c" in line: 966
+S 1 19 0 1057 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 0: core 2 triggered assert
+S 1 19 0 1081 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 2: core 0 triggered assert
+S 1 19 0 1100 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 2: core 1 triggered assert
+S 1 19 0 1124 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 0: core 1 triggered assert
+S 1 19 0 1147 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 1: core 2 triggered assert
+S 1 19 0 1166 Fatal Error in file: "ErrorHandler.c"; Fatal Print: error handler, core 1: core 0 triggered assert
 S 1 19 1 197 vAPP_Assert assertGroupId=%d assertFileId=%d assertLine=%d
 S 1 19 1 249 Fatal Error in file: "ErrorHandler.c"; Fatal Print: errorHandlerTriggerCore not set
 S 1 19 1 369 Fatal Error in file: "ErrorHandler.c"; Fatal Print: errorHandlerTriggerCore not set
@@ -1058,9 +1095,9 @@ S 1 26 15 660 RssiPath_GetTableFromDriver RSSI CIS: totalSize: %d, antMask: 0x%x
 S 1 26 15 672 Assert in file: "RssiPathClbrHndlr.c" in line: 672
 S 1 26 15 681 Assert in file: "RssiPathClbrHndlr.c" in line: 681
 S 1 26 15 698 Assert in file: "RssiPathClbrHndlr.c" in line: 698
-S 1 26 15 862 Ant#=%d, lnaIndex=%d, lnaGainAtIndexTmp =%d , lnaGainAtIndex=%d
-S 1 26 15 876 Ant#= %d, lnaMidGainWord = %d, tmpLnaMidGainWord = %d
-S 1 26 15 906 RSSI FLATNESS: Ant#= %d, alpha = %d, beta=%d, deltaBFreqRssi = %d
+S 1 26 15 861 Ant#=%d, lnaIndex=%d, lnaGainAtIndexTmp =%d , lnaGainAtIndex=%d
+S 1 26 15 875 Ant#= %d, lnaMidGainWord = %d, tmpLnaMidGainWord = %d
+S 1 26 15 905 RSSI FLATNESS: Ant#= %d, alpha = %d, beta=%d, deltaBFreqRssi = %d
 S 1 26 16 342 Assert in file: "RxDcOffsetClbrHndlr.c" in line: 342
 S 1 26 16 648 Assert in file: "RxDcOffsetClbrHndlr.c" in line: 648
 S 1 26 16 662 Assert in file: "RxDcOffsetClbrHndlr.c" in line: 662
@@ -1309,28 +1346,28 @@ S 1 26 2 565 Assert in file: "CalibrationManager.c" in line: 565
 S 1 26 2 588 ClbrMngr_RunOfflineCalibration
 S 1 26 2 600 SWITCH TYPE %d ++++++++ 
 S 1 26 2 629 BITMAP BEFORE m_curOfflineProcBitmap = %d
-S 1 26 2 712 Assert in file: "CalibrationManager.c" in line: 712
-S 1 26 2 731 CM_STATISTICS_ONLINE_CAL_NET_DURATION %d proc %d
-S 1 26 2 733 Assert in file: "CalibrationManager.c" in line: 733
-S 1 26 2 757 ClbrMngr_HandleCalibrateProcessStart
-S 1 26 2 777 ClbrMngr_RunCalibrationOnFirstChannel
-S 1 26 2 812 ClbrMngr_CalibrateChannelDone
-S 1 26 2 837 Fatal Error in file: "CalibrationManager.c"; Fatal Print: Calibration WD Timer Expired
-S 1 26 2 884 sendDualBandOfflineCalReq
-S 1 26 2 908 sendMsgToHdkCdbOfflineCalSm
+S 1 26 2 711 Assert in file: "CalibrationManager.c" in line: 711
+S 1 26 2 730 CM_STATISTICS_ONLINE_CAL_NET_DURATION %d proc %d
+S 1 26 2 732 Assert in file: "CalibrationManager.c" in line: 732
+S 1 26 2 756 ClbrMngr_HandleCalibrateProcessStart
+S 1 26 2 776 ClbrMngr_RunCalibrationOnFirstChannel
+S 1 26 2 811 ClbrMngr_CalibrateChannelDone
+S 1 26 2 836 Fatal Error in file: "CalibrationManager.c"; Fatal Print: Calibration WD Timer Expired
+S 1 26 2 883 sendDualBandOfflineCalReq
+S 1 26 2 907 sendMsgToHdkCdbOfflineCalSm
 S 1 27 1 161 HdkCdbManager_TaskEntry, msgType = %d
 S 1 27 1 170 Assert in file: "HdkCdbManagerTask.c" in line: 170
 S 1 27 1 226 Assert in file: "HdkCdbManagerTask.c" in line: 226
 S 1 27 1 326 Assert in file: "HdkCdbManagerTask.c" in line: 326
-S 1 27 1 497 Assert in file: "HdkCdbManagerTask.c" in line: 497
-S 1 27 1 511 Assert in file: "HdkCdbManagerTask.c" in line: 511
-S 1 27 1 527 sendEventToSm, State machine = %d,  singleBandEvent = %d, dualBandEvent = %d
-S 1 27 1 528 currentBandstate %d otherBandstate %d
+S 1 27 1 500 Assert in file: "HdkCdbManagerTask.c" in line: 500
 S 1 27 1 534 Assert in file: "HdkCdbManagerTask.c" in line: 534
-S 1 27 1 540 Assert in file: "HdkCdbManagerTask.c" in line: 540
-S 1 27 1 545 Assert in file: "HdkCdbManagerTask.c" in line: 545
-S 1 27 1 602 Assert in file: "HdkCdbManagerTask.c" in line: 602
-S 1 27 1 632 Assert in file: "HdkCdbManagerTask.c" in line: 632
+S 1 27 1 548 sendEventToSm, State machine = %d,  singleBandEvent = %d, dualBandEvent = %d
+S 1 27 1 549 currentBandstate %d otherBandstate %d
+S 1 27 1 555 Assert in file: "HdkCdbManagerTask.c" in line: 555
+S 1 27 1 561 Assert in file: "HdkCdbManagerTask.c" in line: 561
+S 1 27 1 566 Assert in file: "HdkCdbManagerTask.c" in line: 566
+S 1 27 1 623 Assert in file: "HdkCdbManagerTask.c" in line: 623
+S 1 27 1 653 Assert in file: "HdkCdbManagerTask.c" in line: 653
 S 1 27 5 136 HdkCdbManager_AddVapSm, event = %d
 S 1 27 5 150 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 150
 S 1 27 5 172 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 172
@@ -1343,10 +1380,10 @@ S 1 27 5 319 addVapSmChangeState, state = %d
 S 1 27 5 353 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 353
 S 1 27 5 411 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 411
 S 1 27 5 444 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 444
-S 1 27 5 470 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 470
+S 1 27 5 466 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 466
+S 1 27 5 468 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 468
 S 1 27 5 472 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 472
-S 1 27 5 476 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 476
-S 1 27 5 557 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 557
+S 1 27 5 544 Assert in file: "HdkCdbManager_AddVapSm.c" in line: 544
 S 1 27 0 188 Assert in file: "HdkCdbManager_AntConfigSm.c" in line: 188
 S 1 27 0 203 Assert in file: "HdkCdbManager_AntConfigSm.c" in line: 203
 S 1 27 0 227 Assert in file: "HdkCdbManager_AntConfigSm.c" in line: 227
@@ -1369,23 +1406,23 @@ S 1 27 4 287 Assert in file: "HdkCdbManager_OfflineCalSm.c" in line: 287
 S 1 27 4 308 Assert in file: "HdkCdbManager_OfflineCalSm.c" in line: 308
 S 1 27 4 324 Assert in file: "HdkCdbManager_OfflineCalSm.c" in line: 324
 S 1 27 4 351 offlineCalSmChangeState, state = %d
-S 1 27 3 144 HdkCdbManagerOnlineCalSm. state %d event %d
-S 1 27 3 202 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 202
-S 1 27 3 286 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 286
-S 1 27 3 312 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 312
-S 1 27 3 337 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 337
-S 1 27 3 363 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 363
-S 1 27 3 376 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 376
-S 1 27 3 398 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 398
-S 1 27 3 422 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 422
-S 1 27 3 437 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 437
-S 1 27 3 462 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 462
-S 1 27 3 476 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 476
-S 1 27 3 503 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 503
-S 1 27 3 508 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 508
-S 1 27 3 526 onlineCalSmSendMsgToBand, reqMsgType = %d, band = %d
-S 1 27 3 533 onlineCalSmChangeState, state = %d
-S 1 27 3 560 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 560
+S 1 27 3 152 HdkCdbManagerOnlineCalSm. state %d event %d
+S 1 27 3 210 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 210
+S 1 27 3 294 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 294
+S 1 27 3 320 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 320
+S 1 27 3 345 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 345
+S 1 27 3 371 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 371
+S 1 27 3 384 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 384
+S 1 27 3 406 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 406
+S 1 27 3 430 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 430
+S 1 27 3 445 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 445
+S 1 27 3 470 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 470
+S 1 27 3 484 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 484
+S 1 27 3 511 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 511
+S 1 27 3 516 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 516
+S 1 27 3 534 onlineCalSmSendMsgToBand, reqMsgType = %d, band = %d
+S 1 27 3 542 onlineCalSmChangeState, state = %d
+S 1 27 3 573 Assert in file: "HdkCdbManager_OnlineCalSm.c" in line: 573
 S 1 28 1 803 Assert in file: "Afe.c" in line: 803
 S 1 28 1 1228 Assert in file: "Afe.c" in line: 1228
 S 1 29 0 806 Assert in file: "Afe.c" in line: 806
@@ -1446,6 +1483,8 @@ S 1 28 9 767 adaptiveGainDenominatorValue=%ld
 S 1 28 9 791 Results[antNum].II %d, Results[antNum].QQ=%d, Results[antNum].IQ =%d, antNum=%d
 S 1 28 9 792 denominator %d, numerator[0]=%d, numerator[1] =%d
 S 1 28 9 815 PhyCalDrv ++++++ OVERFLOW!!!!!: %d
+S 1 28 9 904 Assert in file: "PhyCalDriver.c" in line: 904
+S 1 28 9 910 Assert in file: "PhyCalDriver.c" in line: 910
 S 1 28 10 102 PhyDrv_DisableBB
 S 1 28 10 111 PhyDrv_EnableBB
 S 1 28 10 246 Assert in file: "PhyDriver.c" in line: 246
@@ -1644,53 +1683,73 @@ S 1 28 15 557 HDK_DCRequest() dutycycleRfOffTimeOut:%d dutycycleRfOnTimeout:%d i
 S 1 28 15 576 HDK_DCRemoveLastVap()------ASSERT----- dutycycleSmState: %d
 S 1 28 15 629 HDK_DCRadioOnOffCommand() dutycycleRfOffTimeOut:%d dutycycleRfOnTimeout:%d isEnabled:%d
 S 1 28 15 645 HDK_DCinit() - CLEAR DUTYCYCLE DATABASE
-S 1 28 31 255 Change ERP State,from %d, to %d 
-S 1 28 31 261 Run ERP SM, event %d, state %d
-S 1 28 31 353 Assert in file: "Erp.c" in line: 353
-S 1 28 31 839 Assert in file: "Erp.c" in line: 839
-S 1 28 31 914 Assert in file: "Erp.c" in line: 914
+S 1 28 31 265 Change ERP State,from %d, to %d 
+S 1 28 31 273 Run ERP SM, event %d, state %d
+S 1 28 31 373 erpPhyStaConnectingInd()  with erpDB.status %d 
+S 1 28 31 389 erpVerifyStaAdd() connection timer expired with erpDB.status %d 
+S 1 28 31 427 Assert in file: "Erp.c" in line: 427
+S 1 28 31 445 Assert in file: "Erp.c" in line: 445
+S 1 28 31 478 Assert in file: "Erp.c" in line: 478
+S 1 28 31 527 erpAddSta() ERP Add STA index : %d  EVENT on State: %d 
+S 1 28 31 646 erpRemoveSta() ERP Remove STA index: %d EVENT on State: %d 
+S 1 28 31 700 erpRemoveStainConnectedEvent() ERP Remove STA EVENT <= STAthreshold on State: %d 
+S 1 28 31 777 erp RfOffTimerExpired() RFoff Timer duration: %d
+S 1 28 31 802 erp RfOffTimerExpired() RFon Timer duration: %d
+S 1 28 31 902 erpBssTxInWaitConnectionEvent() BSS TX EVENT on State: %d 
+S 1 28 31 903 erpBssTxInWaitConnectionEvent() BSS TX EVENT restrating connection timer
+S 1 28 31 921 erpBssTxInRfOnEvent() BSS TX EVENT on State: %d 
+S 1 28 31 922 erpBssTxInRfOnEvent() BSS TX EVENT Move to wait connection
+S 1 28 31 948 erpBssTxInWaitProcessStartEvent() BSS TX EVENT on State: %d 
+S 1 28 31 949 erpBssTxInWaitProcessStartEvent() BSS TX EVENT Move toERP_STATE_WAIT_PROCESS_START_ABORT
+S 1 28 31 970 erpBssTxInRfOffEvent() BSS TX EVENT on State: %d 
+S 1 28 31 971 erpBssTxInRfOffEvent() BSS TX EVENT Enable Radio and run calibration
+S 1 28 31 1002 erpBssTxInWaitProcessEndEvent() BSS TX EVENT on State: %d 
+S 1 28 31 1330 Assert in file: "Erp.c" in line: 1330
+S 1 28 31 1341 HDK_ERPSet() connectionTimeOut:%d, erpRfOffTimeOut:%d erpRfOnTimeout:%d
+S 1 28 31 1342 HDK_ERPSet() vapBitMap:%d, erpSmState:%d numberOfStations:%d numberOfStationsTH:%d
+S 1 28 31 1416 Assert in file: "Erp.c" in line: 1416
 S 1 28 4 118 HdkRadarDetection_SetChannelRequest, isRadarDetectionEnabled = %d
-S 1 28 20 841 HDK_setRssiCalData. msgType: 0x%x 
-S 1 28 20 929 sendChannelParams. Call Requester: %d 
-S 1 28 20 945 hdkChannelNotificationCb
-S 1 28 20 975 sendChannelParams. Call Requester: %d 
-S 1 28 20 989 hdkAntConfigNotificationCb
-S 1 28 20 1009 Assert in file: "HdkTask.c" in line: 1009
-S 1 28 20 1022 Assert in file: "HdkTask.c" in line: 1022
-S 1 28 20 1184 radioOn1:%d (2)
-S 1 28 20 1208 isDutyCycle: %x
-S 1 28 20 1210 PowerSaveState: %x
-S 1 28 20 1224 Fatal Error in file: "HdkTask.c"; Fatal Print:  In case we're running on FPGA,  we should't get here 
-S 1 28 20 1231 HDK_startUserDemandProcess. temp %d 
-S 1 28 20 1444 limitFromHost %d, limitFromEfuse %d
-S 1 28 20 1463 Assert in file: "HdkTask.c" in line: 1463
-S 1 28 20 1528 HDK event: HDK_EVENT_ADD_FIRST_VAP_BAND_CONFIG. current state: %d
-S 1 28 20 1539 HDK event: HDK_EVENT_REMOVE_LAST_VAP. current state: %d
-S 1 28 20 1555 HDK event: HDK_EVENT_ENABLE_RF. current state: %d
-S 1 28 20 1562 HDK event: HDK_EVENT_DISABLE_RF. current state: %d
-S 1 28 20 1572 HDK event: HDK_EVENT_CALIBRATE. current state: %d
-S 1 28 20 1580 HDK event: HDK_EVENT_SET_CHANNEL. current state: %d
-S 1 28 20 1591 HDK event: HDK_EVENT_SCHED_ONLINE_PROCESS. current state: %d
-S 1 28 20 1607 HDK event: HDK_EVENT_SET_ANTENNAS. current state: %d
-S 1 28 20 1616 HDK event: HDK_EVENT_USER_DEMAND. current state: %d
-S 1 28 20 1626 Set Channel event: SET_CHANNEL_EVENT_SET_FREQUENCY. current state: %d
-S 1 28 20 1635 Set Channel event: SET_CHANNEL_EVENT_FREQUENCY_SET. current state: %d
-S 1 28 20 1644 Set Channel event: SET_CHANNEL_EVENT_CAL_RESULTS_LOADED. current state: %d
-S 1 28 20 1653 Set Channel event: SET_CHANNEL_EVENT_OFFLINE_CAL_DONE. current state: %d
-S 1 28 20 1662 Set Channel event: SET_CHANNEL_EVENT_CAL_RESULTS_STORED. current state: %d
-S 1 28 20 1671 Set Channel event: SET_CHANNEL_EVENT_CHANNEL_NOTIFICATION_DONE. current state: %d
-S 1 28 20 1680 Set Channel event: SET_CHANNEL_EVENT_REMOVE_LAST_VAP. current state: %d
-S 1 28 20 1691 HDK Process event: HDK_PROCESS_EVENT_SCHEDULE_PROCESS_REQ. current state: %d proc: %d
-S 1 28 20 1701 HDK Process event: HDK_PROCESS_EVENT_PROCESS_SCHEDULED. current state: %d proc: %d
-S 1 28 20 1710 HDK Process event: HDK_PROCESS_EVENT_PROCESS_FINISHED. current state: %d proc: %d
-S 1 28 20 1719 HDK Process event: HDK_PROCESS_EVENT_EXECUTION_COMPLETED. current state: %d proc: %d
-S 1 28 20 1779 HDK event: HDK_EVENT_REMOVE_LAST_VAP. current state: %d
-S 1 28 20 1843 Assert in file: "HdkTask.c" in line: 1843
-S 1 28 20 1974 FREEEEEE MSG............
-S 1 28 20 1976 Assert in file: "HdkTask.c" in line: 1976
-S 1 28 20 2013 resetStatus
-S 1 28 20 2062 Assert in file: "HdkTask.c" in line: 2062
-S 1 28 20 2162 Assert in file: "HdkTask.c" in line: 2162
+S 1 28 20 847 HDK_setRssiCalData. msgType: 0x%x 
+S 1 28 20 935 sendChannelParams. Call Requester: %d 
+S 1 28 20 951 hdkChannelNotificationCb
+S 1 28 20 981 sendChannelParams. Call Requester: %d 
+S 1 28 20 995 hdkAntConfigNotificationCb
+S 1 28 20 1015 Assert in file: "HdkTask.c" in line: 1015
+S 1 28 20 1028 Assert in file: "HdkTask.c" in line: 1028
+S 1 28 20 1190 radioOn1:%d (2)
+S 1 28 20 1214 isErpDutyCycle: %x
+S 1 28 20 1216 PowerSaveState: %x
+S 1 28 20 1230 Fatal Error in file: "HdkTask.c"; Fatal Print:  In case we're running on FPGA,  we should't get here 
+S 1 28 20 1237 HDK_startUserDemandProcess. temp %d 
+S 1 28 20 1447 limitFromHost %d, limitFromEfuse %d
+S 1 28 20 1466 Assert in file: "HdkTask.c" in line: 1466
+S 1 28 20 1531 HDK event: HDK_EVENT_ADD_FIRST_VAP_BAND_CONFIG. current state: %d
+S 1 28 20 1542 HDK event: HDK_EVENT_REMOVE_LAST_VAP. current state: %d
+S 1 28 20 1558 HDK event: HDK_EVENT_ENABLE_RF. current state: %d
+S 1 28 20 1565 HDK event: HDK_EVENT_DISABLE_RF. current state: %d
+S 1 28 20 1575 HDK event: HDK_EVENT_CALIBRATE. current state: %d
+S 1 28 20 1583 HDK event: HDK_EVENT_SET_CHANNEL. current state: %d
+S 1 28 20 1594 HDK event: HDK_EVENT_SCHED_ONLINE_PROCESS. current state: %d
+S 1 28 20 1610 HDK event: HDK_EVENT_SET_ANTENNAS. current state: %d
+S 1 28 20 1619 HDK event: HDK_EVENT_USER_DEMAND. current state: %d
+S 1 28 20 1629 Set Channel event: SET_CHANNEL_EVENT_SET_FREQUENCY. current state: %d
+S 1 28 20 1638 Set Channel event: SET_CHANNEL_EVENT_FREQUENCY_SET. current state: %d
+S 1 28 20 1647 Set Channel event: SET_CHANNEL_EVENT_CAL_RESULTS_LOADED. current state: %d
+S 1 28 20 1656 Set Channel event: SET_CHANNEL_EVENT_OFFLINE_CAL_DONE. current state: %d
+S 1 28 20 1665 Set Channel event: SET_CHANNEL_EVENT_CAL_RESULTS_STORED. current state: %d
+S 1 28 20 1674 Set Channel event: SET_CHANNEL_EVENT_CHANNEL_NOTIFICATION_DONE. current state: %d
+S 1 28 20 1683 Set Channel event: SET_CHANNEL_EVENT_REMOVE_LAST_VAP. current state: %d
+S 1 28 20 1694 HDK Process event: HDK_PROCESS_EVENT_SCHEDULE_PROCESS_REQ. current state: %d proc: %d
+S 1 28 20 1704 HDK Process event: HDK_PROCESS_EVENT_PROCESS_SCHEDULED. current state: %d proc: %d
+S 1 28 20 1713 HDK Process event: HDK_PROCESS_EVENT_PROCESS_FINISHED. current state: %d proc: %d
+S 1 28 20 1722 HDK Process event: HDK_PROCESS_EVENT_EXECUTION_COMPLETED. current state: %d proc: %d
+S 1 28 20 1783 HDK event: HDK_EVENT_REMOVE_LAST_VAP. current state: %d
+S 1 28 20 1847 Assert in file: "HdkTask.c" in line: 1847
+S 1 28 20 1978 FREEEEEE MSG............
+S 1 28 20 1980 Assert in file: "HdkTask.c" in line: 1980
+S 1 28 20 2017 resetStatus
+S 1 28 20 2066 Assert in file: "HdkTask.c" in line: 2066
+S 1 28 20 2164 Assert in file: "HdkTask.c" in line: 2164
 S 1 28 20 2273 Assert in file: "HdkTask.c" in line: 2273
 S 1 28 20 2285 Assert in file: "HdkTask.c" in line: 2285
 S 1 28 20 2295 setHdkMainSmState. state: %d
@@ -1698,53 +1757,53 @@ S 1 28 20 2307 setSetChannelSmState. state: %d
 S 1 28 20 2321 setHdkProcessSmState. state: %d
 S 1 28 20 2333 setHdkProcessId. processId: %d
 S 1 28 20 2346 setFreqJumpSmState. state: %d
-S 1 28 20 2468 Assert in file: "HdkTask.c" in line: 2468
-S 1 28 20 2476 setHdkConfigSmState,state: %d
-S 1 28 20 2513 hdkOfflineCalSmRunCalReqFromCdbManEvent mode:%d
-S 1 28 20 2595 Assert in file: "HdkTask.c" in line: 2595
-S 1 28 20 2804 RADIO_OFF FindState
-S 1 28 20 2812 RADIO_OFF_DUTY_CYCLE FindState
-S 1 28 20 2820 RADIO_ON FindState
-S 1 28 20 2827 RADIO_ON_AND_1_ON_1 FindState
-S 1 28 20 2834 1_ON_1 FindState
-S 1 28 20 2841 OUT_OF_1_ON_1 FindState
-S 1 28 20 2848 INCREASE_NUM_OF_ANTS FindState
-S 1 28 20 2855 DECREASE_NUM_OF_ANTS FindState
-S 1 28 20 2917 RADIO_ON_INIT
-S 1 28 20 2923 RADIO_ON
-S 1 28 20 2929 RADIO_OFF
-S 1 28 20 2935 RADIO_ON_AND_1_ON_1
-S 1 28 20 2941 1_ON_1
-S 1 28 20 2947 OUT_OF_1_ON_1
-S 1 28 20 2954 RADIO_OFF_DUTY_CYCLE
-S 1 28 20 3164 HDK_Task, msgType = %d
-S 1 28 20 3364 Assert in file: "HdkTask.c" in line: 3364
-S 1 28 20 3458 Assert in file: "HdkTask.c" in line: 3458
-S 1 28 20 3526 Assert in file: "HdkTask.c" in line: 3526
-S 1 28 20 3530 Assert in file: "HdkTask.c" in line: 3530
-S 1 28 20 3640 Assert in file: "HdkTask.c" in line: 3640
-S 1 28 20 3870 Assert in file: "HdkTask.c" in line: 3870
-S 1 28 20 3872 Assert in file: "HdkTask.c" in line: 3872
-S 1 28 20 3941 HDK_DisableAllAnts
-S 1 28 20 3948 Assert in file: "HdkTask.c" in line: 3948
-S 1 28 20 3976 hdkSetOperationalAntConfigReq
-S 1 28 20 3993 hdkSetMaxAntsReq
-S 1 28 20 4062 hdkSetAntConfigForMyBand. band %d antMask 0x%x
-S 1 28 20 4076 setAntennaConfigurationEventHandler, current state: %d
-S 1 28 20 4100 setHdkAntConfigSmState. state: %d
-S 1 28 20 4254 BITMAP FJ_CHANNEL_STATE m_curOfflineProcBitmap = %d
-S 1 28 20 4349 Freq Jump event 2 + 3: FREQ_JUMP_EVENT_NEXT_BW. current state: %d
-S 1 28 20 4356 Freq Jump event 4 done: FREQ_JUMP_EVENT_CAL_DONE. current state: %d
-S 1 28 20 4368 Assert in file: "HdkTask.c" in line: 4368
-S 1 28 20 4462 SWITCH TYPE REAL FJ  %d ++++++++ 
-S 1 28 20 4483 +++++FREQ JUMP HNDLR++++++++	
-S 1 28 20 4500 INTO NextBW %d & Restore RestoreOriginParms 
-S 1 28 20 4516 NextBW %d NOT the LAST. fill params 
-S 1 28 20 4526 LOOPPPPPPPP ======= no send param
-S 1 28 20 4618 Assert in file: "HdkTask.c" in line: 4618
-S 1 28 20 4766 Assert in file: "HdkTask.c" in line: 4766
-S 1 28 20 4788 Assert in file: "HdkTask.c" in line: 4788
-S 1 28 20 4814 Hdk_SetTxWindowLimit, sindowSizeOption = %d
+S 1 28 20 2479 Assert in file: "HdkTask.c" in line: 2479
+S 1 28 20 2487 setHdkConfigSmState,state: %d
+S 1 28 20 2524 hdkOfflineCalSmRunCalReqFromCdbManEvent mode:%d
+S 1 28 20 2609 Assert in file: "HdkTask.c" in line: 2609
+S 1 28 20 2818 RADIO_OFF FindState
+S 1 28 20 2826 RADIO_OFF_ERP_DUTY_CYCLE FindState
+S 1 28 20 2834 RADIO_ON FindState
+S 1 28 20 2841 RADIO_ON_AND_1_ON_1 FindState
+S 1 28 20 2848 1_ON_1 FindState
+S 1 28 20 2855 OUT_OF_1_ON_1 FindState
+S 1 28 20 2862 INCREASE_NUM_OF_ANTS FindState
+S 1 28 20 2869 DECREASE_NUM_OF_ANTS FindState
+S 1 28 20 2931 RADIO_ON_INIT
+S 1 28 20 2937 RADIO_ON
+S 1 28 20 2943 RADIO_OFF
+S 1 28 20 2949 RADIO_ON_AND_1_ON_1
+S 1 28 20 2955 1_ON_1
+S 1 28 20 2961 OUT_OF_1_ON_1
+S 1 28 20 2968 RADIO_OFF_ERP_DUTY_CYCLE
+S 1 28 20 3193 HDK_Task, msgType = %d
+S 1 28 20 3392 Assert in file: "HdkTask.c" in line: 3392
+S 1 28 20 3486 Assert in file: "HdkTask.c" in line: 3486
+S 1 28 20 3554 Assert in file: "HdkTask.c" in line: 3554
+S 1 28 20 3558 Assert in file: "HdkTask.c" in line: 3558
+S 1 28 20 3668 Assert in file: "HdkTask.c" in line: 3668
+S 1 28 20 3898 Assert in file: "HdkTask.c" in line: 3898
+S 1 28 20 3900 Assert in file: "HdkTask.c" in line: 3900
+S 1 28 20 3969 HDK_DisableAllAnts
+S 1 28 20 3976 Assert in file: "HdkTask.c" in line: 3976
+S 1 28 20 4004 hdkSetOperationalAntConfigReq
+S 1 28 20 4021 hdkSetMaxAntsReq
+S 1 28 20 4090 hdkSetAntConfigForMyBand. band %d antMask 0x%x
+S 1 28 20 4104 setAntennaConfigurationEventHandler, current state: %d
+S 1 28 20 4128 setHdkAntConfigSmState. state: %d
+S 1 28 20 4282 BITMAP FJ_CHANNEL_STATE m_curOfflineProcBitmap = %d
+S 1 28 20 4377 Freq Jump event 2 + 3: FREQ_JUMP_EVENT_NEXT_BW. current state: %d
+S 1 28 20 4384 Freq Jump event 4 done: FREQ_JUMP_EVENT_CAL_DONE. current state: %d
+S 1 28 20 4396 Assert in file: "HdkTask.c" in line: 4396
+S 1 28 20 4490 SWITCH TYPE REAL FJ  %d ++++++++ 
+S 1 28 20 4511 +++++FREQ JUMP HNDLR++++++++	
+S 1 28 20 4528 INTO NextBW %d & Restore RestoreOriginParms 
+S 1 28 20 4544 NextBW %d NOT the LAST. fill params 
+S 1 28 20 4554 LOOPPPPPPPP ======= no send param
+S 1 28 20 4646 Assert in file: "HdkTask.c" in line: 4646
+S 1 28 20 4794 Assert in file: "HdkTask.c" in line: 4794
+S 1 28 20 4816 Assert in file: "HdkTask.c" in line: 4816
+S 1 28 20 4842 Hdk_SetTxWindowLimit, sindowSizeOption = %d
 S 1 28 7 96 Assert in file: "HDK_utils.c" in line: 96
 S 1 30 1 152 groupsGenerator_GenerateAllGroups
 S 1 30 1 167 groupsGenerator_GenerateGroupsForVap: %d
@@ -1773,39 +1832,39 @@ S 1 30 0 581 station %d (tid %d) is not part of any he mu group
 S 1 30 0 589 Fatal Error in file: "HeGroupManager.c"; Fatal Print: OTFA should not have ask for remove all groups for this sta/tid because he gm is disabled
 S 1 30 0 644 HE Group Manager, Send Confirmation, stationIndex %d
 S 1 30 0 669 heGroupManagerChangeGlobalState: current state: %d, new state %d
-S 1 30 0 719 heGroupManagerEnableHeMuInSelector - UL MU
-S 1 30 0 725 heGroupManagerEnableHeMuInSelector - DL MU
-S 1 30 0 843 [NO AGG] heGroupManagerSetPlanTidsBitmap 1 tidAllocBitmap = 0x%x
-S 1 30 0 860 Fatal Error in file: "HeGroupManager.c"; Fatal Print: [heGroupManagerSetPlanTidsBitmap], UNKNOWN muSequenceType
-S 1 30 0 863 [NO AGG] heGroupManagerSetPlanTidsBitmap 2 tidAllocBitmap = 0x%x
-S 1 30 0 904 heGroupManagerTSManagerEnableTid BEFORE, StationId: %d, tidIndex %d, current status of bitmaps: tidsHeMuEnablebyTSManager: 0x%X, tidsHeMuEnablebyHeGM 0x%X
-S 1 30 0 912 heGroupManagerTSManagerEnableTid AFTER, StationId: %d, tidIndex %d, current status of bitmaps: tidsHeMuEnablebyTSManager: 0x%X, tidsHeMuEnablebyHeGM 0x%X
-S 1 30 0 935 heGroupManagerTSManagerDisableTid BEFORE, StationId: %d, tidIndex %d, current status of bitmaps: tidsHeMuEnablebyTSManager: 0x%X, tidsHeMuEnablebyHeGM 0x%X
-S 1 30 0 943 heGroupManagerTSManagerDisableTid AFTER, StationId: %d, tidIndex %d, current status of bitmaps: tidsHeMuEnablebyTSManager: 0x%X, tidsHeMuEnablebyHeGM 0x%X
-S 1 30 0 1045 heGroupManagerGlobalStateMachine, current state: %d event: %d
-S 1 30 0 1046 Assert in file: "HeGroupManager.c" in line: 1046
-S 1 30 0 1047 Assert in file: "HeGroupManager.c" in line: 1047
-S 1 30 0 1153 [heGroupManagerAddStation]
-S 1 30 0 1340 There is no static plan active 
-S 1 30 0 1357 Assert in file: "HeGroupManager.c" in line: 1357
-S 1 30 0 1437 There is no static plan active 
-S 1 30 0 1447 Assert in file: "HeGroupManager.c" in line: 1447
-S 1 30 0 1503 There is no static plan active 
-S 1 30 0 1519 Assert in file: "HeGroupManager.c" in line: 1519
-S 1 30 0 1560 There is no static plan active 
-S 1 30 0 1578 Assert in file: "HeGroupManager.c" in line: 1578
-S 1 30 0 1608 There is already a plan in removal!
-S 1 30 0 1627 Assert in file: "HeGroupManager.c" in line: 1627
-S 1 30 0 1659 There is no static plan active 
-S 1 30 0 1676 Assert in file: "HeGroupManager.c" in line: 1676
-S 1 30 0 1718 Assert in file: "HeGroupManager.c" in line: 1718
-S 1 30 0 1730 Assert in file: "HeGroupManager.c" in line: 1730
-S 1 30 0 1775 Assert in file: "HeGroupManager.c" in line: 1775
-S 1 30 0 1793 Assert in file: "HeGroupManager.c" in line: 1793
-S 1 30 0 1823 There is no static plam active 
-S 1 30 0 1842 Assert in file: "HeGroupManager.c" in line: 1842
-S 1 30 0 1890 Assert in file: "HeGroupManager.c" in line: 1890
-S 1 30 0 2232 Assert in file: "HeGroupManager.c" in line: 2232
+S 1 30 0 720 heGroupManagerEnableHeMuInSelector - UL MU
+S 1 30 0 726 heGroupManagerEnableHeMuInSelector - DL MU
+S 1 30 0 846 [NO AGG] heGroupManagerSetPlanTidsBitmap 1 tidAllocBitmap = 0x%x
+S 1 30 0 863 Fatal Error in file: "HeGroupManager.c"; Fatal Print: [heGroupManagerSetPlanTidsBitmap], UNKNOWN muSequenceType
+S 1 30 0 866 [NO AGG] heGroupManagerSetPlanTidsBitmap 2 tidAllocBitmap = 0x%x
+S 1 30 0 907 heGroupManagerTSManagerEnableTid BEFORE, StationId: %d, tidIndex %d, current status of bitmaps: tidsHeMuEnablebyTSManager: 0x%X, tidsHeMuEnablebyHeGM 0x%X
+S 1 30 0 915 heGroupManagerTSManagerEnableTid AFTER, StationId: %d, tidIndex %d, current status of bitmaps: tidsHeMuEnablebyTSManager: 0x%X, tidsHeMuEnablebyHeGM 0x%X
+S 1 30 0 938 heGroupManagerTSManagerDisableTid BEFORE, StationId: %d, tidIndex %d, current status of bitmaps: tidsHeMuEnablebyTSManager: 0x%X, tidsHeMuEnablebyHeGM 0x%X
+S 1 30 0 946 heGroupManagerTSManagerDisableTid AFTER, StationId: %d, tidIndex %d, current status of bitmaps: tidsHeMuEnablebyTSManager: 0x%X, tidsHeMuEnablebyHeGM 0x%X
+S 1 30 0 1048 heGroupManagerGlobalStateMachine, current state: %d event: %d
+S 1 30 0 1049 Assert in file: "HeGroupManager.c" in line: 1049
+S 1 30 0 1050 Assert in file: "HeGroupManager.c" in line: 1050
+S 1 30 0 1156 [heGroupManagerAddStation]
+S 1 30 0 1343 There is no static plan active 
+S 1 30 0 1360 Assert in file: "HeGroupManager.c" in line: 1360
+S 1 30 0 1440 There is no static plan active 
+S 1 30 0 1450 Assert in file: "HeGroupManager.c" in line: 1450
+S 1 30 0 1506 There is no static plan active 
+S 1 30 0 1522 Assert in file: "HeGroupManager.c" in line: 1522
+S 1 30 0 1563 There is no static plan active 
+S 1 30 0 1581 Assert in file: "HeGroupManager.c" in line: 1581
+S 1 30 0 1611 There is already a plan in removal!
+S 1 30 0 1630 Assert in file: "HeGroupManager.c" in line: 1630
+S 1 30 0 1662 There is no static plan active 
+S 1 30 0 1679 Assert in file: "HeGroupManager.c" in line: 1679
+S 1 30 0 1721 Assert in file: "HeGroupManager.c" in line: 1721
+S 1 30 0 1733 Assert in file: "HeGroupManager.c" in line: 1733
+S 1 30 0 1778 Assert in file: "HeGroupManager.c" in line: 1778
+S 1 30 0 1796 Assert in file: "HeGroupManager.c" in line: 1796
+S 1 30 0 1826 There is no static plam active 
+S 1 30 0 1845 Assert in file: "HeGroupManager.c" in line: 1845
+S 1 30 0 1893 Assert in file: "HeGroupManager.c" in line: 1893
+S 1 30 0 2235 Assert in file: "HeGroupManager.c" in line: 2235
 S 1 30 3 114 heGroupManagerClassifier_CreateStationsCluster, itemsInCluster = %d
 S 1 30 3 139 heGroupManagerClassifier_GetStationFromCluster, staIndex = %d, dlCandidate = %d, ulCandidate = %d, readIndex = %d,
 S 1 30 3 140 heGroupManagerClassifier_GetStationFromCluster, staIndex = %d, dlCandidate = %d, ulCandidate = %d, readIndex = %d,
@@ -1822,30 +1881,30 @@ S 1 31 0 509 Assert in file: "HostGenRiscInterface.c" in line: 509
 S 1 31 5 156 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface 2 MIPS Error Start
 S 1 31 5 171 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Unsupported Message ID
 S 1 31 5 182 Fatal Error in file: "HostGenRiscInterface.c"; Fatal Print: Host Interface 2 MIPS Unknown event
-S 1 31 5 309 Assert in file: "HostGenRiscInterface.c" in line: 309
-S 1 31 5 379 Assert in file: "HostGenRiscInterface.c" in line: 379
-S 1 31 5 404 Assert in file: "HostGenRiscInterface.c" in line: 404
+S 1 31 5 303 Assert in file: "HostGenRiscInterface.c" in line: 303
+S 1 31 5 383 Assert in file: "HostGenRiscInterface.c" in line: 383
+S 1 31 5 405 Assert in file: "HostGenRiscInterface.c" in line: 405
 S 1 32 0 319 [hostInterfaceRingsSetAtfBufferEnable] stationId:%d
 S 1 32 0 359 [hostInterfaceRingsSetAtfBufferDisable]
 S 1 32 0 415 Assert in file: "HostInterface.c" in line: 415
 S 1 32 0 417 Assert in file: "HostInterface.c" in line: 417
 S 1 32 0 423 HostInterface_RestrictedAcMsg: User indicates that Restricted AC should not be used by HOST I/F TASK. QoS TASK shall use it.
 S 1 32 0 632 Assert in file: "HostInterface.c" in line: 632
-S 1 32 0 793 Assert in file: "HostInterface.c" in line: 793
-S 1 32 0 834 Assert in file: "HostInterface.c" in line: 834
-S 1 32 0 874 Fatal Error in file: "HostInterface.c"; Fatal Print: Error buffer descriptor in FIFO!
-S 1 32 0 902 Assert in file: "HostInterface.c" in line: 902
-S 1 32 0 1011 Ts Manager, Send Confirmation, Client %d, SID %d
-S 1 32 0 1191 Assert in file: "HostInterface.c" in line: 1191
+S 1 32 0 796 Assert in file: "HostInterface.c" in line: 796
+S 1 32 0 837 Assert in file: "HostInterface.c" in line: 837
+S 1 32 0 877 Fatal Error in file: "HostInterface.c"; Fatal Print: Error buffer descriptor in FIFO!
+S 1 32 0 905 Assert in file: "HostInterface.c" in line: 905
+S 1 32 0 1014 Ts Manager, Send Confirmation, Client %d, SID %d
 S 1 32 0 1194 Assert in file: "HostInterface.c" in line: 1194
-S 1 32 0 1206 Assert in file: "HostInterface.c" in line: 1206
-S 1 32 0 1527 Assert in file: "HostInterface.c" in line: 1527
-S 1 32 0 1536 Assert in file: "HostInterface.c" in line: 1536
-S 1 32 0 1570 Fatal Error in file: "HostInterface.c"; Fatal Print: Error buffer descriptor in FIFO!
-S 1 32 0 1698 HostInterface_GlobalDb.atf_AgeingEnable %d ttlCount %d, HostInterface_GlobalDb.atf_End_of_interval_ttl %d, HostInterface_GlobalDb.atf_AgeingTtlCriteria %d
-S 1 32 0 1699 willAged%d
-S 1 32 0 1720 HostInterface_GlobalDb.atf_AgeingEnable %d ttlCount %d, HostInterface_GlobalDb.atf_End_of_interval_ttl %d, HostInterface_GlobalDb.atf_AgeingTtlCriteria %d
-S 1 32 0 1721 willAged%d
+S 1 32 0 1197 Assert in file: "HostInterface.c" in line: 1197
+S 1 32 0 1209 Assert in file: "HostInterface.c" in line: 1209
+S 1 32 0 1530 Assert in file: "HostInterface.c" in line: 1530
+S 1 32 0 1539 Assert in file: "HostInterface.c" in line: 1539
+S 1 32 0 1573 Fatal Error in file: "HostInterface.c"; Fatal Print: Error buffer descriptor in FIFO!
+S 1 32 0 1701 HostInterface_GlobalDb.atf_AgeingEnable %d ttlCount %d, HostInterface_GlobalDb.atf_End_of_interval_ttl %d, HostInterface_GlobalDb.atf_AgeingTtlCriteria %d
+S 1 32 0 1702 willAged%d
+S 1 32 0 1723 HostInterface_GlobalDb.atf_AgeingEnable %d ttlCount %d, HostInterface_GlobalDb.atf_End_of_interval_ttl %d, HostInterface_GlobalDb.atf_AgeingTtlCriteria %d
+S 1 32 0 1724 willAged%d
 S 1 32 1 456 HostIfAcc_SetPdThreshold - %d
 S 1 32 3 340 Assert in file: "HostInterfaceRings.c" in line: 340
 S 1 32 3 408 Assert in file: "HostInterfaceRings.c" in line: 408
@@ -1859,11 +1918,11 @@ S 1 32 3 843 Assert in file: "HostInterfaceRings.c" in line: 843
 S 1 32 3 844 Assert in file: "HostInterfaceRings.c" in line: 844
 S 1 32 3 892 Assert in file: "HostInterfaceRings.c" in line: 892
 S 1 32 3 893 Assert in file: "HostInterfaceRings.c" in line: 893
-S 1 32 4 151 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadTxInCode, DC_MODE not supported
-S 1 32 4 211 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadTxOutCode, DC_MODE not supported
-S 1 32 4 251 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadRxInCode, DC_MODE not supported
-S 1 32 4 311 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadRxOutCode, DC_MODE not supported
-S 1 32 4 687 HostIfAcc_SetPdThreshold - %d
+S 1 32 4 153 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadTxInCode, DC_MODE not supported
+S 1 32 4 213 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadTxOutCode, DC_MODE not supported
+S 1 32 4 253 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadRxInCode, DC_MODE not supported
+S 1 32 4 313 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadRxOutCode, DC_MODE not supported
+S 1 32 4 688 HostIfAcc_SetPdThreshold - %d
 S 1 32 6 336 Assert in file: "HostInterfaceRings.c" in line: 336
 S 1 32 6 404 Assert in file: "HostInterfaceRings.c" in line: 404
 S 1 32 6 421 Assert in file: "HostInterfaceRings.c" in line: 421
@@ -1876,11 +1935,11 @@ S 1 32 6 847 Assert in file: "HostInterfaceRings.c" in line: 847
 S 1 32 6 848 Assert in file: "HostInterfaceRings.c" in line: 848
 S 1 32 6 896 Assert in file: "HostInterfaceRings.c" in line: 896
 S 1 32 6 897 Assert in file: "HostInterfaceRings.c" in line: 897
-S 1 32 7 151 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadTxInCode, DC_MODE not supported
-S 1 32 7 211 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadTxOutCode, DC_MODE not supported
-S 1 32 7 251 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadRxInCode, DC_MODE not supported
-S 1 32 7 311 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadRxOutCode, DC_MODE not supported
-S 1 32 7 687 HostIfAcc_SetPdThreshold - %d
+S 1 32 7 153 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadTxInCode, DC_MODE not supported
+S 1 32 7 213 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadTxOutCode, DC_MODE not supported
+S 1 32 7 253 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadRxInCode, DC_MODE not supported
+S 1 32 7 313 Fatal Error in file: "HostInterfaceAcc.c"; Fatal Print: hostIfAccLoadRxOutCode, DC_MODE not supported
+S 1 32 7 688 HostIfAcc_SetPdThreshold - %d
 S 1 32 9 337 Assert in file: "HostInterfaceRings.c" in line: 337
 S 1 32 9 405 Assert in file: "HostInterfaceRings.c" in line: 405
 S 1 32 9 422 Assert in file: "HostInterfaceRings.c" in line: 422
@@ -2098,13 +2157,13 @@ S 1 5 6 2303 Fatal Error in file: "HwLogger.c"; Fatal Print: hwLoggerEnableDisab
 S 1 5 6 2308 Fatal Error in file: "HwLogger.c"; Fatal Print: hwLoggerEnableDisableMuBfLogs
 S 1 5 6 2313 Fatal Error in file: "HwLogger.c"; Fatal Print: hwLoggerEnableDisableMuBitmapSelectLogs
 S 1 5 7 297 Assert in file: "HwLogger.c" in line: 297
-S 1 5 7 394 Assert in file: "HwLogger.c" in line: 394
-S 1 5 7 395 Assert in file: "HwLogger.c" in line: 395
-S 1 5 7 415 Assert in file: "HwLogger.c" in line: 415
-S 1 5 7 701 Assert in file: "HwLogger.c" in line: 701
-S 1 5 7 717 Assert in file: "HwLogger.c" in line: 717
-S 1 5 7 936 Assert in file: "HwLogger.c" in line: 936
-S 1 5 7 993 Assert in file: "HwLogger.c" in line: 993
+S 1 5 7 396 Assert in file: "HwLogger.c" in line: 396
+S 1 5 7 397 Assert in file: "HwLogger.c" in line: 397
+S 1 5 7 417 Assert in file: "HwLogger.c" in line: 417
+S 1 5 7 703 Assert in file: "HwLogger.c" in line: 703
+S 1 5 7 719 Assert in file: "HwLogger.c" in line: 719
+S 1 5 7 938 Assert in file: "HwLogger.c" in line: 938
+S 1 5 7 995 Assert in file: "HwLogger.c" in line: 995
 S 1 5 3 67 Assert in file: "HwMbfm.c" in line: 67
 S 1 5 3 75 Assert in file: "HwMbfm.c" in line: 75
 S 1 5 3 136 Fatal Error in file: "HwMbfm.c"; Fatal Print: HwMbfm_isrError: FifoOverflow
@@ -2162,51 +2221,58 @@ S 1 34 0 244 [HwSemaphore_Read 1] readValue is %d
 S 1 34 0 271 [HwSemaphore_FreeAllDebug 1] hwSemaphoreShadow = %d
 S 1 34 1 169 Assert in file: "HwSemaphore.c" in line: 169
 S 1 34 1 219 Assert in file: "HwSemaphore.c" in line: 219
-S 1 35 2 112 ContinuousInterfererDetectionGlobalParameters.maxMeasuremenet = %d
-S 1 35 2 228 continuousInterfererMessageParameters->maximumValue = %d continuousInterfererMessageParameters->channel: %d
-S 1 35 1 212 Assert in file: "RadarDetection.c" in line: 212
-S 1 35 1 260 Assert in file: "RadarDetection.c" in line: 260
-S 1 35 1 303 Assert in file: "RadarDetection.c" in line: 303
-S 1 35 1 337 Assert in file: "RadarDetection.c" in line: 337
-S 1 35 1 381 Assert in file: "RadarDetection.c" in line: 381
-S 1 35 1 457 Assert in file: "RadarDetection.c" in line: 457
-S 1 35 1 462 Assert in file: "RadarDetection.c" in line: 462
-S 1 35 1 515 Assert in file: "RadarDetection.c" in line: 515
-S 1 35 1 594 Assert in file: "RadarDetection.c" in line: 594
-S 1 35 1 602 Assert in file: "RadarDetection.c" in line: 602
-S 1 35 1 625 Assert in file: "RadarDetection.c" in line: 625
-S 1 35 1 693 radarDetectionCheckLongRadarPri: pri count %d, long %d, short %d
-S 1 35 1 740 Assert in file: "RadarDetection.c" in line: 740
-S 1 35 1 741 Assert in file: "RadarDetection.c" in line: 741
-S 1 35 1 745 Assert in file: "RadarDetection.c" in line: 745
-S 1 35 1 752 Assert in file: "RadarDetection.c" in line: 752
-S 1 35 1 755 Assert in file: "RadarDetection.c" in line: 755
-S 1 35 1 759 Assert in file: "RadarDetection.c" in line: 759
-S 1 35 1 779 enough PRIs %d
-S 1 35 1 821 radarDetectionCheckValidPri: pri %d
-S 1 35 1 834 Assert in file: "RadarDetection.c" in line: 834
-S 1 35 1 873 radarDetectionCheckLongValidPri: pri %d, pwdiff %d
-S 1 35 1 1008 Assert in file: "RadarDetection.c" in line: 1008
-S 1 35 1 1009 Assert in file: "RadarDetection.c" in line: 1009
-S 1 35 1 1015 ================================== RadarDetection_ProcessSamples ======================================
-S 1 35 1 1021 @@@@@ record: pw %d, timestamp %u @@@@@
-S 1 35 1 1111 $$$$$$$$$$$$$$$$$$$$$$$$$$ Radar detected %d $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-S 1 35 1 1112 $$$$$$$$$$$$$$$$$$$$$$$$$$ Radar detected SubBandBitmap = %d $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-S 1 35 1 1127 RadarDetection_ProcessSamples, RADAR NOT FILTERED
-S 1 35 1 1151 RadarDetection_ProcessSamples, RADAR FILTERED
-S 1 35 1 1352 Assert in file: "RadarDetection.c" in line: 1352
-S 1 35 1 1364 Assert in file: "RadarDetection.c" in line: 1364
-S 1 35 1 1377 Assert in file: "RadarDetection.c" in line: 1377
-S 1 35 1 1391 Assert in file: "RadarDetection.c" in line: 1391
-S 1 35 1 1404 Assert in file: "RadarDetection.c" in line: 1404
-S 1 35 1 1408 Assert in file: "RadarDetection.c" in line: 1408
-S 1 35 1 1414 radarDetectionStateMachineChangeState, newState = %d
-S 1 35 1 1428 radarAdaptSensSetChannelEvent
-S 1 35 1 1502 RadarDetection_ProcessSamples - Radar adaptive sens check burst
-S 1 35 1 1521 radarAdaptSensTimerExpiredEvent - Radar adaptive sens timer expired
-S 1 35 1 1537 RADAR FILTERED = %d
-S 1 35 1 1540 radarAdaptSensTimerExpiredEvent, REPORT RADAR
-S 1 35 1 1556 isRadarFiltering, diffRadarCounter = %d, difftInterfererCounter = %d, difftDataNonAssocCounter = %d
+S 1 35 2 114 ContinuousInterfererDetectionGlobalParameters.maxMeasuremenet = %d
+S 1 35 2 232 continuousInterfererMessageParameters->maximumValue = %d continuousInterfererMessageParameters->channel: %d
+S 1 35 2 242 Fatal Error in file: "ContinuousInterfererDetection.c"; Fatal Print: hContinuousInterfererDetection_ProcessSampleswe -we do not get driver response
+S 1 35 2 300 ContinuousInterfererDetection_DrivrResponseArrived - continuousInterfererMessageParameters->maximumValue = %d continuousInterfererMessageParameters->channel: %d
+S 1 35 1 215 Assert in file: "RadarDetection.c" in line: 215
+S 1 35 1 263 Assert in file: "RadarDetection.c" in line: 263
+S 1 35 1 306 Assert in file: "RadarDetection.c" in line: 306
+S 1 35 1 340 Assert in file: "RadarDetection.c" in line: 340
+S 1 35 1 384 Assert in file: "RadarDetection.c" in line: 384
+S 1 35 1 460 Assert in file: "RadarDetection.c" in line: 460
+S 1 35 1 465 Assert in file: "RadarDetection.c" in line: 465
+S 1 35 1 518 Assert in file: "RadarDetection.c" in line: 518
+S 1 35 1 597 Assert in file: "RadarDetection.c" in line: 597
+S 1 35 1 605 Assert in file: "RadarDetection.c" in line: 605
+S 1 35 1 628 Assert in file: "RadarDetection.c" in line: 628
+S 1 35 1 676 isValidPairedPwPri $$$$ pw=%d, pri=%d
+S 1 35 1 684 isValidPairedPwPri $$$$ minPw=%d, maxPw=%d minPri=%d maxPri=%d
+S 1 35 1 687 isValidPairedPwPri valid with RadarTableSize=%d, pw=%d, pri=%d
+S 1 35 1 745 radarDetectionCheckLongRadarPri: pri count %d, long %d, short %d
+S 1 35 1 792 Assert in file: "RadarDetection.c" in line: 792
+S 1 35 1 793 Assert in file: "RadarDetection.c" in line: 793
+S 1 35 1 797 Assert in file: "RadarDetection.c" in line: 797
+S 1 35 1 804 Assert in file: "RadarDetection.c" in line: 804
+S 1 35 1 807 Assert in file: "RadarDetection.c" in line: 807
+S 1 35 1 811 Assert in file: "RadarDetection.c" in line: 811
+S 1 35 1 831 enough PRIs %d
+S 1 35 1 873 radarDetectionCheckValidPri: pri %d
+S 1 35 1 915 radarDetectionCheckLongValidPri: pri %d, pwdiff %d
+S 1 35 1 1053 Assert in file: "RadarDetection.c" in line: 1053
+S 1 35 1 1054 Assert in file: "RadarDetection.c" in line: 1054
+S 1 35 1 1061 ================================== RadarDetection_ProcessSamples ======================================
+S 1 35 1 1067 @@@@@ record: pw %d, timestamp %u @@@@@
+S 1 35 1 1170 $$$$$$$$$$$$$$$$$$$$$$$$$$ Radar detected %d $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+S 1 35 1 1171 $$$$$$$$$$$$$$$$$$$$$$$$$$ Radar detected SubBandBitmap = %d $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+S 1 35 1 1189 RadarDetection_ProcessSamples, RADAR NOT FILTERED
+S 1 35 1 1200 Assert in file: "RadarDetection.c" in line: 1200
+S 1 35 1 1201 Assert in file: "RadarDetection.c" in line: 1201
+S 1 35 1 1246 RadarDetection_ProcessSamples, RADAR FILTERED
+S 1 35 1 1456 RadarDetection_SetRegDomainParams RegulationType: %d
+S 1 35 1 1514 Assert in file: "RadarDetection.c" in line: 1514
+S 1 35 1 1526 Assert in file: "RadarDetection.c" in line: 1526
+S 1 35 1 1539 Assert in file: "RadarDetection.c" in line: 1539
+S 1 35 1 1553 Assert in file: "RadarDetection.c" in line: 1553
+S 1 35 1 1566 Assert in file: "RadarDetection.c" in line: 1566
+S 1 35 1 1570 Assert in file: "RadarDetection.c" in line: 1570
+S 1 35 1 1576 radarDetectionStateMachineChangeState, newState = %d
+S 1 35 1 1590 radarAdaptSensSetChannelEvent
+S 1 35 1 1664 RadarDetection_ProcessSamples - Radar adaptive sens check burst
+S 1 35 1 1683 radarAdaptSensTimerExpiredEvent - Radar adaptive sens timer expired
+S 1 35 1 1699 RADAR FILTERED = %d
+S 1 35 1 1702 radarAdaptSensTimerExpiredEvent, REPORT RADAR
+S 1 35 1 1718 isRadarFiltering, diffRadarCounter = %d, difftInterfererCounter = %d, difftDataNonAssocCounter = %d
 S 1 36 0 335 Fatal Error in file: "InterruptManager.c"; Fatal Print: Spurious Interrupt
 S 1 36 0 375 Assert in file: "InterruptManager.c" in line: 375
 S 1 36 0 384 Assert in file: "InterruptManager.c" in line: 384
@@ -2302,6 +2368,19 @@ S 1 39 7 394 Assert in file: "CyclicPrefix.c" in line: 394
 S 1 39 7 399 CyclicPrefix - SET RATE + 1
 S 1 39 7 649 Assert in file: "CyclicPrefix.c" in line: 649
 S 1 39 7 764 Assert in file: "CyclicPrefix.c" in line: 764
+S 1 39 23 152 Assert in file: "DynamicMPDU.c" in line: 152
+S 1 39 23 168 dynamicMpduCalcPerVariance avgPer %d numeratorSum %d probCounter %d result %d 
+S 1 39 23 331 processProbDown wpPerVar %d, ppPerVar %d probValid %d
+S 1 39 23 378 processProbUp wpPerVar %d, ppPerVar %d probValid %d
+S 1 39 23 436 Assert in file: "DynamicMPDU.c" in line: 436
+S 1 39 23 469 DynamicMpduSizeSetNextProbingPoint isCurrentSlowProbingMaskEmpty %d
+S 1 39 23 503 Assert in file: "DynamicMPDU.c" in line: 503
+S 1 39 23 549 DynamicMpduSizeProcessFeedback perVariance %d longTermPerVar %d probValid %d 
+S 1 39 23 590 DynamicMpduSize_AddStation stationIndex %d staPHYmode %d
+S 1 39 23 633 DynamicMpduSize_AddStation maxMpduLengthLimit %d wp.maxMpduLengthLimit %d
+S 1 39 23 634 DynamicMpduSize_AddStation mpduOverhead %d is4address %d dataEncryptionEnable %d secHdrOverhead %d
+S 1 39 23 690 DynamicMpduSize_CheckWpPerVarHighThr Switch to low: perVariance %d pDynamicMpduDb->mpduSize[DYNAMIC_MPDU_AGG_LOW] %d
+S 1 39 23 697 DynamicMpduSize_CheckWpPerVarHighThr No change: perVariance %d eDynamicMpduAggSize = %d
 S 1 39 19 110 DynamicTxop_AddStation NumOfConnectedSta %d configuredTxopMode %d currentTxopMode %d txopMaxNumStas %d
 S 1 39 19 146 DynamicTxop_RemoveStation NumOfConnectedSta %d configuredTxopMode %d currentTxopMode %d txopMaxNumStas %d
 S 1 39 19 220 DynamicTxop_UpdateTxopMode. mode %d firstSidInBand %d numOfSidsInBand %d
@@ -2313,58 +2392,59 @@ S 1 39 19 405 setTxopInHwStaDb. staId %d enable %d
 S 1 39 19 450 setTxopAccordingToPsduTimeEstimation. effectivePsduTime %d currentMaxPsduTime %d enable %d
 S 1 39 19 476 calcMaxPsduTimePerRateAndBw. psduLength %d phyRate %d maxTime %d
 S 1 39 19 487 getMaxPsduTimeFromStaDb. staId %d maxTime %d 
-S 1 39 8 953 Assert in file: "Estimators.c" in line: 953
-S 1 39 8 1087 Assert in file: "Estimators.c" in line: 1087
-S 1 39 8 1090 [estimatorsUpdateRatesInDb], laDbDistributionParameter->stationOrGroupIndex = %X
-S 1 39 8 1091 [estimatorsUpdateRatesInDb], laDbDistributionParameter->uspIndex = %X
-S 1 39 8 1093 [estimatorsUpdateRatesInDb], newRatesIndexMask= %X-%X
-S 1 39 8 1098 [estimatorsUpdateRatesInDb], currentRatesIndexMask= %X-%X
-S 1 39 8 1103 [estimatorsUpdateRatesInDb], currentNewDiffBitmask= %X-%X
-S 1 39 8 1108 [estimatorsUpdateRatesInDb], addedIndexesBitmap= %X-%X
-S 1 39 8 1113 [estimatorsUpdateRatesInDb], removedIndexesBitmap= %X-%X
-S 1 39 8 1130 Assert in file: "Estimators.c" in line: 1130
-S 1 39 8 1200 Assert in file: "Estimators.c" in line: 1200
-S 1 39 8 1293 Assert in file: "Estimators.c" in line: 1293
-S 1 39 8 1427 [PLUME] estimatorsStatisticsUpdate ewmaTimeNsec %d = avgMsduLen %d / phyRate %d 
-S 1 39 8 1438 [PLUME] estimatorsStatisticsUpdate ewmaAlpha = %d oldEwmaTimeNsec = %d
-S 1 39 8 1444 [PLUME] estimatorsStatisticsUpdate ewmaTimeNsec = %d station = %d 
-S 1 39 8 1452 [PLUME] estimatorsStatisticsUpdate sumTimeNsec = %d
-S 1 39 8 1461 [PLUME] estimatorsStatisticsUpdate transmittedAmpdu = %d
-S 1 39 8 1467 [PLUME] estimatorsStatisticsUpdate bw = %d
-S 1 39 8 1474 [PLUME] estimatorsStatisticsUpdate mpduInAmpdu = %d
-S 1 39 8 1481 [PLUME] estimatorsStatisticsUpdate numMsdus = %d
-S 1 39 8 1679 Assert in file: "Estimators.c" in line: 1679
-S 1 39 8 1712 Assert in file: "Estimators.c" in line: 1712
-S 1 39 8 1721 Assert in file: "Estimators.c" in line: 1721
-S 1 39 8 1735 estimatorsWorkingPointDbUpdate, perCollisionTh = %d, varCollisionTh = %d, MaxTh = %d
-S 1 39 8 1993 estimatorsSlowProbingDbUpdate av per,bandwidth = %d,filterinput = %d, filterResult = %d, alpha = %d
-S 1 39 8 2031 Assert in file: "Estimators.c" in line: 2031
-S 1 39 8 2056 Assert in file: "Estimators.c" in line: 2056
-S 1 39 8 2113 Assert in file: "Estimators.c" in line: 2113
-S 1 39 8 2138 Assert in file: "Estimators.c" in line: 2138
+S 1 39 8 954 Assert in file: "Estimators.c" in line: 954
+S 1 39 8 1088 Assert in file: "Estimators.c" in line: 1088
+S 1 39 8 1091 [estimatorsUpdateRatesInDb], laDbDistributionParameter->stationOrGroupIndex = %X
+S 1 39 8 1092 [estimatorsUpdateRatesInDb], laDbDistributionParameter->uspIndex = %X
+S 1 39 8 1094 [estimatorsUpdateRatesInDb], newRatesIndexMask= %X-%X
+S 1 39 8 1099 [estimatorsUpdateRatesInDb], currentRatesIndexMask= %X-%X
+S 1 39 8 1104 [estimatorsUpdateRatesInDb], currentNewDiffBitmask= %X-%X
+S 1 39 8 1109 [estimatorsUpdateRatesInDb], addedIndexesBitmap= %X-%X
+S 1 39 8 1114 [estimatorsUpdateRatesInDb], removedIndexesBitmap= %X-%X
+S 1 39 8 1131 Assert in file: "Estimators.c" in line: 1131
+S 1 39 8 1201 Assert in file: "Estimators.c" in line: 1201
+S 1 39 8 1294 Assert in file: "Estimators.c" in line: 1294
+S 1 39 8 1428 [PLUME] estimatorsStatisticsUpdate ewmaTimeNsec %d = avgMsduLen %d / phyRate %d 
+S 1 39 8 1439 [PLUME] estimatorsStatisticsUpdate ewmaAlpha = %d oldEwmaTimeNsec = %d
+S 1 39 8 1445 [PLUME] estimatorsStatisticsUpdate ewmaTimeNsec = %d station = %d 
+S 1 39 8 1453 [PLUME] estimatorsStatisticsUpdate sumTimeNsec = %d
+S 1 39 8 1462 [PLUME] estimatorsStatisticsUpdate transmittedAmpdu = %d
+S 1 39 8 1468 [PLUME] estimatorsStatisticsUpdate bw = %d
+S 1 39 8 1475 [PLUME] estimatorsStatisticsUpdate mpduInAmpdu = %d
+S 1 39 8 1482 [PLUME] estimatorsStatisticsUpdate numMsdus = %d
+S 1 39 8 1681 Assert in file: "Estimators.c" in line: 1681
+S 1 39 8 1714 Assert in file: "Estimators.c" in line: 1714
+S 1 39 8 1723 Assert in file: "Estimators.c" in line: 1723
+S 1 39 8 1736 estimatorsWorkingPointDbUpdate, perCollisionTh = %d, varCollisionTh = %d, MaxTh = %d
+S 1 39 8 2016 estimatorsSlowProbingDbUpdate av per,bandwidth = %d,filterinput = %d, filterResult = %d, alpha = %d
+S 1 39 8 2028 Assert in file: "Estimators.c" in line: 2028
+S 1 39 8 2063 Assert in file: "Estimators.c" in line: 2063
+S 1 39 8 2088 Assert in file: "Estimators.c" in line: 2088
+S 1 39 8 2145 Assert in file: "Estimators.c" in line: 2145
 S 1 39 8 2170 Assert in file: "Estimators.c" in line: 2170
-S 1 39 8 2230 estimatorsProbingValidationCriteria,currentPacketTsf = %d, probeIsValid = %d, currentTsfMod = %d, tsfDiff = %d
-S 1 39 8 2231 estimatorsProbingValidationCriteria,currentPacketTsf = %d, probeIsValid = %d, currentTsfMod = %d, tsfDiff = %d
-S 1 39 8 2232 estimatorsProbingValidationCriteria,validationCounter = %d
-S 1 39 8 2295 estimatorsAgingCheck, staId = %d, MU group count - %d
-S 1 39 8 2446 Assert in file: "Estimators.c" in line: 2446
-S 1 39 8 2489 Assert in file: "Estimators.c" in line: 2489
-S 1 39 8 2533 Assert in file: "Estimators.c" in line: 2533
-S 1 39 8 2585 estimatorsProcessSequencerReport, staId = %d, Station's grade is - %d, MU group count - %d
-S 1 39 8 2872 estimatorsRecheckCandidacy, staId = %d, Station's grade is - %d
-S 1 39 8 2951 Assert in file: "Estimators.c" in line: 2951
-S 1 39 8 3131 Assert in file: "Estimators.c" in line: 3131
-S 1 39 8 3135 fastDropEstimator, consequtiveFailsCondition = %d, FailIndication = %d
-S 1 39 8 3136 fastDropEstimator, consequtiveFailsCondition = %d, FailIndication = %d
-S 1 39 8 3193 Assert in file: "Estimators.c" in line: 3193
-S 1 39 8 3199 Assert in file: "Estimators.c" in line: 3199
-S 1 39 8 3215 estimatorsFastProbingSearchMaxEffTp, AvPerFilter: filetrResult = %d, alpha = %d, Last TSF = %d
-S 1 39 8 3290 Assert in file: "Estimators.c" in line: 3290
-S 1 39 8 3334 Assert in file: "Estimators.c" in line: 3334
-S 1 39 8 3380 Assert in file: "Estimators.c" in line: 3380
-S 1 39 8 3385 Assert in file: "Estimators.c" in line: 3385
-S 1 39 8 3406 Assert in file: "Estimators.c" in line: 3406
-S 1 39 8 3410 Assert in file: "Estimators.c" in line: 3410
+S 1 39 8 2226 Assert in file: "Estimators.c" in line: 2226
+S 1 39 8 2286 estimatorsProbingValidationCriteria,currentPacketTsf = %d, probeIsValid = %d, currentTsfMod = %d, tsfDiff = %d
+S 1 39 8 2287 estimatorsProbingValidationCriteria,currentPacketTsf = %d, probeIsValid = %d, currentTsfMod = %d, tsfDiff = %d
+S 1 39 8 2288 estimatorsProbingValidationCriteria,validationCounter = %d
+S 1 39 8 2351 estimatorsAgingCheck, staId = %d, MU group count - %d
+S 1 39 8 2502 Assert in file: "Estimators.c" in line: 2502
+S 1 39 8 2545 Assert in file: "Estimators.c" in line: 2545
+S 1 39 8 2589 Assert in file: "Estimators.c" in line: 2589
+S 1 39 8 2641 estimatorsProcessSequencerReport, staId = %d, Station's grade is - %d, MU group count - %d
+S 1 39 8 2928 estimatorsRecheckCandidacy, staId = %d, Station's grade is - %d
+S 1 39 8 3007 Assert in file: "Estimators.c" in line: 3007
+S 1 39 8 3187 Assert in file: "Estimators.c" in line: 3187
+S 1 39 8 3191 fastDropEstimator, consequtiveFailsCondition = %d, FailIndication = %d
+S 1 39 8 3192 fastDropEstimator, consequtiveFailsCondition = %d, FailIndication = %d
+S 1 39 8 3249 Assert in file: "Estimators.c" in line: 3249
+S 1 39 8 3255 Assert in file: "Estimators.c" in line: 3255
+S 1 39 8 3271 estimatorsFastProbingSearchMaxEffTp, AvPerFilter: filetrResult = %d, alpha = %d, Last TSF = %d
+S 1 39 8 3346 Assert in file: "Estimators.c" in line: 3346
+S 1 39 8 3390 Assert in file: "Estimators.c" in line: 3390
+S 1 39 8 3436 Assert in file: "Estimators.c" in line: 3436
+S 1 39 8 3441 Assert in file: "Estimators.c" in line: 3441
+S 1 39 8 3462 Assert in file: "Estimators.c" in line: 3462
+S 1 39 8 3466 Assert in file: "Estimators.c" in line: 3466
 S 1 39 22 94 Assert in file: "GroupsMetricsCalculator.c" in line: 94
 S 1 39 14 638 Assert in file: "PowerAdaptation.c" in line: 638
 S 1 39 14 770 Assert in file: "PowerAdaptation.c" in line: 770
@@ -2485,126 +2565,126 @@ S 1 39 20 1703 [overrideUlPhaseAfterOmiRx] planIndex %d hePhaseIndex %d
 S 1 39 20 1710 [overrideUlPhaseAfterOmiRx] userRcrPsduRate %d
 S 1 39 20 1725 [overrideUlPhaseAfterOmiRx] maxOfNssForAllUsers %d
 S 1 39 20 1728 [overrideUlPhaseAfterOmiRx] nHeltf %d
-S 1 39 16 421 Fatal Error in file: "LinkAdaptationPhyDriver.c"; Fatal Print: setStaFixedRatesInHwDb
-S 1 39 16 455 setStaFixedRatesInHwDb 1 isRateInc = %d newRateindex= %d oldRate= %d 
-S 1 39 16 479 setStaFixedRatesInHwDb 2 isRateInc = %d newRateindex= %d oldRate= %d 
-S 1 39 16 536 Assert in file: "LinkAdaptationPhyDriver.c" in line: 536
-S 1 39 16 868 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc - new rate requires limitation: new Rate %d
-S 1 39 16 876 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc store limit- current rate is good: current Rate %d, origLimit %d
-S 1 39 16 883 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc, original limit was stored previously - current rate is problematic: current Rate %d
-S 1 39 16 886 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc overwrite - newLimit %d, origLimit %d
-S 1 39 16 893 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc - new rate is good %d
-S 1 39 16 897 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc - rollback to original limit: common limit %d, wp limit %d, original limit %d staId %d
-S 1 39 16 898 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc - rollback to original limit: common limit %d, wp limit %d, original limit %d staId %d
-S 1 39 16 1052 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1052
-S 1 39 16 1108 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1108
-S 1 39 16 1122 Fatal Error in file: "LinkAdaptationPhyDriver.c"; Fatal Print: The FW got wrong MCS for Vap Management 
-S 1 39 16 1125 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1125
-S 1 39 16 1293 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1293
-S 1 39 16 1508 Fatal Error in file: "LinkAdaptationPhyDriver.c"; Fatal Print: bad param - station assoc request must be rejected in host apd
-S 1 39 16 1812 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1812
-S 1 39 16 1887 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1887
-S 1 39 16 1960 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1960
-S 1 39 16 2074 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2074
-S 1 39 16 2250 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2250
-S 1 39 16 2272 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2272
-S 1 39 16 2441 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2441
-S 1 39 16 2466 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2466
-S 1 39 16 2472 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2472
-S 1 39 16 2510 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2510
-S 1 39 16 2511 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2511
-S 1 39 16 2512 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2512
-S 1 39 16 2538 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2538
-S 1 39 16 2544 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2544
-S 1 39 16 2549 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2549
-S 1 39 16 2614 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2614
-S 1 39 16 2621 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2621
-S 1 39 16 2686 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2686
-S 1 39 16 2693 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2693
-S 1 39 16 2757 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2757
-S 1 39 16 2764 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2764
-S 1 39 16 2859 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2859
-S 1 39 16 2860 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2860
-S 1 39 16 2861 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2861
-S 1 39 16 2868 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2868
-S 1 39 16 2912 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2912
-S 1 39 16 2956 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2956
-S 1 39 16 3000 Assert in file: "LinkAdaptationPhyDriver.c" in line: 3000
-S 1 39 16 3084 Assert in file: "LinkAdaptationPhyDriver.c" in line: 3084
-S 1 39 16 3244 Assert in file: "LinkAdaptationPhyDriver.c" in line: 3244
-S 1 39 16 3719 bwAdaptationSetBwLimit, currentBwLimit %d changedDataBw = %d
-S 1 39 16 4173 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4173
-S 1 39 16 4268 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4268
-S 1 39 16 4350 Statistics rxdc:%d, txlo:%d, rxiq:%d, txiq:%d
-S 1 39 16 4386 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4386
-S 1 39 16 4419 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4419
-S 1 39 16 4424 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4424
-S 1 39 16 4481 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4481
-S 1 39 16 4493 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4493
-S 1 39 16 4514 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4514
-S 1 39 16 4543 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4543
-S 1 39 16 4584 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4584
-S 1 39 16 4667 Fatal Error in file: "LinkAdaptationPhyDriver.c"; Fatal Print: Freq jump not_supported_yet
-S 1 39 16 4695 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4695
+S 1 39 16 426 Fatal Error in file: "LinkAdaptationPhyDriver.c"; Fatal Print: setStaFixedRatesInHwDb
+S 1 39 16 460 setStaFixedRatesInHwDb 1 isRateInc = %d newRateindex= %d oldRate= %d 
+S 1 39 16 484 setStaFixedRatesInHwDb 2 isRateInc = %d newRateindex= %d oldRate= %d 
+S 1 39 16 546 Assert in file: "LinkAdaptationPhyDriver.c" in line: 546
+S 1 39 16 878 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc - new rate requires limitation: new Rate %d
+S 1 39 16 886 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc store limit- current rate is good: current Rate %d, origLimit %d
+S 1 39 16 893 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc, original limit was stored previously - current rate is problematic: current Rate %d
+S 1 39 16 896 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc overwrite - newLimit %d, origLimit %d
+S 1 39 16 903 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc - new rate is good %d
+S 1 39 16 907 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc - rollback to original limit: common limit %d, wp limit %d, original limit %d staId %d
+S 1 39 16 908 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400:setStaFixedRateInTcrsModificationFunc - rollback to original limit: common limit %d, wp limit %d, original limit %d staId %d
+S 1 39 16 1062 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1062
+S 1 39 16 1118 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1118
+S 1 39 16 1132 Fatal Error in file: "LinkAdaptationPhyDriver.c"; Fatal Print: The FW got wrong MCS for Vap Management 
+S 1 39 16 1135 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1135
+S 1 39 16 1303 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1303
+S 1 39 16 1518 Fatal Error in file: "LinkAdaptationPhyDriver.c"; Fatal Print: bad param - station assoc request must be rejected in host apd
+S 1 39 16 1828 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1828
+S 1 39 16 1903 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1903
+S 1 39 16 1976 Assert in file: "LinkAdaptationPhyDriver.c" in line: 1976
+S 1 39 16 2090 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2090
+S 1 39 16 2266 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2266
+S 1 39 16 2288 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2288
+S 1 39 16 2457 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2457
+S 1 39 16 2482 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2482
+S 1 39 16 2488 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2488
+S 1 39 16 2526 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2526
+S 1 39 16 2527 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2527
+S 1 39 16 2528 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2528
+S 1 39 16 2565 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2565
+S 1 39 16 2571 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2571
+S 1 39 16 2576 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2576
+S 1 39 16 2641 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2641
+S 1 39 16 2648 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2648
+S 1 39 16 2713 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2713
+S 1 39 16 2720 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2720
+S 1 39 16 2784 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2784
+S 1 39 16 2791 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2791
+S 1 39 16 2886 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2886
+S 1 39 16 2887 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2887
+S 1 39 16 2888 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2888
+S 1 39 16 2895 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2895
+S 1 39 16 2939 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2939
+S 1 39 16 2983 Assert in file: "LinkAdaptationPhyDriver.c" in line: 2983
+S 1 39 16 3027 Assert in file: "LinkAdaptationPhyDriver.c" in line: 3027
+S 1 39 16 3111 Assert in file: "LinkAdaptationPhyDriver.c" in line: 3111
+S 1 39 16 3275 Assert in file: "LinkAdaptationPhyDriver.c" in line: 3275
+S 1 39 16 3750 bwAdaptationSetBwLimit, currentBwLimit %d changedDataBw = %d
+S 1 39 16 4204 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4204
+S 1 39 16 4299 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4299
+S 1 39 16 4381 Statistics rxdc:%d, txlo:%d, rxiq:%d, txiq:%d
+S 1 39 16 4417 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4417
+S 1 39 16 4450 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4450
+S 1 39 16 4455 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4455
+S 1 39 16 4512 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4512
+S 1 39 16 4524 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4524
+S 1 39 16 4545 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4545
+S 1 39 16 4574 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4574
+S 1 39 16 4627 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4627
+S 1 39 16 4710 Fatal Error in file: "LinkAdaptationPhyDriver.c"; Fatal Print: Freq jump not_supported_yet
 S 1 39 16 4738 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4738
-S 1 39 16 4740 [getHighestNssInMask], highestNss %d
-S 1 39 16 4764 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4764
-S 1 39 16 4771 [getHighestMcsForNssInMask], nss %d, highestMcs %d, for phyMode %d
-S 1 39 16 4785 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4785
-S 1 39 16 4792 [getHighestMcsInMask], highestMcs %d, for phyMode %d
-S 1 39 16 4811 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4811
-S 1 39 16 4837 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb
-S 1 39 16 4844 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb - new rate requires limit
-S 1 39 16 4854 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: probing case. don't store origLimit. overwriteCommon.  common Limit %d, new Limit %d 
-S 1 39 16 4861 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb in SU. stored origLimit %d, staId %d
-S 1 39 16 4865 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwrite wp and common. new wp %d, new common %d 
-S 1 39 16 4877 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: current rate problematic. Probing case. origLimit %d, newLimit %d, staId %d
-S 1 39 16 4886 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: current rate problematic. Change WP case.  origLimit %d, newLimit %d, staId %d
-S 1 39 16 4900 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb - rollback in case of probing. origLimit %d, staId %d
-S 1 39 16 4907 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb - rollback in case of wp. origLimit %d, staId %d
-S 1 39 16 4939 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: isPsduLengthLimitationNeeded - limit required %d,nss %d, mcs %d new limit %d
+S 1 39 16 4781 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4781
+S 1 39 16 4783 [getHighestNssInMask], highestNss %d
+S 1 39 16 4807 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4807
+S 1 39 16 4814 [getHighestMcsForNssInMask], nss %d, highestMcs %d, for phyMode %d
+S 1 39 16 4828 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4828
+S 1 39 16 4835 [getHighestMcsInMask], highestMcs %d, for phyMode %d
+S 1 39 16 4854 Assert in file: "LinkAdaptationPhyDriver.c" in line: 4854
+S 1 39 16 4880 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb
+S 1 39 16 4887 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb - new rate requires limit
+S 1 39 16 4897 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: probing case. don't store origLimit. overwriteCommon.  common Limit %d, new Limit %d 
+S 1 39 16 4904 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb in SU. stored origLimit %d, staId %d
+S 1 39 16 4908 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwrite wp and common. new wp %d, new common %d 
+S 1 39 16 4920 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: current rate problematic. Probing case. origLimit %d, newLimit %d, staId %d
+S 1 39 16 4929 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: current rate problematic. Change WP case.  origLimit %d, newLimit %d, staId %d
+S 1 39 16 4943 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb - rollback in case of probing. origLimit %d, staId %d
+S 1 39 16 4950 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: overwriteMaxPsduLengthLimitInStaDb - rollback in case of wp. origLimit %d, staId %d
+S 1 39 16 4982 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400: isPsduLengthLimitationNeeded - limit required %d,nss %d, mcs %d new limit %d
 S 1 39 17 76 [LinkAdaptation_QAMplusInit] Wave500B, QAMplusEnableFromLm = %d
 S 1 39 15 225 Assert in file: "ProtectionAdaptation.c" in line: 225
 S 1 39 15 250 Assert in file: "ProtectionAdaptation.c" in line: 250
-S 1 39 15 406 Assert in file: "ProtectionAdaptation.c" in line: 406
-S 1 39 15 433 Assert in file: "ProtectionAdaptation.c" in line: 433
-S 1 39 15 435 Assert in file: "ProtectionAdaptation.c" in line: 435
-S 1 39 15 522 ProtectionAdaptation_VapSm -got indication for invalid VAP 
-S 1 39 15 537 ProtectionAdaptation_VapSm -VAP state:NONE-VAP_PROTECTION_FORCE_STATE : %d
-S 1 39 15 543 ProtectionAdaptation_VapSm -VAP in PROTECTION_NONE_STATE collsion Count : %d
-S 1 39 15 548 ProtectionAdaptation_VapSm -Transition to threshold - collsion Count : %d
-S 1 39 15 570 Assert in file: "ProtectionAdaptation.c" in line: 570
-S 1 39 15 596 Assert in file: "ProtectionAdaptation.c" in line: 596
-S 1 39 15 612 ProtectionAdaptation_VapSm - VAP state:  VAP_PROTECTION_THRESHOLD_STATE
-S 1 39 15 624 ProtectionAdaptation_VapSm - berGap = %d
-S 1 39 15 629 ProtectionAdaptation_VapSm - Transition to  VAP_PROTECTION_NONE_STATE
-S 1 39 15 649 ProtectionAdaptation_VapSm - Transition to  VAP_PROTECTION_NONE_STATE - protection doen't improve
-S 1 39 15 664 ProtectionAdaptation_VapSm -VAP state:TH- VAP_PROTECTION_DISABLE_STATE
-S 1 39 15 675 Assert in file: "ProtectionAdaptation.c" in line: 675
-S 1 39 15 680 ProtectionAdaptation_VapSm -VAP state: VAP_PROTECTION_FORCED_STATE
-S 1 39 15 686 ProtectionAdaptation_VapSm -transition to VAP_PROTECTION_NONE_STATE
-S 1 39 15 706 ProtectionAdaptation_VapSm -VAP state:Force- VAP_PROTECTION_DISABLE_STATE
-S 1 39 15 719 Assert in file: "ProtectionAdaptation.c" in line: 719
-S 1 39 15 723 Assert in file: "ProtectionAdaptation.c" in line: 723
-S 1 39 15 752 protectionAdaptationStaSm - staCollisionCount : %d, Ackbitmap:%d, Ctsbitmap:%d
-S 1 39 15 754 protectionAdaptationStaSm - staCollisionCount is very high
-S 1 39 15 756 protectionAdaptationStaSm, vapCollisionResetCounter = %d, staCollisionResetCounter = %d
-S 1 39 15 762 protectionAdaptationStaSm, pStaProtectionEstimatorPtr->staCollisionResetCounter = %d
-S 1 39 15 774 protectionAdaptationStaSm -statino state: STA_PROTECTION_NONE_STATE
-S 1 39 15 781 protectionAdaptationStaSm -transition to STA_THRESHOLD_MODE vapStaCollisionDelta = %d
-S 1 39 15 790 protectionAdaptationStaSm -statino state: STA_PROTECTION_THRESHOLD_STATE  vapStaCollisionDelta = %d
-S 1 39 15 795 protectionAdaptationStaSm -transition to STA_FORCE_PROTECTION_MODE vapStaCollisionDelta = %d
-S 1 39 15 805 protectionAdaptationStaSm -transition to STA_NO_PROTECTION_MODE vapStaCollisionDelta = %d
-S 1 39 15 815 protectionAdaptationStaSm -statino state: STA_PROTECTION_FORCE_STATE vapStaCollisionDelta = %d
-S 1 39 15 820 protectionAdaptationStaSm -transition to STA_THRESHOLD_MODE - delta exceed threshold, delta = %d
-S 1 39 15 836 protectionAdaptationStaSm -transition to STA_NO_PROTECTION_MODE - No improvement with protection vapStaCollisionDelta = %d
-S 1 39 15 857 protectionAdaptationStaSm -BAA report arrived to a non-valid station!
-S 1 39 15 861 Assert in file: "ProtectionAdaptation.c" in line: 861
-S 1 39 15 886 Assert in file: "ProtectionAdaptation.c" in line: 886
-S 1 39 15 929 ProtectionAdaptation_WlanTimerEventHandler -collosionRatio == %d
-S 1 39 15 1144 Assert in file: "ProtectionAdaptation.c" in line: 1144
-S 1 39 15 1149 protectionAdaptationResetCollisionsCounters, vapCollisionResetCounter = %d, staCollisionResetCounter = %d
-S 1 39 15 1161 protectionAdaptationAgingReset, staCollisionResetCounter = %d, vapCollisionResetCounter = %d
+S 1 39 15 355 Assert in file: "ProtectionAdaptation.c" in line: 355
+S 1 39 15 382 Assert in file: "ProtectionAdaptation.c" in line: 382
+S 1 39 15 384 Assert in file: "ProtectionAdaptation.c" in line: 384
+S 1 39 15 471 ProtectionAdaptation_VapSm -got indication for invalid VAP 
+S 1 39 15 486 ProtectionAdaptation_VapSm -VAP state:NONE-VAP_PROTECTION_FORCE_STATE : %d
+S 1 39 15 492 ProtectionAdaptation_VapSm -VAP in PROTECTION_NONE_STATE collsion Count : %d
+S 1 39 15 497 ProtectionAdaptation_VapSm -Transition to threshold - collsion Count : %d
+S 1 39 15 519 Assert in file: "ProtectionAdaptation.c" in line: 519
+S 1 39 15 545 Assert in file: "ProtectionAdaptation.c" in line: 545
+S 1 39 15 561 ProtectionAdaptation_VapSm - VAP state:  VAP_PROTECTION_THRESHOLD_STATE
+S 1 39 15 573 ProtectionAdaptation_VapSm - berGap = %d
+S 1 39 15 578 ProtectionAdaptation_VapSm - Transition to  VAP_PROTECTION_NONE_STATE
+S 1 39 15 598 ProtectionAdaptation_VapSm - Transition to  VAP_PROTECTION_NONE_STATE - protection doen't improve
+S 1 39 15 613 ProtectionAdaptation_VapSm -VAP state:TH- VAP_PROTECTION_DISABLE_STATE
+S 1 39 15 624 Assert in file: "ProtectionAdaptation.c" in line: 624
+S 1 39 15 629 ProtectionAdaptation_VapSm -VAP state: VAP_PROTECTION_FORCED_STATE
+S 1 39 15 635 ProtectionAdaptation_VapSm -transition to VAP_PROTECTION_NONE_STATE
+S 1 39 15 655 ProtectionAdaptation_VapSm -VAP state:Force- VAP_PROTECTION_DISABLE_STATE
+S 1 39 15 668 Assert in file: "ProtectionAdaptation.c" in line: 668
+S 1 39 15 672 Assert in file: "ProtectionAdaptation.c" in line: 672
+S 1 39 15 701 protectionAdaptationStaSm - staCollisionCount : %d, Ackbitmap:%d, Ctsbitmap:%d
+S 1 39 15 703 protectionAdaptationStaSm - staCollisionCount is very high
+S 1 39 15 705 protectionAdaptationStaSm, vapCollisionResetCounter = %d, staCollisionResetCounter = %d
+S 1 39 15 711 protectionAdaptationStaSm, pStaProtectionEstimatorPtr->staCollisionResetCounter = %d
+S 1 39 15 723 protectionAdaptationStaSm -statino state: STA_PROTECTION_NONE_STATE
+S 1 39 15 730 protectionAdaptationStaSm -transition to STA_THRESHOLD_MODE vapStaCollisionDelta = %d
+S 1 39 15 739 protectionAdaptationStaSm -statino state: STA_PROTECTION_THRESHOLD_STATE  vapStaCollisionDelta = %d
+S 1 39 15 744 protectionAdaptationStaSm -transition to STA_FORCE_PROTECTION_MODE vapStaCollisionDelta = %d
+S 1 39 15 754 protectionAdaptationStaSm -transition to STA_NO_PROTECTION_MODE vapStaCollisionDelta = %d
+S 1 39 15 764 protectionAdaptationStaSm -statino state: STA_PROTECTION_FORCE_STATE vapStaCollisionDelta = %d
+S 1 39 15 769 protectionAdaptationStaSm -transition to STA_THRESHOLD_MODE - delta exceed threshold, delta = %d
+S 1 39 15 785 protectionAdaptationStaSm -transition to STA_NO_PROTECTION_MODE - No improvement with protection vapStaCollisionDelta = %d
+S 1 39 15 806 protectionAdaptationStaSm -BAA report arrived to a non-valid station!
+S 1 39 15 810 Assert in file: "ProtectionAdaptation.c" in line: 810
+S 1 39 15 835 Assert in file: "ProtectionAdaptation.c" in line: 835
+S 1 39 15 878 ProtectionAdaptation_WlanTimerEventHandler -collosionRatio == %d
+S 1 39 15 1104 Assert in file: "ProtectionAdaptation.c" in line: 1104
+S 1 39 15 1109 protectionAdaptationResetCollisionsCounters, vapCollisionResetCounter = %d, staCollisionResetCounter = %d
+S 1 39 15 1121 protectionAdaptationAgingReset, staCollisionResetCounter = %d, vapCollisionResetCounter = %d
 S 1 39 5 139 [QAMplus_ResetCounters]
 S 1 39 5 180 [QAMplus_ResetParams]
 S 1 39 5 227 [QAMplus_SupportedState], LA in steadyState
@@ -2634,206 +2714,202 @@ S 1 39 5 691 Assert in file: "QAMplus.c" in line: 691
 S 1 39 5 705 [QAMplus_UpdateLaRateMask] after update
 S 1 39 5 742 [QAMplus_SetThresh]
 S 1 39 5 771 [QAMplus_Enable], QAMplusEnableFromDriver = %d
-S 1 39 5 826 [QAMplus_SetSupportedThresh]
-S 1 39 5 858 [QAMplus_GetThresh], pQAMplusConfigParams->trialThresh=%d, pQAMplusConfigParams->inactiveTrialThresh = %d, pQAMplusDatabase->supportedThresh = %d
-S 1 39 5 890 [QAMplus_GetCounters] stationId = %d: failureCounter = %d, numberTrialsCounter = %d, successHighestRateWPCounter = %d
-S 1 39 6 408 rateAdaptationCountEvent, seqTransactionNumber = %d
-S 1 39 6 575 [rateAdaptationProbingHandler], laDbDistributionParameter->laStaGroupCommon->probingIndication = %d, isWorkingPointValid = %d
-S 1 39 6 580 [rateAdaptationProbingHandler], laDbDistributionParameter->laStaGroupCommon->probingIndication = %d
-S 1 39 6 585 [rateAdaptationProbingHandler], laDbDistributionParameter->stationOrGroupIndex = %d
-S 1 39 6 586 [rateAdaptationProbingHandler], laDbDistributionParameter->uspIndex = %d
-S 1 39 6 595 [rateAdaptationProbingHandler], laDbDistributionParameter->uspIndex = %d
-S 1 39 6 599 [rateAdaptationProbingHandler], isHeGroup = %d
-S 1 39 6 636 [heMuFastProbingHandler], laDbDistributionParameter->laHeGroupUnique->groupStationIndexes[%d] = %d
-S 1 39 6 642 [heMuFastProbingHandler], laDbDistributionVarPerUsp.laStaUspCommon->rateAdaptationDataBase.waitForProbeResponse = %d, LA_GET_BIT_IN_BITMAP(laDbDistributionParameter->laHeGroupUnique->probingValidationBitmap.heUspBitmap, uspCount, BITMAP_ARRAY_MAX_SIZE_2) = %d
-S 1 39 6 649 [heMuFastProbingHandler], probingPointChanged = %d
-S 1 39 6 656 [heMuFastProbingHandler], laDbDistributionVarPerUsp.laHeGroupUnique->probingValidationBitmap.heUspBitmap[0] = %d, laDbDistributionVarPerUsp.laHeGroupUnique->probingValidationBitmap.heUspBitmap[1] = %d, laDbDistributionVarPerUsp.laHeGroupUnique->probingValidationMask.heUspBitmap[1] = %d
-S 1 39 6 875 Assert in file: "RateAdaptation.c" in line: 875
-S 1 39 6 880 [raFastProbingProcessFeedback], pMaxEffectiveTpParams = %d, previousWpEstAddr = %d, pMaxEffectiveTpParams = %d
-S 1 39 6 891 raFastProbingProcessFeedback, WORKING POINT CHANGED, Last rate = %d, new Rate = %d, newPER = %d
-S 1 39 6 896 [raFastProbingProcessFeedback]
-S 1 39 6 906 [raFastProbingProcessFeedback] for HE group. uspIndex = %d rate %d
-S 1 39 6 958 Assert in file: "RateAdaptation.c" in line: 958
-S 1 39 6 965 Assert in file: "RateAdaptation.c" in line: 965
-S 1 39 6 1029 [rateAdaptationChangeWorkingPoint], newRateIndex = %d, previousWpRateIndex = %d, pLaDbDistributionParameter->uspIndex = %d, pLaDbDistributionParameter->stationOrGroupIndex=%d
-S 1 39 6 1052 Assert in file: "RateAdaptation.c" in line: 1052
-S 1 39 6 1113 updatePerStability, stabilityStateBeforeChange = %d, pStabilityState = %d
-S 1 39 6 1175 updatePerStability, perDeviationStability = %d,targetPerStability = %d, resultPerStability = %d
-S 1 39 6 1176 updatePerStability, perDeviationStability = %d,targetPerStability = %d, resultPerStability = %d
-S 1 39 6 1252 Assert in file: "RateAdaptation.c" in line: 1252
-S 1 39 6 1326 Assert in file: "RateAdaptation.c" in line: 1326
-S 1 39 6 1420 Assert in file: "RateAdaptation.c" in line: 1420
-S 1 39 6 1434 Assert in file: "RateAdaptation.c" in line: 1434
-S 1 39 6 1448 Assert in file: "RateAdaptation.c" in line: 1448
-S 1 39 6 1676 Assert in file: "RateAdaptation.c" in line: 1676
-S 1 39 6 1749 Assert in file: "RateAdaptation.c" in line: 1749
-S 1 39 6 1868 [rateAdaptationFastDrop] for HE group. uspIndex %d executing fast drop to rateIndex %d
-S 1 39 6 1875 [rateAdaptationFastDrop] for HE group. uspIndex %d stays at rateIndex %d
-S 1 39 6 1911 FAST DROP, StaINdex = %d, BW = %d, currentRateIndex = %d, newRateindex = %d
-S 1 39 6 1937 rateAdaptationProbingTimerEvent , event %d 
-S 1 39 6 1964 rateAdaptationCheckStateTimeout staId %d
-S 1 39 6 2297 Assert in file: "RateAdaptation.c" in line: 2297
-S 1 39 6 2302 Assert in file: "RateAdaptation.c" in line: 2302
-S 1 39 6 2423 setStaDataRate isRateInc = %d newRateindex = %d oldRate = %d 
-S 1 39 6 2526 Fatal Error in file: "RateAdaptation.c"; Fatal Print: GetMuPowerValInRegulationLimit
-S 1 39 6 2606 Assert in file: "RateAdaptation.c" in line: 2606
-S 1 39 6 2655 Assert in file: "RateAdaptation.c" in line: 2655
-S 1 39 6 2706 rateAdaptationEnableDisableStaSlowLoop, enableDisable = %d,loopType = %d, probingTaskBitmap[Pr0] = %d, slowProbingTaskBitmap[Pr1] = %d
-S 1 39 6 2709 rateAdaptationEnableDisableStaSlowLoop, enableDisable = %d,loopType = %d, probingTaskBitmap[Pr0] = %d, slowProbingTaskBitmap[Pr1] = %d
-S 1 39 6 2829 Assert in file: "RateAdaptation.c" in line: 2829
-S 1 39 6 2877 Assert in file: "RateAdaptation.c" in line: 2877
-S 1 39 6 2907 Assert in file: "RateAdaptation.c" in line: 2907
-S 1 39 6 2935 Assert in file: "RateAdaptation.c" in line: 2935
-S 1 39 6 2951 Assert in file: "RateAdaptation.c" in line: 2951
-S 1 39 6 2984 changeTaskToDefaultPriority, pslowProbingTaskBitmap[SLOW_PROBING_PRIORITY0] = %X, pslowProbingTaskBitmap[SLOW_PROBING_PRIORITY1] = %X
-S 1 39 6 2985 changeTaskToDefaultPriority, pslowProbingTaskBitmap[SLOW_PROBING_PRIORITY0] = %X, pslowProbingTaskBitmap[SLOW_PROBING_PRIORITY1] = %X
-S 1 39 9 878 Assert in file: "LinkAdaptation.c" in line: 878
-S 1 39 9 932 [linkAdaptationProcessUlprReport] reportType == PHY_MODE_11AX_SU, isOmiReceived == TRUE
-S 1 39 9 939 Assert in file: "LinkAdaptation.c" in line: 939
-S 1 39 9 946 [linkAdaptationProcessUlprReport] reportType != PHY_MODE_11AX_SU, isOmiReceived == TRUE
-S 1 39 9 1135 Assert in file: "LinkAdaptation.c" in line: 1135
-S 1 39 9 1186 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: linkAdaptationProcessSequencerReportQueue
-S 1 39 9 1423 Assert in file: "LinkAdaptation.c" in line: 1423
-S 1 39 9 1427 Assert in file: "LinkAdaptation.c" in line: 1427
-S 1 39 9 1559 Assert in file: "LinkAdaptation.c" in line: 1559
-S 1 39 9 1737 Assert in file: "LinkAdaptation.c" in line: 1737
-S 1 39 9 1842 Assert in file: "LinkAdaptation.c" in line: 1842
-S 1 39 9 1953 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: We got new bss color while we have connected stations
-S 1 39 9 2055 [WD] linkAdaptationSetChannelReq lastMaxBandwidth = %d
-S 1 39 9 2103 Assert in file: "LinkAdaptation.c" in line: 2103
-S 1 39 9 2114 Assert in file: "LinkAdaptation.c" in line: 2114
-S 1 39 9 2277 linkAdaptationHandleAgingTimerEvent
-S 1 39 9 2287 Assert in file: "LinkAdaptation.c" in line: 2287
-S 1 39 9 2291 Assert in file: "LinkAdaptation.c" in line: 2291
-S 1 39 9 2499 [QAMplus_GetMaxNssInMask], MaxNss = %d, indexNss = %d, localRateMask[0] = %d, localRateMask[1] = %d
-S 1 39 9 2509 Assert in file: "LinkAdaptation.c" in line: 2509
-S 1 39 9 2622 [linkAdaptationAddStationReq], staPHYmode = %d
-S 1 39 9 2695 [linkAdaptationAddStationReq], rssi: %d, initial rate: %d
-S 1 39 9 2746 [EAPOL] linkAdaptationAddStationReq state = %d
-S 1 39 9 2812 [EAPOL] linkAdaptationAddStationReq currentRate = %d
-S 1 39 9 2868 Assert in file: "LinkAdaptation.c" in line: 2868
-S 1 39 9 3083 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400 : staticGroup
-S 1 39 9 3086 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400 : staticGroup, limitation needed. CurrentLimit %d, newLimit %d
-S 1 39 9 3098 linkAdaptationAddHeGroup, PlanIndex = %d
-S 1 39 9 3110 linkAdaptationAddHeGroup, PlanIndex = %d, phaseEntryInPlan = 0X%0X
-S 1 39 9 3140 Assert in file: "LinkAdaptation.c" in line: 3140
-S 1 39 9 3142 Assert in file: "LinkAdaptation.c" in line: 3142
-S 1 39 9 3150 Assert in file: "LinkAdaptation.c" in line: 3150
-S 1 39 9 3151 [linkAdaptationAddHeDlDataPhase] initialRateIndex after ratemask adjustment %d
-S 1 39 9 3174 linkAdaptationAddHeDlDataPhase, group creation failed
-S 1 39 9 3187 linkAdaptationAddHeDlDataPhase, Function Ends
-S 1 39 9 3276 linkAdaptationRemoveHeGroup
-S 1 39 9 3299 Assert in file: "LinkAdaptation.c" in line: 3299
-S 1 39 9 3357 Assert in file: "LinkAdaptation.c" in line: 3357
-S 1 39 9 3384 Assert in file: "LinkAdaptation.c" in line: 3384
-S 1 39 9 3388 Assert in file: "LinkAdaptation.c" in line: 3388
-S 1 39 9 3602 Assert in file: "LinkAdaptation.c" in line: 3602
-S 1 39 9 3662 Assert in file: "LinkAdaptation.c" in line: 3662
-S 1 39 9 3699 Assert in file: "LinkAdaptation.c" in line: 3699
-S 1 39 9 3846 Assert in file: "LinkAdaptation.c" in line: 3846
-S 1 39 9 4078 [setLinkAdaptationRatesMask], pLmStaDbSwinfo->supportedRates = %d
-S 1 39 9 4124 [setLinkAdaptationRatesMask] pLinkAdaptationDb->laStaUspCommon.raIndexMask.raIndexMask64bit[0] = 0x%x
-S 1 39 9 4125 [setLinkAdaptationRatesMask] pLinkAdaptationDb->laStaUspCommon.raIndexMask.raIndexMask64bit[1] = 0x%x
-S 1 39 9 4385 Assert in file: "LinkAdaptation.c" in line: 4385
-S 1 39 9 4413 Assert in file: "LinkAdaptation.c" in line: 4413
-S 1 39 9 4444 Assert in file: "LinkAdaptation.c" in line: 4444
-S 1 39 9 4469 Assert in file: "LinkAdaptation.c" in line: 4469
-S 1 39 9 4657 Assert in file: "LinkAdaptation.c" in line: 4657
-S 1 39 9 4845 Assert in file: "LinkAdaptation.c" in line: 4845
-S 1 39 9 4859 Assert in file: "LinkAdaptation.c" in line: 4859
-S 1 39 9 4865 Assert in file: "LinkAdaptation.c" in line: 4865
-S 1 39 9 4982 Assert in file: "LinkAdaptation.c" in line: 4982
-S 1 39 9 4989 Assert in file: "LinkAdaptation.c" in line: 4989
-S 1 39 9 4994 Assert in file: "LinkAdaptation.c" in line: 4994
-S 1 39 9 5008 Assert in file: "LinkAdaptation.c" in line: 5008
+S 1 39 5 833 [QAMplus_SetSupportedThresh]
+S 1 39 5 865 [QAMplus_GetThresh], pQAMplusConfigParams->trialThresh=%d, pQAMplusConfigParams->inactiveTrialThresh = %d, pQAMplusDatabase->supportedThresh = %d
+S 1 39 5 897 [QAMplus_GetCounters] stationId = %d: failureCounter = %d, numberTrialsCounter = %d, successHighestRateWPCounter = %d
+S 1 39 6 414 rateAdaptationCountEvent, seqTransactionNumber = %d
+S 1 39 6 581 [rateAdaptationProbingHandler], laDbDistributionParameter->laStaGroupCommon->probingIndication = %d, isWorkingPointValid = %d
+S 1 39 6 586 [rateAdaptationProbingHandler], laDbDistributionParameter->laStaGroupCommon->probingIndication = %d
+S 1 39 6 591 [rateAdaptationProbingHandler], laDbDistributionParameter->stationOrGroupIndex = %d
+S 1 39 6 592 [rateAdaptationProbingHandler], laDbDistributionParameter->uspIndex = %d
+S 1 39 6 601 [rateAdaptationProbingHandler], laDbDistributionParameter->uspIndex = %d
+S 1 39 6 605 [rateAdaptationProbingHandler], isHeGroup = %d
+S 1 39 6 642 [heMuFastProbingHandler], laDbDistributionParameter->laHeGroupUnique->groupStationIndexes[%d] = %d
+S 1 39 6 648 [heMuFastProbingHandler], laDbDistributionVarPerUsp.laStaUspCommon->rateAdaptationDataBase.waitForProbeResponse = %d, LA_GET_BIT_IN_BITMAP(laDbDistributionParameter->laHeGroupUnique->probingValidationBitmap.heUspBitmap, uspCount, BITMAP_ARRAY_MAX_SIZE_2) = %d
+S 1 39 6 655 [heMuFastProbingHandler], probingPointChanged = %d
+S 1 39 6 662 [heMuFastProbingHandler], laDbDistributionVarPerUsp.laHeGroupUnique->probingValidationBitmap.heUspBitmap[0] = %d, laDbDistributionVarPerUsp.laHeGroupUnique->probingValidationBitmap.heUspBitmap[1] = %d, laDbDistributionVarPerUsp.laHeGroupUnique->probingValidationMask.heUspBitmap[1] = %d
+S 1 39 6 881 Assert in file: "RateAdaptation.c" in line: 881
+S 1 39 6 886 [raFastProbingProcessFeedback], pMaxEffectiveTpParams = %d, previousWpEstAddr = %d, pMaxEffectiveTpParams = %d
+S 1 39 6 897 raFastProbingProcessFeedback, WORKING POINT CHANGED, Last rate = %d, new Rate = %d, newPER = %d
+S 1 39 6 902 [raFastProbingProcessFeedback]
+S 1 39 6 912 [raFastProbingProcessFeedback] for HE group. uspIndex = %d rate %d
+S 1 39 6 964 Assert in file: "RateAdaptation.c" in line: 964
+S 1 39 6 971 Assert in file: "RateAdaptation.c" in line: 971
+S 1 39 6 1040 [rateAdaptationChangeWorkingPoint], newRateIndex = %d, previousWpRateIndex = %d, pLaDbDistributionParameter->uspIndex = %d, pLaDbDistributionParameter->stationOrGroupIndex=%d
+S 1 39 6 1063 Assert in file: "RateAdaptation.c" in line: 1063
+S 1 39 6 1124 updatePerStability, stabilityStateBeforeChange = %d, pStabilityState = %d
+S 1 39 6 1186 updatePerStability, perDeviationStability = %d,targetPerStability = %d, resultPerStability = %d
+S 1 39 6 1187 updatePerStability, perDeviationStability = %d,targetPerStability = %d, resultPerStability = %d
+S 1 39 6 1263 Assert in file: "RateAdaptation.c" in line: 1263
+S 1 39 6 1337 Assert in file: "RateAdaptation.c" in line: 1337
+S 1 39 6 1431 Assert in file: "RateAdaptation.c" in line: 1431
+S 1 39 6 1445 Assert in file: "RateAdaptation.c" in line: 1445
+S 1 39 6 1459 Assert in file: "RateAdaptation.c" in line: 1459
+S 1 39 6 1687 Assert in file: "RateAdaptation.c" in line: 1687
+S 1 39 6 1760 Assert in file: "RateAdaptation.c" in line: 1760
+S 1 39 6 1879 [rateAdaptationFastDrop] for HE group. uspIndex %d executing fast drop to rateIndex %d
+S 1 39 6 1886 [rateAdaptationFastDrop] for HE group. uspIndex %d stays at rateIndex %d
+S 1 39 6 1922 FAST DROP, StaINdex = %d, BW = %d, currentRateIndex = %d, newRateindex = %d
+S 1 39 6 1948 rateAdaptationProbingTimerEvent , event %d 
+S 1 39 6 1975 rateAdaptationCheckStateTimeout staId %d
+S 1 39 6 2308 Assert in file: "RateAdaptation.c" in line: 2308
+S 1 39 6 2313 Assert in file: "RateAdaptation.c" in line: 2313
+S 1 39 6 2434 setStaDataRate isRateInc = %d newRateindex = %d oldRate = %d 
+S 1 39 6 2537 Fatal Error in file: "RateAdaptation.c"; Fatal Print: GetMuPowerValInRegulationLimit
+S 1 39 6 2617 Assert in file: "RateAdaptation.c" in line: 2617
+S 1 39 6 2666 Assert in file: "RateAdaptation.c" in line: 2666
+S 1 39 6 2717 rateAdaptationEnableDisableStaSlowLoop, enableDisable = %d,loopType = %d, probingTaskBitmap[Pr0] = %d, slowProbingTaskBitmap[Pr1] = %d
+S 1 39 6 2720 rateAdaptationEnableDisableStaSlowLoop, enableDisable = %d,loopType = %d, probingTaskBitmap[Pr0] = %d, slowProbingTaskBitmap[Pr1] = %d
+S 1 39 6 2840 Assert in file: "RateAdaptation.c" in line: 2840
+S 1 39 6 2888 Assert in file: "RateAdaptation.c" in line: 2888
+S 1 39 6 2918 Assert in file: "RateAdaptation.c" in line: 2918
+S 1 39 6 2946 Assert in file: "RateAdaptation.c" in line: 2946
+S 1 39 6 2962 Assert in file: "RateAdaptation.c" in line: 2962
+S 1 39 6 2995 changeTaskToDefaultPriority, pslowProbingTaskBitmap[SLOW_PROBING_PRIORITY0] = %X, pslowProbingTaskBitmap[SLOW_PROBING_PRIORITY1] = %X
+S 1 39 6 2996 changeTaskToDefaultPriority, pslowProbingTaskBitmap[SLOW_PROBING_PRIORITY0] = %X, pslowProbingTaskBitmap[SLOW_PROBING_PRIORITY1] = %X
+S 1 39 9 881 Assert in file: "LinkAdaptation.c" in line: 881
+S 1 39 9 935 [linkAdaptationProcessUlprReport] reportType == PHY_MODE_11AX_SU, isOmiReceived == TRUE
+S 1 39 9 942 Assert in file: "LinkAdaptation.c" in line: 942
+S 1 39 9 949 [linkAdaptationProcessUlprReport] reportType != PHY_MODE_11AX_SU, isOmiReceived == TRUE
+S 1 39 9 1142 Assert in file: "LinkAdaptation.c" in line: 1142
+S 1 39 9 1193 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: linkAdaptationProcessSequencerReportQueue
+S 1 39 9 1428 linkAdaptationHandleProbingTimerEvent
+S 1 39 9 1593 Assert in file: "LinkAdaptation.c" in line: 1593
+S 1 39 9 1771 Assert in file: "LinkAdaptation.c" in line: 1771
+S 1 39 9 1876 Assert in file: "LinkAdaptation.c" in line: 1876
+S 1 39 9 1987 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: We got new bss color while we have connected stations
+S 1 39 9 2089 [WD] linkAdaptationSetChannelReq lastMaxBandwidth = %d
+S 1 39 9 2137 Assert in file: "LinkAdaptation.c" in line: 2137
+S 1 39 9 2148 Assert in file: "LinkAdaptation.c" in line: 2148
+S 1 39 9 2311 linkAdaptationHandleAgingTimerEvent
+S 1 39 9 2547 [QAMplus_GetMaxNssInMask], MaxNss = %d, indexNss = %d, localRateMask[0] = %d, localRateMask[1] = %d
+S 1 39 9 2557 Assert in file: "LinkAdaptation.c" in line: 2557
+S 1 39 9 2669 [linkAdaptationAddStationReq], staPHYmode = %d
+S 1 39 9 2742 [linkAdaptationAddStationReq], rssi: %d, initial rate: %d
+S 1 39 9 2797 [EAPOL] linkAdaptationAddStationReq state = %d
+S 1 39 9 2867 [EAPOL] linkAdaptationAddStationReq currentRate = %d
+S 1 39 9 2923 Assert in file: "LinkAdaptation.c" in line: 2923
+S 1 39 9 3138 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400 : staticGroup
+S 1 39 9 3141 PHY_STUCK_LDPC_IS_SET_SYMBOLS_ABOVE_400 : staticGroup, limitation needed. CurrentLimit %d, newLimit %d
+S 1 39 9 3153 linkAdaptationAddHeGroup, PlanIndex = %d
+S 1 39 9 3165 linkAdaptationAddHeGroup, PlanIndex = %d, phaseEntryInPlan = 0X%0X
+S 1 39 9 3195 Assert in file: "LinkAdaptation.c" in line: 3195
+S 1 39 9 3197 Assert in file: "LinkAdaptation.c" in line: 3197
+S 1 39 9 3205 Assert in file: "LinkAdaptation.c" in line: 3205
+S 1 39 9 3206 [linkAdaptationAddHeDlDataPhase] initialRateIndex after ratemask adjustment %d
+S 1 39 9 3229 linkAdaptationAddHeDlDataPhase, group creation failed
+S 1 39 9 3242 linkAdaptationAddHeDlDataPhase, Function Ends
+S 1 39 9 3331 linkAdaptationRemoveHeGroup
+S 1 39 9 3354 Assert in file: "LinkAdaptation.c" in line: 3354
+S 1 39 9 3412 Assert in file: "LinkAdaptation.c" in line: 3412
+S 1 39 9 3439 Assert in file: "LinkAdaptation.c" in line: 3439
+S 1 39 9 3443 Assert in file: "LinkAdaptation.c" in line: 3443
+S 1 39 9 3657 Assert in file: "LinkAdaptation.c" in line: 3657
+S 1 39 9 3717 Assert in file: "LinkAdaptation.c" in line: 3717
+S 1 39 9 3754 Assert in file: "LinkAdaptation.c" in line: 3754
+S 1 39 9 3904 Assert in file: "LinkAdaptation.c" in line: 3904
+S 1 39 9 4142 [setLinkAdaptationRatesMask], pLmStaDbSwinfo->supportedRates = %d
+S 1 39 9 4188 [setLinkAdaptationRatesMask] pLinkAdaptationDb->laStaUspCommon.raIndexMask.raIndexMask64bit[0] = 0x%x
+S 1 39 9 4189 [setLinkAdaptationRatesMask] pLinkAdaptationDb->laStaUspCommon.raIndexMask.raIndexMask64bit[1] = 0x%x
+S 1 39 9 4449 Assert in file: "LinkAdaptation.c" in line: 4449
+S 1 39 9 4477 Assert in file: "LinkAdaptation.c" in line: 4477
+S 1 39 9 4508 Assert in file: "LinkAdaptation.c" in line: 4508
+S 1 39 9 4533 Assert in file: "LinkAdaptation.c" in line: 4533
+S 1 39 9 4720 Assert in file: "LinkAdaptation.c" in line: 4720
+S 1 39 9 4945 Assert in file: "LinkAdaptation.c" in line: 4945
+S 1 39 9 4959 Assert in file: "LinkAdaptation.c" in line: 4959
+S 1 39 9 4965 Assert in file: "LinkAdaptation.c" in line: 4965
+S 1 39 9 5082 Assert in file: "LinkAdaptation.c" in line: 5082
+S 1 39 9 5089 Assert in file: "LinkAdaptation.c" in line: 5089
+S 1 39 9 5094 Assert in file: "LinkAdaptation.c" in line: 5094
 S 1 39 9 5108 Assert in file: "LinkAdaptation.c" in line: 5108
-S 1 39 9 5116 Assert in file: "LinkAdaptation.c" in line: 5116
-S 1 39 9 5125 Assert in file: "LinkAdaptation.c" in line: 5125
-S 1 39 9 5136 Assert in file: "LinkAdaptation.c" in line: 5136
-S 1 39 9 5139 Assert in file: "LinkAdaptation.c" in line: 5139
-S 1 39 9 5154 Assert in file: "LinkAdaptation.c" in line: 5154
-S 1 39 9 5157 Assert in file: "LinkAdaptation.c" in line: 5157
-S 1 39 9 5243 Assert in file: "LinkAdaptation.c" in line: 5243
-S 1 39 9 5318 Assert in file: "LinkAdaptation.c" in line: 5318
-S 1 39 9 5348 Assert in file: "LinkAdaptation.c" in line: 5348
-S 1 39 9 5504 [EAPOL] linkAdaptationSetFilter currentRate = %d
-S 1 39 9 5557 [EAPOL] laStaManagerSendConfirmRX send confirmation, Client %d, SID %d
-S 1 39 9 5615 [linkAdaptationSetTxopMode] GET staId %d mode %d txopDuration %d maxNumOfStas %d
-S 1 39 9 5623 [linkAdaptationSetTxopMode] SET staId %d mode %d txopDuration %d maxNumOfStas %d
-S 1 39 9 5658 Assert in file: "LinkAdaptation.c" in line: 5658
-S 1 39 9 5716 [FAST DROP] linkAdaptationFastDropConfig enableFastDrop = %d pFastDropCfg->enableFastDrop = %d 
-S 1 39 9 6081 [updateTransmissionTimeParams] rate is above threshold: %d
-S 1 39 9 6086 [updateTransmissionTimeParams] rate is below threshold: %d. limit transmission time
-S 1 39 9 6125 clientIsolationRateIsChanged oldPhyRate: %d newPhyRate: %d oldPhymode %d newPhyMode %d
-S 1 39 9 6210 Assert in file: "LinkAdaptation.c" in line: 6210
-S 1 39 9 6213 Assert in file: "LinkAdaptation.c" in line: 6213
-S 1 39 9 6320 Assert in file: "LinkAdaptation.c" in line: 6320
-S 1 39 9 6340 pTcrPowerModified = %d
-S 1 39 9 6487 Assert in file: "LinkAdaptation.c" in line: 6487
-S 1 39 9 6537 Assert in file: "LinkAdaptation.c" in line: 6537
-S 1 39 9 6701 LinkAdaptationSetStaDataBwLimit. staId %d bw %d changeWp %d
-S 1 39 9 6767 Assert in file: "LinkAdaptation.c" in line: 6767
-S 1 39 9 6793 Assert in file: "LinkAdaptation.c" in line: 6793
-S 1 39 9 6831 [ChangeStaToSteadyStateConfigurationParams]
+S 1 39 9 5208 Assert in file: "LinkAdaptation.c" in line: 5208
+S 1 39 9 5216 Assert in file: "LinkAdaptation.c" in line: 5216
+S 1 39 9 5225 Assert in file: "LinkAdaptation.c" in line: 5225
+S 1 39 9 5236 Assert in file: "LinkAdaptation.c" in line: 5236
+S 1 39 9 5239 Assert in file: "LinkAdaptation.c" in line: 5239
+S 1 39 9 5254 Assert in file: "LinkAdaptation.c" in line: 5254
+S 1 39 9 5257 Assert in file: "LinkAdaptation.c" in line: 5257
+S 1 39 9 5343 Assert in file: "LinkAdaptation.c" in line: 5343
+S 1 39 9 5418 Assert in file: "LinkAdaptation.c" in line: 5418
+S 1 39 9 5448 Assert in file: "LinkAdaptation.c" in line: 5448
+S 1 39 9 5604 [EAPOL] linkAdaptationSetFilter currentRate = %d
+S 1 39 9 5655 [EAPOL] laStaManagerSendConfirmRX send confirmation, Client %d, SID %d
+S 1 39 9 5713 [linkAdaptationSetTxopMode] GET staId %d mode %d txopDuration %d maxNumOfStas %d
+S 1 39 9 5721 [linkAdaptationSetTxopMode] SET staId %d mode %d txopDuration %d maxNumOfStas %d
+S 1 39 9 5756 Assert in file: "LinkAdaptation.c" in line: 5756
+S 1 39 9 5814 [FAST DROP] linkAdaptationFastDropConfig enableFastDrop = %d pFastDropCfg->enableFastDrop = %d 
+S 1 39 9 6180 [updateTransmissionTimeParams] rate is above threshold: %d
+S 1 39 9 6185 [updateTransmissionTimeParams] rate is below threshold: %d. limit transmission time
+S 1 39 9 6224 clientIsolationRateIsChanged oldPhyRate: %d newPhyRate: %d oldPhymode %d newPhyMode %d
+S 1 39 9 6309 Assert in file: "LinkAdaptation.c" in line: 6309
+S 1 39 9 6312 Assert in file: "LinkAdaptation.c" in line: 6312
+S 1 39 9 6419 Assert in file: "LinkAdaptation.c" in line: 6419
+S 1 39 9 6439 pTcrPowerModified = %d
+S 1 39 9 6582 Assert in file: "LinkAdaptation.c" in line: 6582
+S 1 39 9 6632 Assert in file: "LinkAdaptation.c" in line: 6632
+S 1 39 9 6808 LinkAdaptationSetStaDataBwLimit. staId %d bw %d changeWp %d
 S 1 39 9 6874 Assert in file: "LinkAdaptation.c" in line: 6874
-S 1 39 9 6885 Assert in file: "LinkAdaptation.c" in line: 6885
-S 1 39 9 6886 Assert in file: "LinkAdaptation.c" in line: 6886
-S 1 39 9 6904 Assert in file: "LinkAdaptation.c" in line: 6904
-S 1 39 9 7130 Assert in file: "LinkAdaptation.c" in line: 7130
-S 1 39 9 7244 Assert in file: "LinkAdaptation.c" in line: 7244
-S 1 39 9 7291 Assert in file: "LinkAdaptation.c" in line: 7291
-S 1 39 9 7309 Assert in file: "LinkAdaptation.c" in line: 7309
-S 1 39 9 7316 Assert in file: "LinkAdaptation.c" in line: 7316
-S 1 39 9 7337 Assert in file: "LinkAdaptation.c" in line: 7337
-S 1 39 9 7346 Assert in file: "LinkAdaptation.c" in line: 7346
-S 1 39 9 7519 Assert in file: "LinkAdaptation.c" in line: 7519
-S 1 39 9 7522 Assert in file: "LinkAdaptation.c" in line: 7522
-S 1 39 9 7528 Assert in file: "LinkAdaptation.c" in line: 7528
-S 1 39 9 7788 [linkAdaptationCompareRSSI], start 
-S 1 39 9 7800 [linkAdaptationCompareRSSI], end newRSSILarger = %d, pQAMplusDatabase->lastRSSIdB = %d, maxCurrentRssidB = %d
-S 1 39 9 7842 [linkAdaptationFindMaxRssi], maxCurrentRssidB = %d
-S 1 39 9 8046 Assert in file: "LinkAdaptation.c" in line: 8046
-S 1 39 9 8052 Assert in file: "LinkAdaptation.c" in line: 8052
-S 1 39 9 8060 Assert in file: "LinkAdaptation.c" in line: 8060
-S 1 39 9 8068 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: HE Extended Range is not supported
-S 1 39 9 8074 [overrideRateForUnsupportedFixedRate], requestedPhyMode %d, requestedPartialBwData %d, requestedPartialBwMgmt %d, requestedBw %d
-S 1 39 9 8081 Assert in file: "LinkAdaptation.c" in line: 8081
-S 1 39 9 8082 Assert in file: "LinkAdaptation.c" in line: 8082
-S 1 39 9 8089 [overrideRateForUnsupportedFixedRate], chosenPhyMode %d, chosenPartialBwData %d, chosenPartialBwMgmt %d, chosenBw %d
-S 1 39 9 8094 [overrideRateForUnsupportedFixedRate], requestedNss %d, requestedMcs %d, requested DCM %d
-S 1 39 9 8098 [overrideRateForUnsupportedFixedRate], fixedRateBefore: 0x%x, fixedRateBefore after: 0x%x
-S 1 39 9 8104 [overrideRateForUnsupportedFixedRate], requestedMcs %d
-S 1 39 9 8107 [overrideRateForUnsupportedFixedRate], fixedRateBefore: 0x%x, fixedRateBefore after: 0x%x
-S 1 39 9 8128 Assert in file: "LinkAdaptation.c" in line: 8128
-S 1 39 9 8131 Assert in file: "LinkAdaptation.c" in line: 8131
-S 1 39 9 8134 Assert in file: "LinkAdaptation.c" in line: 8134
-S 1 39 9 8137 Assert in file: "LinkAdaptation.c" in line: 8137
-S 1 39 9 8142 Assert in file: "LinkAdaptation.c" in line: 8142
-S 1 39 9 8147 Assert in file: "LinkAdaptation.c" in line: 8147
-S 1 39 9 8155 Assert in file: "LinkAdaptation.c" in line: 8155
-S 1 39 9 8158 Assert in file: "LinkAdaptation.c" in line: 8158
+S 1 39 9 6900 Assert in file: "LinkAdaptation.c" in line: 6900
+S 1 39 9 6938 [ChangeStaToSteadyStateConfigurationParams]
+S 1 39 9 6981 Assert in file: "LinkAdaptation.c" in line: 6981
+S 1 39 9 6992 Assert in file: "LinkAdaptation.c" in line: 6992
+S 1 39 9 6993 Assert in file: "LinkAdaptation.c" in line: 6993
+S 1 39 9 7011 Assert in file: "LinkAdaptation.c" in line: 7011
+S 1 39 9 7237 Assert in file: "LinkAdaptation.c" in line: 7237
+S 1 39 9 7351 Assert in file: "LinkAdaptation.c" in line: 7351
+S 1 39 9 7398 Assert in file: "LinkAdaptation.c" in line: 7398
+S 1 39 9 7416 Assert in file: "LinkAdaptation.c" in line: 7416
+S 1 39 9 7423 Assert in file: "LinkAdaptation.c" in line: 7423
+S 1 39 9 7444 Assert in file: "LinkAdaptation.c" in line: 7444
+S 1 39 9 7453 Assert in file: "LinkAdaptation.c" in line: 7453
+S 1 39 9 7626 Assert in file: "LinkAdaptation.c" in line: 7626
+S 1 39 9 7629 Assert in file: "LinkAdaptation.c" in line: 7629
+S 1 39 9 7635 Assert in file: "LinkAdaptation.c" in line: 7635
+S 1 39 9 7895 [linkAdaptationCompareRSSI], start 
+S 1 39 9 7907 [linkAdaptationCompareRSSI], end newRSSILarger = %d, pQAMplusDatabase->lastRSSIdB = %d, maxCurrentRssidB = %d
+S 1 39 9 7949 [linkAdaptationFindMaxRssi], maxCurrentRssidB = %d
+S 1 39 9 8153 Assert in file: "LinkAdaptation.c" in line: 8153
 S 1 39 9 8159 Assert in file: "LinkAdaptation.c" in line: 8159
-S 1 39 9 8162 Assert in file: "LinkAdaptation.c" in line: 8162
-S 1 39 9 8232 PF6_MU_BAR_PATCH change to 4 users
-S 1 39 9 8239 PF6_MU_BAR_PATCH change to 2 users
-S 1 39 9 8352 Assert in file: "LinkAdaptation.c" in line: 8352
-S 1 39 9 8429 linkAdaptationSetBaReportReceivedForRealUser, uspIndex = %d
-S 1 39 9 8464 [linkAdaptationIncProbingCounterForTempDummyUser], dummy user, increase counter for usp: %d
-S 1 39 9 8476 [linkAdaptationIncProbingCounterForTempDummyUser], probe is valid, set bit in bitmap for user: %d
-S 1 39 12 176 linkAdaptationStateMachine: la_state %d, event %d
-S 1 39 12 208 [LA STATE MACHINE - BY PASS EVENT, current state = %d
-S 1 39 12 236 timerAgerEvent. staIndex %d
-S 1 39 12 540 processSequencerReportEvent, CALL ProtectionAdaptation_Handler!!
-S 1 39 12 586 processSequencerReportEvent, CALL ProtectionAdaptation_Handler!!
-S 1 39 12 1234 Assert in file: "LinkAdaptation_StateMachine.c" in line: 1234
-S 1 39 12 1286 Probe response ignored after state aging
-S 1 39 12 1316 Assert in file: "LinkAdaptation_StateMachine.c" in line: 1316
-S 1 39 12 1342 updateOverridePendingDb. override %d value %d
-S 1 39 12 1362 Assert in file: "LinkAdaptation_StateMachine.c" in line: 1362
-S 1 39 12 1445 [executeParamOverride], staIdx: %d
-S 1 39 12 1484 [EAPOL] laStateMachineChangeState skip change state
-S 1 39 12 1488 [EAPOL] laStateMachineChangeState current state = %d new state = %d
-S 1 39 12 1720 Assert in file: "LinkAdaptation_StateMachine.c" in line: 1720
+S 1 39 9 8167 Assert in file: "LinkAdaptation.c" in line: 8167
+S 1 39 9 8175 Fatal Error in file: "LinkAdaptation.c"; Fatal Print: HE Extended Range is not supported
+S 1 39 9 8181 [overrideRateForUnsupportedFixedRate], requestedPhyMode %d, requestedPartialBwData %d, requestedPartialBwMgmt %d, requestedBw %d
+S 1 39 9 8188 Assert in file: "LinkAdaptation.c" in line: 8188
+S 1 39 9 8189 Assert in file: "LinkAdaptation.c" in line: 8189
+S 1 39 9 8196 [overrideRateForUnsupportedFixedRate], chosenPhyMode %d, chosenPartialBwData %d, chosenPartialBwMgmt %d, chosenBw %d
+S 1 39 9 8201 [overrideRateForUnsupportedFixedRate], requestedNss %d, requestedMcs %d, requested DCM %d
+S 1 39 9 8205 [overrideRateForUnsupportedFixedRate], fixedRateBefore: 0x%x, fixedRateBefore after: 0x%x
+S 1 39 9 8211 [overrideRateForUnsupportedFixedRate], requestedMcs %d
+S 1 39 9 8214 [overrideRateForUnsupportedFixedRate], fixedRateBefore: 0x%x, fixedRateBefore after: 0x%x
+S 1 39 9 8234 Assert in file: "LinkAdaptation.c" in line: 8234
+S 1 39 9 8237 Assert in file: "LinkAdaptation.c" in line: 8237
+S 1 39 9 8240 Assert in file: "LinkAdaptation.c" in line: 8240
+S 1 39 9 8243 Assert in file: "LinkAdaptation.c" in line: 8243
+S 1 39 9 8248 Assert in file: "LinkAdaptation.c" in line: 8248
+S 1 39 9 8253 Assert in file: "LinkAdaptation.c" in line: 8253
+S 1 39 9 8261 Assert in file: "LinkAdaptation.c" in line: 8261
+S 1 39 9 8264 Assert in file: "LinkAdaptation.c" in line: 8264
+S 1 39 9 8265 Assert in file: "LinkAdaptation.c" in line: 8265
+S 1 39 9 8268 Assert in file: "LinkAdaptation.c" in line: 8268
+S 1 39 9 8338 PF6_OVERRIDE_MIN_NUM_OF_USERS change to 2 users
+S 1 39 9 8451 Assert in file: "LinkAdaptation.c" in line: 8451
+S 1 39 9 8528 linkAdaptationSetBaReportReceivedForRealUser, uspIndex = %d
+S 1 39 9 8563 [linkAdaptationIncProbingCounterForTempDummyUser], dummy user, increase counter for usp: %d
+S 1 39 9 8575 [linkAdaptationIncProbingCounterForTempDummyUser], probe is valid, set bit in bitmap for user: %d
+S 1 39 12 177 linkAdaptationStateMachine: la_state %d, event %d
+S 1 39 12 209 [LA STATE MACHINE - BY PASS EVENT, current state = %d
+S 1 39 12 237 timerAgerEvent. staIndex %d
+S 1 39 12 603 processSequencerReportEvent, CALL ProtectionAdaptation_Handler!!
+S 1 39 12 649 processSequencerReportEvent, CALL ProtectionAdaptation_Handler!!
+S 1 39 12 1297 Assert in file: "LinkAdaptation_StateMachine.c" in line: 1297
+S 1 39 12 1349 Probe response ignored after state aging
+S 1 39 12 1379 Assert in file: "LinkAdaptation_StateMachine.c" in line: 1379
+S 1 39 12 1405 updateOverridePendingDb. override %d value %d
+S 1 39 12 1425 Assert in file: "LinkAdaptation_StateMachine.c" in line: 1425
+S 1 39 12 1510 [executeParamOverride], staIdx: %d
+S 1 39 12 1549 [EAPOL] laStateMachineChangeState skip change state
+S 1 39 12 1553 [EAPOL] laStateMachineChangeState current state = %d new state = %d
+S 1 39 12 1785 Assert in file: "LinkAdaptation_StateMachine.c" in line: 1785
 S 1 39 13 120 Assert in file: "LinkAdaptation_Tests.c" in line: 120
 S 1 39 13 230 Assert in file: "LinkAdaptation_Tests.c" in line: 230
 S 1 39 13 302 Assert in file: "LinkAdaptation_Tests.c" in line: 302
@@ -2932,10 +3008,10 @@ S 1 46 0 494 ndpaManagerLockCfmInWaitForLock: Lock status %d
 S 1 46 0 530 Assert in file: "NdpaManager.c" in line: 530
 S 1 46 0 562 Assert in file: "NdpaManager.c" in line: 562
 S 1 3 8 205 Assert in file: "OtfAggregator.c" in line: 205
-S 1 3 8 235 Assert in file: "OtfAggregator.c" in line: 235
-S 1 3 8 248 Assert in file: "OtfAggregator.c" in line: 248
-S 1 3 8 287 Assert in file: "OtfAggregator.c" in line: 287
-S 1 3 8 422 Fatal Error in file: "OtfAggregator.c"; Fatal Print: OtfAggregator_ProcessReportQueue
+S 1 3 8 241 Assert in file: "OtfAggregator.c" in line: 241
+S 1 3 8 254 Assert in file: "OtfAggregator.c" in line: 254
+S 1 3 8 293 Assert in file: "OtfAggregator.c" in line: 293
+S 1 3 8 429 Fatal Error in file: "OtfAggregator.c"; Fatal Print: OtfAggregator_ProcessReportQueue
 S 1 47 0 202 Assert in file: "PacExtrapolator.c" in line: 202
 S 1 47 0 208 Assert in file: "PacExtrapolator.c" in line: 208
 S 1 47 0 421 Assert in file: "PacExtrapolator.c" in line: 421
@@ -3067,28 +3143,27 @@ S 1 48 2 624 [PTA][PtaGpioBtAllow]
 S 1 48 2 635 [PTA][PtaGpioBtDeny]
 S 1 48 2 646 [PTA][PtaGpioZigBeeAllow]
 S 1 48 2 657 [PTA][PtaGpioZigBeeDeny]
-S 1 47 1 386 [PacManagerSetRxd]---------------------------------------end]
-S 1 47 1 576 Assert in file: "PacManager.c" in line: 576
-S 1 47 1 589 [PacManagerNormalActivation] -------------------------------------------end]
-S 1 47 1 622 Assert in file: "PacManager.c" in line: 622
-S 1 47 1 634 [PacManagerRssiActivation]----------------------------------end]
-S 1 47 1 683 -------- RXC set Sniffer mode configuration --------
-S 1 47 1 688 -------- RXF configured for Sniffer --------
-S 1 47 1 691 -------- RXD configured for Sniffer --------
-S 1 47 1 694 -------- RXC reserved storage size configured for Sniffer --------
-S 1 47 1 697 -------- RXC Rssi abort disabled for Sniffer --------
-S 1 47 1 699 -------- Sniffer configuration done! --------
-S 1 47 1 895 Assert in file: "PacManager.c" in line: 895
-S 1 47 1 992 Assert in file: "PacManager.c" in line: 992
-S 1 47 1 1002 Assert in file: "PacManager.c" in line: 1002
-S 1 47 1 1007 Assert in file: "PacManager.c" in line: 1007
-S 1 47 1 1023 Assert in file: "PacManager.c" in line: 1023
-S 1 47 1 1042 Assert in file: "PacManager.c" in line: 1042
-S 1 47 1 1058 Assert in file: "PacManager.c" in line: 1058
-S 1 47 1 1077 Assert in file: "PacManager.c" in line: 1077
-S 1 47 1 1093 Assert in file: "PacManager.c" in line: 1093
-S 1 47 1 1335 Assert in file: "PacManager.c" in line: 1335
-S 1 47 1 1583 Assert in file: "PacManager.c" in line: 1583
+S 1 47 1 399 [PacManagerSetRxd]---------------------------------------end]
+S 1 47 1 589 Assert in file: "PacManager.c" in line: 589
+S 1 47 1 602 [PacManagerNormalActivation] -------------------------------------------end]
+S 1 47 1 635 Assert in file: "PacManager.c" in line: 635
+S 1 47 1 647 [PacManagerRssiActivation]----------------------------------end]
+S 1 47 1 696 -------- RXC set Sniffer mode configuration --------
+S 1 47 1 701 -------- RXF configured for Sniffer --------
+S 1 47 1 704 -------- RXD configured for Sniffer --------
+S 1 47 1 707 -------- RXC reserved storage size configured for Sniffer --------
+S 1 47 1 710 -------- RXC Rssi abort disabled for Sniffer --------
+S 1 47 1 712 -------- Sniffer configuration done! --------
+S 1 47 1 908 Assert in file: "PacManager.c" in line: 908
+S 1 47 1 1005 Assert in file: "PacManager.c" in line: 1005
+S 1 47 1 1045 Assert in file: "PacManager.c" in line: 1045
+S 1 47 1 1062 Assert in file: "PacManager.c" in line: 1062
+S 1 47 1 1081 Assert in file: "PacManager.c" in line: 1081
+S 1 47 1 1097 Assert in file: "PacManager.c" in line: 1097
+S 1 47 1 1116 Assert in file: "PacManager.c" in line: 1116
+S 1 47 1 1132 Assert in file: "PacManager.c" in line: 1132
+S 1 47 1 1374 Assert in file: "PacManager.c" in line: 1374
+S 1 47 1 1622 Assert in file: "PacManager.c" in line: 1622
 S 1 49 0 193 Assert in file: "TxPauser.c" in line: 193
 S 1 49 0 209 Assert in file: "TxPauser.c" in line: 209
 S 1 49 0 224 Assert in file: "TxPauser.c" in line: 224
@@ -3107,105 +3182,105 @@ S 1 49 1 447 Assert in file: "TxPauser.c" in line: 447
 S 1 49 1 487 Assert in file: "TxPauser.c" in line: 487
 S 1 50 0 140 Assert in file: "mt_addr_sharing.c" in line: 140
 S 1 50 0 187 Assert in file: "mt_addr_sharing.c" in line: 187
-S 1 51 0 482 [planManagerCreatePlan]
-S 1 51 0 490 planManagerCreatePlan, phase Ptr = 0X%X
+S 1 51 0 484 [planManagerCreatePlan]
 S 1 51 0 492 planManagerCreatePlan, phase Ptr = 0X%X
 S 1 51 0 494 planManagerCreatePlan, phase Ptr = 0X%X
-S 1 51 0 497 planManagerCreatePlan, phase Ptr = 0X%X
-S 1 51 0 500 planManagerCreatePlan, phase Ptr = 0X%X
-S 1 51 0 519 planManagerCreatePlan - No available resource for HE group!  reason - %d
-S 1 51 0 545 Assert in file: "PlanManager.c" in line: 545
-S 1 51 0 574 [planManagerCreatePlan], group: %d, formationType: %d
-S 1 51 0 605 [planManagerCreatePlan], UL
-S 1 51 0 626 [planManagerCreatePlan], DL
-S 1 51 0 650 [planManagerCreatePlan], planPtr->phaseValid = 0x%x
-S 1 51 0 826 planManagerRemovePlan, vapId = %d
-S 1 51 0 886 [planManagerFetchPhaseFromPool], phase format: %d
-S 1 51 0 944 Assert in file: "PlanManager.c" in line: 944
-S 1 51 0 976 [planManagerReturnPhaseToPool], phase format: %d
-S 1 51 0 1020 Assert in file: "PlanManager.c" in line: 1020
-S 1 51 0 1102 Assert in file: "PlanManager.c" in line: 1102
-S 1 51 0 1133 planManagerCreateStaticPlan - No available resource for HE group!	reason - %d
-S 1 51 0 1169 Assert in file: "PlanManager.c" in line: 1169
-S 1 51 0 1170 [planManagerCreateStaticPlan], heGroupManagerDb[%d].formationType = %d
-S 1 51 0 1184 Assert in file: "PlanManager.c" in line: 1184
-S 1 51 0 1283 [planManagerCreateStaticPlan], planPtr->phaseValid = 0x%x
-S 1 51 0 1326 [planManagerSetStaticDlPhaseCommonFields] muSequenceType = %d
-S 1 51 0 1361 Fatal Error in file: "PlanManager.c"; Fatal Print: UNKNOWN muSequenceType
-S 1 51 0 1647 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetStaticDlPhaseCommonTfParameters], UNKNOWN muSequenceType
-S 1 51 0 1775 [planManagerSetStaticDlPhasePerUser] start ruSize = %d, firstBitmapIndex = %d, lastBitmapIndex = %d
-S 1 51 0 1789 [planManagerSetStaticDlPhasePerUser] after planManagerRuAllocator_findSBIndexRUIndex currentSBindex = %d, currentRUindex = %d
-S 1 51 0 1790 [planManagerSetStaticDlPhasePerUser], userInputIndex = %d, staticPlanConfigurationPtr->commonSection.numOfParticipatingStations = %d
-S 1 51 0 1875 [planManagerSetStaticDlPhasePerUser], firstBitmapIndex = %d
-S 1 51 0 1885 [planManagerSetStaticDlPhasePerUser] end staticPlanConfigurationPtr->commonSection.numOfParticipatingStations = %d
-S 1 51 0 2209 Assert in file: "PlanManager.c" in line: 2209
-S 1 51 0 2217 Assert in file: "PlanManager.c" in line: 2217
-S 1 51 0 2266 Assert in file: "PlanManager.c" in line: 2266
-S 1 51 0 2270 Assert in file: "PlanManager.c" in line: 2270
-S 1 51 0 2304 Assert in file: "PlanManager.c" in line: 2304
-S 1 51 0 2364 Assert in file: "PlanManager.c" in line: 2364
-S 1 51 0 2365 Assert in file: "PlanManager.c" in line: 2365
-S 1 51 0 2424 [planManagerSetStaticUlPhaseCommonFields] muSequenceType = %d
-S 1 51 0 2436 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetStaticUlPhaseCommonFields], UNKNOWN muSequenceType
-S 1 51 0 2794 Fatal Error in file: "PlanManager.c"; Fatal Print: UNKNOWN muSequenceType
-S 1 51 0 2882 Assert in file: "PlanManager.c" in line: 2882
-S 1 51 0 2976 Assert in file: "PlanManager.c" in line: 2976
-S 1 51 0 3123 Fatal Error in file: "PlanManager.c"; Fatal Print: UNKNOWN muSequenceType
-S 1 51 0 3175 [planManagerSetDlPhaseCommonTcr_A_Fields]
-S 1 51 0 3411 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetDlPhaseCommonTfParameters], UNKNOWN muSequenceType
-S 1 51 0 4955 Assert in file: "PlanManager.c" in line: 4955
-S 1 51 0 4983 planManagerCreatePlanLaCfm , status =0x%x
-S 1 51 0 4984 Assert in file: "PlanManager.c" in line: 4984
-S 1 51 0 4990 Assert in file: "PlanManager.c" in line: 4990
-S 1 51 0 5019 planManagerRemovePlanLaCfm
-S 1 51 0 5034 planManagerRemovePlanLaCfm, 0X%X
-S 1 51 0 5037 planManagerRemovePlanLaCfm, 0X%X
-S 1 51 0 5040 planManagerRemovePlanLaCfm, 0X%X
-S 1 51 0 5048 planManagerRemovePlanLaCfm, 0X%X
-S 1 51 0 5084 planManagerAddPhaseToStaticPlan
-S 1 51 0 5123 Assert in file: "PlanManager.c" in line: 5123
-S 1 51 0 5127 Assert in file: "PlanManager.c" in line: 5127
-S 1 51 0 5188 Assert in file: "PlanManager.c" in line: 5188
-S 1 51 0 5600 Assert in file: "PlanManager.c" in line: 5600
-S 1 51 0 5602 [planManagerSetStaticNssPerUser], numOfAntennas %d numOfSta %d
-S 1 51 0 5623 maxNss[%d] = %d
-S 1 51 0 5729 Assert in file: "PlanManager.c" in line: 5729
-S 1 51 0 5730 Assert in file: "PlanManager.c" in line: 5730
-S 1 51 0 5731 [planManagerSetStaticNssPerUser], numOfAntennas %d numOfSta %d
-S 1 51 0 5745 maxNss[%d] = %d
-S 1 51 0 5891 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetUlPhaseCommonFields], UNKNOWN muSequenceType
-S 1 51 0 5947 [planManagerSetUlPhaseCommonTcr_A_Fields]
-S 1 51 0 6179 Fatal Error in file: "PlanManager.c"; Fatal Print: UNKNOWN muSequenceType
-S 1 51 0 6474 [planManagerRuAllocator_GetAllocationForHeGroup], bw: %d
-S 1 51 0 6479 planManagerRuAllocator_GetAllocationForHeGroup - Failed due to wrong number of user in BW configuration
-S 1 51 0 6487 Assert in file: "PlanManager.c" in line: 6487
-S 1 51 0 6490 planManagerRuAllocator_GetAllocationForHeGroup - minBwRoundDowm = %d, Ru size = %d, rusPerSubband = %d, 
-S 1 51 0 6491 planManagerRuAllocator_GetAllocationForHeGroup - minBwRoundDowm = %d, Ru size = %d, rusPerSubband = %d, 
-S 1 51 0 6492 planManagerRuAllocator_GetAllocationForHeGroup - numberOfSubbandsForMinAllocatedBw = %d,allocatedUsers = %d
-S 1 51 0 6493 planManagerRuAllocator_GetAllocationForHeGroup - numberOfSubbandsForMinAllocatedBw = %d,allocatedUsers = %d
-S 1 51 0 6595 [planManagerRuAllocator_updateRUAllocAccordingToBwNRuSizePer80], ruSize = %d, bw = %d, index80MHzBand = %d
-S 1 51 0 6634 [planManagerRuAllocator_findLocationOfNextLeadingZero], lastLeadingZero =%d
-S 1 51 0 6658 [planManagerRuAllocator_findLocationOfNextLeadingZero], lastLeadingZero =%d, firstBitmapIndex = %d, index80MHzBand = %d
-S 1 51 0 6694 [planManagerRuAllocator_findLocationOfNextLeadingZeroPer80] start, index80MHzBand = %d, lastLeadingZero = %d
-S 1 51 0 6695 [planManagerRuAllocator_findLocationOfNextLeadingZeroPer80] localRuMask[0] = %x, localRuMask[1] = %x
-S 1 51 0 6791 [planManagerRuAllocator_findSBIndexRUIndex] firstBitmapIndex = %d out of range!!!
-S 1 51 0 6792 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerRuAllocator_findSBIndexRUIndex] firstBitmapIndex out of range!!!
-S 1 51 0 6795 [planManagerRuAllocator_findSBIndexRUIndex] firstBitmapIndex = %d, currentSBindex = %d, currentRUindex = %d
-S 1 51 0 6839 [planManagerRuAllocator_configureDummyUser], ldpcDummyOn = %d
-S 1 51 0 6840 [planManagerRuAllocator_configureDummyUser], dlDataPhasPerUserPtr = %x, currentSBindex = %d, currentRUindex = %d, ruSize = %d
-S 1 51 0 6841 [planManagerRuAllocator_configureDummyUser], staticPlanConfigurationPtr->commonSection.muSequenceType = %d, dlDataPhasPerUserPtr->mapTxUserToRxUser = %d
-S 1 51 0 6842 [planManagerRuAllocator_configureDummyUser] end
-S 1 51 0 6917 [planManagerRuAllocator_updateRuBitmapPer80] start, index80MHzBand = %d
-S 1 51 0 6926 [planManagerRuAllocator_updateRuBitmapPer80] end
-S 1 51 0 6956 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetStaticDlPhaseCommonFieldValidUser], Number of stations configured in group exceeds allowed max number of stations!!
+S 1 51 0 496 planManagerCreatePlan, phase Ptr = 0X%X
+S 1 51 0 499 planManagerCreatePlan, phase Ptr = 0X%X
+S 1 51 0 502 planManagerCreatePlan, phase Ptr = 0X%X
+S 1 51 0 521 planManagerCreatePlan - No available resource for HE group!  reason - %d
+S 1 51 0 547 Assert in file: "PlanManager.c" in line: 547
+S 1 51 0 576 [planManagerCreatePlan], group: %d, formationType: %d
+S 1 51 0 607 [planManagerCreatePlan], UL
+S 1 51 0 628 [planManagerCreatePlan], DL
+S 1 51 0 652 [planManagerCreatePlan], planPtr->phaseValid = 0x%x
+S 1 51 0 828 planManagerRemovePlan, vapId = %d
+S 1 51 0 888 [planManagerFetchPhaseFromPool], phase format: %d
+S 1 51 0 946 Assert in file: "PlanManager.c" in line: 946
+S 1 51 0 978 [planManagerReturnPhaseToPool], phase format: %d
+S 1 51 0 1022 Assert in file: "PlanManager.c" in line: 1022
+S 1 51 0 1104 Assert in file: "PlanManager.c" in line: 1104
+S 1 51 0 1135 planManagerCreateStaticPlan - No available resource for HE group!	reason - %d
+S 1 51 0 1171 Assert in file: "PlanManager.c" in line: 1171
+S 1 51 0 1172 [planManagerCreateStaticPlan], heGroupManagerDb[%d].formationType = %d
+S 1 51 0 1186 Assert in file: "PlanManager.c" in line: 1186
+S 1 51 0 1285 [planManagerCreateStaticPlan], planPtr->phaseValid = 0x%x
+S 1 51 0 1328 [planManagerSetStaticDlPhaseCommonFields] muSequenceType = %d
+S 1 51 0 1363 Fatal Error in file: "PlanManager.c"; Fatal Print: UNKNOWN muSequenceType
+S 1 51 0 1649 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetStaticDlPhaseCommonTfParameters], UNKNOWN muSequenceType
+S 1 51 0 1777 [planManagerSetStaticDlPhasePerUser] start ruSize = %d, firstBitmapIndex = %d, lastBitmapIndex = %d
+S 1 51 0 1791 [planManagerSetStaticDlPhasePerUser] after planManagerRuAllocator_findSBIndexRUIndex currentSBindex = %d, currentRUindex = %d
+S 1 51 0 1792 [planManagerSetStaticDlPhasePerUser], userInputIndex = %d, staticPlanConfigurationPtr->commonSection.numOfParticipatingStations = %d
+S 1 51 0 1888 [planManagerSetStaticDlPhasePerUser], firstBitmapIndex = %d
+S 1 51 0 1898 [planManagerSetStaticDlPhasePerUser] end staticPlanConfigurationPtr->commonSection.numOfParticipatingStations = %d
+S 1 51 0 2224 Assert in file: "PlanManager.c" in line: 2224
+S 1 51 0 2232 Assert in file: "PlanManager.c" in line: 2232
+S 1 51 0 2281 Assert in file: "PlanManager.c" in line: 2281
+S 1 51 0 2285 Assert in file: "PlanManager.c" in line: 2285
+S 1 51 0 2319 Assert in file: "PlanManager.c" in line: 2319
+S 1 51 0 2379 Assert in file: "PlanManager.c" in line: 2379
+S 1 51 0 2380 Assert in file: "PlanManager.c" in line: 2380
+S 1 51 0 2439 [planManagerSetStaticUlPhaseCommonFields] muSequenceType = %d
+S 1 51 0 2451 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetStaticUlPhaseCommonFields], UNKNOWN muSequenceType
+S 1 51 0 2809 Fatal Error in file: "PlanManager.c"; Fatal Print: UNKNOWN muSequenceType
+S 1 51 0 2897 Assert in file: "PlanManager.c" in line: 2897
+S 1 51 0 2997 Assert in file: "PlanManager.c" in line: 2997
+S 1 51 0 3144 Fatal Error in file: "PlanManager.c"; Fatal Print: UNKNOWN muSequenceType
+S 1 51 0 3196 [planManagerSetDlPhaseCommonTcr_A_Fields]
+S 1 51 0 3432 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetDlPhaseCommonTfParameters], UNKNOWN muSequenceType
+S 1 51 0 4981 Assert in file: "PlanManager.c" in line: 4981
+S 1 51 0 5009 planManagerCreatePlanLaCfm , status =0x%x
+S 1 51 0 5010 Assert in file: "PlanManager.c" in line: 5010
+S 1 51 0 5016 Assert in file: "PlanManager.c" in line: 5016
+S 1 51 0 5045 planManagerRemovePlanLaCfm
+S 1 51 0 5060 planManagerRemovePlanLaCfm, 0X%X
+S 1 51 0 5063 planManagerRemovePlanLaCfm, 0X%X
+S 1 51 0 5066 planManagerRemovePlanLaCfm, 0X%X
+S 1 51 0 5074 planManagerRemovePlanLaCfm, 0X%X
+S 1 51 0 5110 planManagerAddPhaseToStaticPlan
+S 1 51 0 5149 Assert in file: "PlanManager.c" in line: 5149
+S 1 51 0 5153 Assert in file: "PlanManager.c" in line: 5153
+S 1 51 0 5214 Assert in file: "PlanManager.c" in line: 5214
+S 1 51 0 5626 Assert in file: "PlanManager.c" in line: 5626
+S 1 51 0 5628 [planManagerSetStaticNssPerUser], numOfAntennas %d numOfSta %d
+S 1 51 0 5649 maxNss[%d] = %d
+S 1 51 0 5755 Assert in file: "PlanManager.c" in line: 5755
+S 1 51 0 5756 Assert in file: "PlanManager.c" in line: 5756
+S 1 51 0 5757 [planManagerSetStaticNssPerUser], numOfAntennas %d numOfSta %d
+S 1 51 0 5771 maxNss[%d] = %d
+S 1 51 0 5917 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetUlPhaseCommonFields], UNKNOWN muSequenceType
+S 1 51 0 5973 [planManagerSetUlPhaseCommonTcr_A_Fields]
+S 1 51 0 6205 Fatal Error in file: "PlanManager.c"; Fatal Print: UNKNOWN muSequenceType
+S 1 51 0 6508 [planManagerRuAllocator_GetAllocationForHeGroup], bw: %d
+S 1 51 0 6513 planManagerRuAllocator_GetAllocationForHeGroup - Failed due to wrong number of user in BW configuration
+S 1 51 0 6521 Assert in file: "PlanManager.c" in line: 6521
+S 1 51 0 6524 planManagerRuAllocator_GetAllocationForHeGroup - minBwRoundDowm = %d, Ru size = %d, rusPerSubband = %d, 
+S 1 51 0 6525 planManagerRuAllocator_GetAllocationForHeGroup - minBwRoundDowm = %d, Ru size = %d, rusPerSubband = %d, 
+S 1 51 0 6526 planManagerRuAllocator_GetAllocationForHeGroup - numberOfSubbandsForMinAllocatedBw = %d,allocatedUsers = %d
+S 1 51 0 6527 planManagerRuAllocator_GetAllocationForHeGroup - numberOfSubbandsForMinAllocatedBw = %d,allocatedUsers = %d
+S 1 51 0 6629 [planManagerRuAllocator_updateRUAllocAccordingToBwNRuSizePer80], ruSize = %d, bw = %d, index80MHzBand = %d
+S 1 51 0 6668 [planManagerRuAllocator_findLocationOfNextLeadingZero], lastLeadingZero =%d
+S 1 51 0 6692 [planManagerRuAllocator_findLocationOfNextLeadingZero], lastLeadingZero =%d, firstBitmapIndex = %d, index80MHzBand = %d
+S 1 51 0 6728 [planManagerRuAllocator_findLocationOfNextLeadingZeroPer80] start, index80MHzBand = %d, lastLeadingZero = %d
+S 1 51 0 6729 [planManagerRuAllocator_findLocationOfNextLeadingZeroPer80] localRuMask[0] = %x, localRuMask[1] = %x
+S 1 51 0 6825 [planManagerRuAllocator_findSBIndexRUIndex] firstBitmapIndex = %d out of range!!!
+S 1 51 0 6826 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerRuAllocator_findSBIndexRUIndex] firstBitmapIndex out of range!!!
+S 1 51 0 6829 [planManagerRuAllocator_findSBIndexRUIndex] firstBitmapIndex = %d, currentSBindex = %d, currentRUindex = %d
+S 1 51 0 6873 [planManagerRuAllocator_configureDummyUser], ldpcDummyOn = %d
+S 1 51 0 6874 [planManagerRuAllocator_configureDummyUser], dlDataPhasPerUserPtr = %x, currentSBindex = %d, currentRUindex = %d, ruSize = %d
+S 1 51 0 6875 [planManagerRuAllocator_configureDummyUser], staticPlanConfigurationPtr->commonSection.muSequenceType = %d, dlDataPhasPerUserPtr->mapTxUserToRxUser = %d
+S 1 51 0 6876 [planManagerRuAllocator_configureDummyUser] end
+S 1 51 0 6951 [planManagerRuAllocator_updateRuBitmapPer80] start, index80MHzBand = %d
+S 1 51 0 6960 [planManagerRuAllocator_updateRuBitmapPer80] end
+S 1 51 0 6990 Fatal Error in file: "PlanManager.c"; Fatal Print: [planManagerSetStaticDlPhaseCommonFieldValidUser], Number of stations configured in group exceeds allowed max number of stations!!
 S 1 3 1 1382 Fatal Error in file: "PreAggregator.c"; Fatal Print: isr_PreAggregator_ErrorOrDone
 S 1 3 1 1630 Fatal Error in file: "PreAggregator.c"; Fatal Print: PreAggregator_SetBwToSubBandMappingReg: BW Fourty - Sub-band not supported
 S 1 3 1 1683 Fatal Error in file: "PreAggregator.c"; Fatal Print: PreAggregator_SetBwToSubBandMappingReg: BW Eight - Sub-band not supported
 S 1 3 1 1749 Assert in file: "PreAggregator.c" in line: 1749
 S 1 3 1 1753 Assert in file: "PreAggregator.c" in line: 1753
 S 1 3 1 1754 Assert in file: "PreAggregator.c" in line: 1754
-S 1 3 1 2425 Assert in file: "PreAggregator.c" in line: 2425
-S 1 3 1 2448 Assert in file: "PreAggregator.c" in line: 2448
+S 1 3 1 2429 Assert in file: "PreAggregator.c" in line: 2429
+S 1 3 1 2452 Assert in file: "PreAggregator.c" in line: 2452
 S 1 52 0 179 processManagerScheduleProcessRequest:Process Manager State = %x processId = %x
 S 1 52 0 222 Fatal Error in file: "ProcessManager.c"; Fatal Print: Process Manager Schedule Process Unknown State
 S 1 52 0 302 processManagerStartProcess:Process Manager State = %x
@@ -3237,16 +3312,16 @@ S 1 55 0 1433 Qos, Send Confirmation, Client %d, stationIndex %d
 S 1 55 0 1497 Assert in file: "Qos.c" in line: 1497
 S 1 55 0 1538 [DROP_DEBUG][QosSetAgerParams] hostInterfaceAcceleratorFreePdsThreshold = %d freePdsHysteresisNumber = %d pollingTimer = %d
 S 1 55 0 1539 [DROP_DEBUG][QosSetAgerParams] hostInterfaceAcceleratorFreePdsThreshold = %d freePdsHysteresisNumber = %d pollingTimer = %d
-S 1 55 1 210 Assert in file: "Qos.c" in line: 210
-S 1 55 1 956 [qosPdThresholdConfig], QoSPdThresholdDb.mode = %d, config->mode = %d, config->minPdDiff = %d , config->minPdAmount = %d 
-S 1 55 1 967 Assert in file: "Qos.c" in line: 967
-S 1 55 1 990 [qosPdThresholdConfig], in QOS_PD_THRESHOLD_DISABLED
-S 1 55 1 1213 Assert in file: "Qos.c" in line: 1213
-S 1 55 1 1303 Assert in file: "Qos.c" in line: 1303
-S 1 55 1 1441 Qos, Send Confirmation, Client %d, stationIndex %d
-S 1 55 1 1505 Assert in file: "Qos.c" in line: 1505
-S 1 55 1 1546 [DROP_DEBUG][QosSetAgerParams] hostInterfaceAcceleratorFreePdsThreshold = %d freePdsHysteresisNumber = %d pollingTimer = %d
-S 1 55 1 1547 [DROP_DEBUG][QosSetAgerParams] hostInterfaceAcceleratorFreePdsThreshold = %d freePdsHysteresisNumber = %d pollingTimer = %d
+S 1 55 1 202 Assert in file: "Qos.c" in line: 202
+S 1 55 1 1041 [qosPdThresholdConfig], QoSPdThresholdDb.mode = %d, config->mode = %d, config->minPdDiff = %d , config->minPdAmount = %d 
+S 1 55 1 1052 Assert in file: "Qos.c" in line: 1052
+S 1 55 1 1075 [qosPdThresholdConfig], in QOS_PD_THRESHOLD_DISABLED
+S 1 55 1 1298 Assert in file: "Qos.c" in line: 1298
+S 1 55 1 1388 Assert in file: "Qos.c" in line: 1388
+S 1 55 1 1526 Qos, Send Confirmation, Client %d, stationIndex %d
+S 1 55 1 1590 Assert in file: "Qos.c" in line: 1590
+S 1 55 1 1631 [DROP_DEBUG][QosSetAgerParams] hostInterfaceAcceleratorFreePdsThreshold = %d freePdsHysteresisNumber = %d pollingTimer = %d
+S 1 55 1 1632 [DROP_DEBUG][QosSetAgerParams] hostInterfaceAcceleratorFreePdsThreshold = %d freePdsHysteresisNumber = %d pollingTimer = %d
 S 1 43 1 79 Assert in file: "GeneralQ.c" in line: 79
 S 1 43 2 86 Assert in file: "queue_utility.c" in line: 86
 S 1 43 2 91 Assert in file: "queue_utility.c" in line: 91
@@ -3289,8 +3364,8 @@ S 1 31 2 278 Fatal Error in file: "RxHandler.c"; Fatal Print: RX Handler Unknown
 S 1 31 2 433 **********Rx Handler Build Common RCR rcrCommon.word0: 0x%x
 S 1 31 2 486 **********Rx Handler Build RCR rcrUser.word0: 0x%x
 S 1 31 2 533 Assert in file: "RxHandler.c" in line: 533
-S 1 31 2 658 Assert in file: "RxHandler.c" in line: 658
-S 1 31 2 691 Assert in file: "RxHandler.c" in line: 691
+S 1 31 2 659 Assert in file: "RxHandler.c" in line: 659
+S 1 31 2 692 Assert in file: "RxHandler.c" in line: 692
 S 1 58 0 413 Assert in file: "RxManager.c" in line: 413
 S 1 58 0 418 Assert in file: "RxManager.c" in line: 418
 S 1 58 0 419 Assert in file: "RxManager.c" in line: 419
@@ -3350,21 +3425,21 @@ S 1 58 0 2464 [CLIENT_MODE_MCAST] rxManagerControlRdHandler. >>>>>> Why does RX 
 S 1 58 0 2472 -------------------- We recived  %d  in CONTROL------------------
 S 1 58 0 2552 [CLIENT_MODE_MCAST] rxManagerFwManagementRdHandler. >>>>>> Why does RX Manager think this is MCAST
 S 1 58 0 2557 Assert in file: "RxManager.c" in line: 2557
-S 1 58 0 2579 rxManagerFwManagementRdHandler: ignore - length is too short - %d
+S 1 58 0 2579 rxManagerFwManagementRdHandler: ignore - length is too short/long - %d
 S 1 58 0 2723 Assert in file: "RxManager.c" in line: 2723
 S 1 58 0 2726 [CLIENT_MODE_MCAST] rxManagerFwUnassociatedManagementRdHandler. >>>>>> Why does RX Manager think this is MCAST
 S 1 58 0 2750 rxManagerFwManagementRdHandler: ignore - length is too short - %d
 S 1 58 0 2949 rxManagerMulticastRekeyTimeout, vap ID - %d, prev key ID - %d
 S 1 58 0 3000 rxManagerCheckMulticastRekey, vap ID - %d, last Rx key ID - %d, key Id - %d
 S 1 58 0 3527 Fatal Error in file: "RxManager.c"; Fatal Print: FORWARD Bad Pointer List has crossed the max boundary
-S 1 58 0 3840 Assert in file: "RxManager.c" in line: 3840
-S 1 58 0 3926 Assert in file: "RxManager.c" in line: 3926
-S 1 58 0 3978 [rxManagerDoReplayDetectionStaMode] URID. FAIL!!!! last PN is : %d, current PN is : %d
-S 1 58 0 4218 RX Manager, Send Confirmation, Client %d, SID %d
-S 1 58 0 4267 Assert in file: "RxManager.c" in line: 4267
-S 1 58 0 4395 RX manager - setting sniffer mode configuration 
-S 1 58 0 4399 RxCoordinator- set sniffer mode configuration - done! 
-S 1 58 0 4786 Ignore Rd: length %d
+S 1 58 0 3836 Assert in file: "RxManager.c" in line: 3836
+S 1 58 0 3922 Assert in file: "RxManager.c" in line: 3922
+S 1 58 0 3974 [rxManagerDoReplayDetectionStaMode] URID. FAIL!!!! last PN is : %d, current PN is : %d
+S 1 58 0 4214 RX Manager, Send Confirmation, Client %d, SID %d
+S 1 58 0 4263 Assert in file: "RxManager.c" in line: 4263
+S 1 58 0 4391 RX manager - setting sniffer mode configuration 
+S 1 58 0 4395 RxCoordinator- set sniffer mode configuration - done! 
+S 1 58 0 4782 Ignore Rd: length %d
 S 1 59 0 179 Assert in file: "RxPp.c" in line: 179
 S 1 59 0 467 Assert in file: "RxPp.c" in line: 467
 S 1 59 0 477 Assert in file: "RxPp.c" in line: 477
@@ -3397,14 +3472,14 @@ S 1 34 6 128 Assert in file: "memcpy_s.c" in line: 128
 S 1 34 6 133 Assert in file: "memcpy_s.c" in line: 133
 S 1 34 6 138 Assert in file: "memcpy_s.c" in line: 138
 S 1 34 6 147 Assert in file: "memcpy_s.c" in line: 147
-S 1 60 2 217 Sec Manager, Send Confirmation, Client %d, SID %d
-S 1 60 2 248 SEC Manager STA Manager, Station %d changed from %d to %d
-S 1 60 2 954 Fatal Error in file: "secManager_StaManager.c"; Fatal Print: SEC Manager STA Manager Fatal
-S 1 60 2 994 Assert in file: "secManager_StaManager.c" in line: 994
-S 1 60 2 1096 Assert in file: "secManager_StaManager.c" in line: 1096
-S 1 60 2 1136 Assert in file: "secManager_StaManager.c" in line: 1136
-S 1 60 2 1177 Assert in file: "secManager_StaManager.c" in line: 1177
-S 1 60 2 1217 Assert in file: "secManager_StaManager.c" in line: 1217
+S 1 60 2 218 Sec Manager, Send Confirmation, Client %d, SID %d
+S 1 60 2 249 SEC Manager STA Manager, Station %d changed from %d to %d
+S 1 60 2 957 Fatal Error in file: "secManager_StaManager.c"; Fatal Print: SEC Manager STA Manager Fatal
+S 1 60 2 997 Assert in file: "secManager_StaManager.c" in line: 997
+S 1 60 2 1099 Assert in file: "secManager_StaManager.c" in line: 1099
+S 1 60 2 1139 Assert in file: "secManager_StaManager.c" in line: 1139
+S 1 60 2 1180 Assert in file: "secManager_StaManager.c" in line: 1180
+S 1 60 2 1220 Assert in file: "secManager_StaManager.c" in line: 1220
 S 1 60 1 145 SEC Manager VAP Manager, Vap %d changed from %d to %d
 S 1 60 1 226 vUM_MAN_SET_KEY_REQ: u16Status:%d psMsg->header.vapId:%d
 S 1 60 1 547 Fatal Error in file: "secManager_VapManager.c"; Fatal Print: SEC Manager STA Manager Fatal
@@ -3439,10 +3514,14 @@ S 1 63 0 270 Smps Manager STA Manager, STA %d changed from %d to %d
 S 1 63 0 1453 Assert in file: "SmpsManager_StaManager.c" in line: 1453
 S 1 63 0 1629 Assert in file: "SmpsManager_StaManager.c" in line: 1629
 S 1 63 0 1667 Assert in file: "SmpsManager_StaManager.c" in line: 1667
-S 1 63 2 270 Smps Manager STA Manager, STA %d changed from %d to %d
-S 1 63 2 1462 Assert in file: "SmpsManager_StaManager.c" in line: 1462
-S 1 63 2 1640 Assert in file: "SmpsManager_StaManager.c" in line: 1640
-S 1 63 2 1678 Assert in file: "SmpsManager_StaManager.c" in line: 1678
+S 1 63 2 272 Smps Manager STA Manager, STA %d changed from %d to %d
+S 1 63 2 500 SmpsManager_StaManagerSendSmps() PD allocation successfull sending SMPS with operation mode: STATIC 
+S 1 63 2 554 SmpsManager_StaManagerSendOmn() PD allocation successfull sending  Operation mode notification
+S 1 63 2 910 SmpsManager_StaManagerTxStart() starting smps sequence for sid %d
+S 1 63 2 1475 Assert in file: "SmpsManager_StaManager.c" in line: 1475
+S 1 63 2 1653 Assert in file: "SmpsManager_StaManager.c" in line: 1653
+S 1 63 2 1691 Assert in file: "SmpsManager_StaManager.c" in line: 1691
+S 1 63 2 1855 call SmpsManager_StaManagerTxStart() Sid: %d
 S 1 64 0 143 Assert in file: "StaDatabase.c" in line: 143
 S 1 64 0 151 Assert in file: "StaDatabase.c" in line: 151
 S 1 64 0 162 Assert in file: "StaDatabase.c" in line: 162
@@ -3451,17 +3530,17 @@ S 1 64 0 592 StaDb_RemoveStationFromDB %X
 S 1 64 0 720 Assert in file: "StaDatabase.c" in line: 720
 S 1 64 0 787 Assert in file: "StaDatabase.c" in line: 787
 S 1 64 0 931 Assert in file: "StaDatabase.c" in line: 931
-S 1 64 0 1460 Assert in file: "StaDatabase.c" in line: 1460
-S 1 64 0 1461 Assert in file: "StaDatabase.c" in line: 1461
-S 1 64 0 1493 Assert in file: "StaDatabase.c" in line: 1493
-S 1 64 0 1494 Assert in file: "StaDatabase.c" in line: 1494
-S 1 64 0 1550 Assert in file: "StaDatabase.c" in line: 1550
-S 1 64 0 1840 StaDB_SetPrimaryStationSuTxopAndNumMpdus: SID %d, txop %d, mpdus %d
-S 1 64 0 1975 Fatal Error in file: "StaDatabase.c"; Fatal Print: tbd - field names are wrong
-S 1 64 0 1993 [StaDB_debug_TriggerTomi] staId %d OMCtrl_RxNSS %d OMCtrl_ChnlWidth %d
-S 1 64 0 2004 StaDB_debug_TriggerTomi. htHeAControl 0x%x
-S 1 64 0 2032 Fatal Error in file: "StaDatabase.c"; Fatal Print: wrong new state
-S 1 64 0 2126 Assert in file: "StaDatabase.c" in line: 2126
+S 1 64 0 1465 Assert in file: "StaDatabase.c" in line: 1465
+S 1 64 0 1466 Assert in file: "StaDatabase.c" in line: 1466
+S 1 64 0 1498 Assert in file: "StaDatabase.c" in line: 1498
+S 1 64 0 1499 Assert in file: "StaDatabase.c" in line: 1499
+S 1 64 0 1555 Assert in file: "StaDatabase.c" in line: 1555
+S 1 64 0 1845 StaDB_SetPrimaryStationSuTxopAndNumMpdus: SID %d, txop %d, mpdus %d
+S 1 64 0 1980 Fatal Error in file: "StaDatabase.c"; Fatal Print: tbd - field names are wrong
+S 1 64 0 1998 [StaDB_debug_TriggerTomi] staId %d OMCtrl_RxNSS %d OMCtrl_ChnlWidth %d
+S 1 64 0 2009 StaDB_debug_TriggerTomi. htHeAControl 0x%x
+S 1 64 0 2037 Fatal Error in file: "StaDatabase.c"; Fatal Print: wrong new state
+S 1 64 0 2131 Assert in file: "StaDatabase.c" in line: 2131
 S 1 23 4 294 Statistics Manager, Send Confirmation, Client %d, SID %d
 S 1 23 4 326 Statistics Manager, Send Confirmation, VapId %d
 S 1 23 4 522 Fatal Error in file: "StatisticsManager.c"; Fatal Print: STATISTICS_MANIPULATION_DATA type is unsupported currently
@@ -3475,18 +3554,16 @@ S 1 23 4 1141 Assert in file: "StatisticsManager.c" in line: 1141
 S 1 23 4 1212 Assert in file: "StatisticsManager.c" in line: 1212
 S 1 23 4 1262 [PLUME] statisticsManagerDmaDone:dmaManagerTransferCounter %d ,dmaTotal %d dmaReq %d
 S 1 23 4 1452 Assert in file: "StatisticsManager.c" in line: 1452
-S 1 23 5 338 Statistics Manager, Send Confirmation, Client %d, SID %d
-S 1 23 5 370 Statistics Manager, Send Confirmation, VapId %d
-S 1 23 5 547 Fatal Error in file: "StatisticsManager.c"; Fatal Print: STATISTICS_MANIPULATION_DATA type is unsupported currently
-S 1 23 5 573 Assert in file: "StatisticsManager.c" in line: 573
-S 1 23 5 601 Fatal Error in file: "StatisticsManager.c"; Fatal Print: statisticsManagerCopyStatisticsManipulationDataShramHandler
-S 1 23 5 760 [PLUME] statisticsManagerCopyStatisticsHandler Source %x iramSplitTimesRemain %d
-S 1 23 5 1161 Assert in file: "StatisticsManager.c" in line: 1161
-S 1 23 5 1162 Assert in file: "StatisticsManager.c" in line: 1162
-S 1 23 5 1163 Assert in file: "StatisticsManager.c" in line: 1163
-S 1 23 5 1267 Assert in file: "StatisticsManager.c" in line: 1267
-S 1 23 5 1318 [PLUME] statisticsManagerDmaDone:dmaManagerTransferCounter %d ,dmaTotal %d dmaReq %d
-S 1 23 5 1505 Assert in file: "StatisticsManager.c" in line: 1505
+S 1 23 5 341 Statistics Manager, Send Confirmation, Client %d, SID %d
+S 1 23 5 373 Statistics Manager, Send Confirmation, VapId %d
+S 1 23 5 550 Fatal Error in file: "StatisticsManager.c"; Fatal Print: STATISTICS_MANIPULATION_DATA type is unsupported currently
+S 1 23 5 576 Assert in file: "StatisticsManager.c" in line: 576
+S 1 23 5 604 Fatal Error in file: "StatisticsManager.c"; Fatal Print: statisticsManagerCopyStatisticsManipulationDataShramHandler
+S 1 23 5 1201 Assert in file: "StatisticsManager.c" in line: 1201
+S 1 23 5 1202 Assert in file: "StatisticsManager.c" in line: 1202
+S 1 23 5 1203 Assert in file: "StatisticsManager.c" in line: 1203
+S 1 23 5 1307 Assert in file: "StatisticsManager.c" in line: 1307
+S 1 23 5 1549 Assert in file: "StatisticsManager.c" in line: 1549
 S 1 36 4 122 Assert in file: "System_CoreTimers.c" in line: 122
 S 1 36 4 213 Assert in file: "System_CoreTimers.c" in line: 213
 S 1 36 4 316 Assert in file: "System_CoreTimers.c" in line: 316
@@ -3548,7 +3625,7 @@ S 1 8 5 198 Assert in file: "tx_application_msg_pool.c" in line: 198
 S 1 8 5 215 Fatal Error in file: "tx_application_msg_pool.c"; Fatal Print: attempt to release a non allocated message
 S 1 8 5 254 Fatal Error in file: "tx_application_msg_pool.c"; Fatal Print: Tried to decrease a reference count past zero
 S 1 8 5 293 Fatal Error in file: "tx_application_msg_pool.c"; Fatal Print: Tried to increase a reference count beyond the limit
-S 1 8 6 187 Assert in file: "tx_application_timer.c" in line: 187
+S 1 8 6 190 Assert in file: "tx_application_timer.c" in line: 190
 S 1 65 0 124 Assert in file: "TinyKernel_Messages.c" in line: 124
 S 1 65 0 151 Assert in file: "TinyKernel_Messages.c" in line: 151
 S 1 65 0 160 Assert in file: "TinyKernel_Messages.c" in line: 160
@@ -3730,63 +3807,63 @@ S 1 67 5 1836 Assert in file: "TsManager.c" in line: 1836
 S 1 67 5 1896 Assert in file: "TsManager.c" in line: 1896
 S 1 67 5 1931 Assert in file: "TsManager.c" in line: 1931
 S 1 67 5 2033 Assert in file: "TsManager.c" in line: 2033
-S 1 67 3 544 Fatal Error in file: "TsManagerInitiator.c"; Fatal Print: TS Manager Initiator Fatal
-S 1 67 3 573 TS Manager Initiator Change SID %d, TID %d, State from %d to %d
-S 1 67 3 605 TS Manager Initiator Event SID %d, TID %d, State %d Event %d
-S 1 67 3 611 TS Manager Initiator Change SID %d, TID %d, State from %d to CLOSED. ppduTxMode = %d
-S 1 67 3 1900 Assert in file: "TsManagerInitiator.c" in line: 1900
-S 1 67 3 2402 tsManagerInitiatorBarStatusInOpenedSending status %d
-S 1 67 3 2427 tsManagerInitiatorBarStatusInOpenedSending normal flow
-S 1 67 3 3294 Assert in file: "TsManagerInitiator.c" in line: 3294
-S 1 67 3 3329 Assert in file: "TsManagerInitiator.c" in line: 3329
-S 1 67 3 3375 Assert in file: "TsManagerInitiator.c" in line: 3375
-S 1 67 3 3907 Assert in file: "TsManagerInitiator.c" in line: 3907
-S 1 67 3 4059 [tsManagerInitiatorTryToOpenBaAgreement], TsManager_IsStaHe(TsDb->commonPart.stationId)=%d, TsDb->commonPart.amsduSupport = %d, TsDb->commonPart.bufferSize = %d
-S 1 67 3 4519 Assert in file: "TsManagerInitiator.c" in line: 4519
-S 1 67 3 4521 tsManagerInitiatortProcessAddbaResExtension - IE lenght is zero, break ADDBA extension parsing 
-S 1 67 3 4593 Assert in file: "TsManagerInitiator.c" in line: 4593
-S 1 67 3 4938 Assert in file: "TsManagerInitiator.c" in line: 4938
+S 1 67 3 545 Fatal Error in file: "TsManagerInitiator.c"; Fatal Print: TS Manager Initiator Fatal
+S 1 67 3 574 TS Manager Initiator Change SID %d, TID %d, State from %d to %d
+S 1 67 3 606 TS Manager Initiator Event SID %d, TID %d, State %d Event %d
+S 1 67 3 612 TS Manager Initiator Change SID %d, TID %d, State from %d to CLOSED. ppduTxMode = %d
+S 1 67 3 1901 Assert in file: "TsManagerInitiator.c" in line: 1901
+S 1 67 3 2403 tsManagerInitiatorBarStatusInOpenedSending status %d
+S 1 67 3 2428 tsManagerInitiatorBarStatusInOpenedSending normal flow
+S 1 67 3 3295 Assert in file: "TsManagerInitiator.c" in line: 3295
+S 1 67 3 3330 Assert in file: "TsManagerInitiator.c" in line: 3330
+S 1 67 3 3376 Assert in file: "TsManagerInitiator.c" in line: 3376
+S 1 67 3 3908 Assert in file: "TsManagerInitiator.c" in line: 3908
+S 1 67 3 4061 [tsManagerInitiatorTryToOpenBaAgreement], TsManager_IsStaHe(TsDb->commonPart.stationId)=%d, TsDb->commonPart.amsduSupport = %d, TsDb->commonPart.bufferSize = %d
+S 1 67 3 4521 Assert in file: "TsManagerInitiator.c" in line: 4521
+S 1 67 3 4523 tsManagerInitiatortProcessAddbaResExtension - IE lenght is zero, break ADDBA extension parsing 
+S 1 67 3 4595 Assert in file: "TsManagerInitiator.c" in line: 4595
+S 1 67 3 4940 Assert in file: "TsManagerInitiator.c" in line: 4940
 S 1 67 4 404 Fatal Error in file: "TsManagerRecipient.c"; Fatal Print: TS Manager Recipient Fatal
 S 1 67 4 434 TS Manager Recipient SID %d, TID %d, Change State from %d to %d
 S 1 67 4 466 TS Manager Recipient Event SID %d, TID %d, State %d Event %d
 S 1 67 4 959 tsManagerRecipientAddbaRequestReceivedInClosed stationIndex %d tid %d 
 S 1 67 4 994 tsManagerRecipientAddbaRequestReceivedInOpeningthe s
-S 1 67 4 1001 tsManagerRecipientAddbaRequestReceivedInOpeningthe same dialog token %d
-S 1 67 4 1043 tsManagerRecipientAddbaRequestReceivedInOpenedthe s
-S 1 67 4 1048 tsManagerRecipientAddbaRequestReceivedInOpenedthe same dialog token %d
-S 1 67 4 1194 tsManagerRecipientDelbaReceivedInOpeningWaitingForPd remove status %d
-S 1 67 4 1239 tsManagerRecipientDelbaReceivedInOpening 
-S 1 67 4 1274 tsManagerRecipientDelbaReceivedInOpened 
-S 1 67 4 1403 tsManagerRecipientAddbaResponseConfirmedInOpening station index %d tid % d
-S 1 67 4 1472 tsManagerRecipientAddbaResponseConfirmedInClosing station index %d tid % d
-S 1 67 4 1541 tsManagerRecipientDelbaConfirmedInClosing station index %d tid % d
-S 1 67 4 1611 tsManagerRecipientAddbaResponseConfirmedInClosingWaitingForConfirmation 
-S 1 67 4 1645 tsManagerRecipientIllegalPacketReceivedInClosed station index %d tid % d
-S 1 67 4 1685 tsManagerRecipientIllegalPacketReceivedInClosedWaitingForMessage station index %d tid % d
-S 1 67 4 1723 tsManagerRecipientIllegalPacketReceivedInOpeningWaitingForPd station index %d tid % d
-S 1 67 4 1764 tsManagerRecipientPdAllocatedInClosedWaitingForMessage station index %d tid % d
-S 1 67 4 1801 tsManagerRecipientPdAllocatedInOpeningWaitingForPd station index %d tid % d
-S 1 67 4 1884 tsManagerRecipientPdAllocatedInClosingWaitingForPdForDelba station index %d tid % d
-S 1 67 4 1923 tsManagerRecipientPdAllocatedInClosingWaitingForPdForAddbaResponse station index %d tid % d
-S 1 67 4 1998 tsManagerRecipientBarReceivedInClosed station index %d tid % d
-S 1 67 4 2036 tsManagerRecipientBarReceivedInClosedWaitingForMessage station index %d tid % d
-S 1 67 4 2074 tsManagerRecipientBarReceivedInOpeningWaitingForPd station index %d tid % d
-S 1 67 4 2110 tsManagerRecipientBarReceivedInOpening station index %d tid % d
-S 1 67 4 2141 tsManagerRecipientBarReceivedInOpened station index %d tid % d
-S 1 67 4 2172 tsManagerRecipientBarReceivedInClosing station index %d tid % d
-S 1 67 4 2204 tsManagerRecipientBarReceivedInClosingWaitingForPdForDelba station index %d tid % d
-S 1 67 4 2236 tsManagerRecipientBarReceivedInClosingWaitingForPdForDelba station index %d tid % d
-S 1 67 4 2497 tsManagerRecipientCloseBaAgreement stationIndex %d tid %d 
-S 1 67 4 2612 tsManagerRecipientProcessAddbaRequest invalid parameters 
-S 1 67 4 2619 tsManagerRecipientProcessAddbaRequest invalid parameters 
-S 1 67 4 2761 tsManagerRecipientProcessAddbaRequest ADDBA request declined allocation status %d
-S 1 67 4 2822 Assert in file: "TsManagerRecipient.c" in line: 2822
-S 1 67 4 3078 Assert in file: "TsManagerRecipient.c" in line: 3078
-S 1 67 4 3080 tsManagerRecipientProcessAddbaReqExtension - IE lenght is zero, break ADDBA extension parsing 
-S 1 67 4 3179 Assert in file: "TsManagerRecipient.c" in line: 3179
-S 1 67 4 3372 TsManagerRecipient_BarReceived illegal BAR
-S 1 67 4 3559 Assert in file: "TsManagerRecipient.c" in line: 3559
-S 1 67 4 3597 TsManagerRecipient_PdAllocated stationIndex %d tid %d state %d
+S 1 67 4 1003 tsManagerRecipientAddbaRequestReceivedInOpeningthe same dialog token %d
+S 1 67 4 1057 tsManagerRecipientAddbaRequestReceivedInOpenedthe s
+S 1 67 4 1062 tsManagerRecipientAddbaRequestReceivedInOpenedthe same dialog token %d
+S 1 67 4 1208 tsManagerRecipientDelbaReceivedInOpeningWaitingForPd remove status %d
+S 1 67 4 1253 tsManagerRecipientDelbaReceivedInOpening 
+S 1 67 4 1288 tsManagerRecipientDelbaReceivedInOpened 
+S 1 67 4 1417 tsManagerRecipientAddbaResponseConfirmedInOpening station index %d tid % d
+S 1 67 4 1486 tsManagerRecipientAddbaResponseConfirmedInClosing station index %d tid % d
+S 1 67 4 1555 tsManagerRecipientDelbaConfirmedInClosing station index %d tid % d
+S 1 67 4 1625 tsManagerRecipientAddbaResponseConfirmedInClosingWaitingForConfirmation 
+S 1 67 4 1659 tsManagerRecipientIllegalPacketReceivedInClosed station index %d tid % d
+S 1 67 4 1699 tsManagerRecipientIllegalPacketReceivedInClosedWaitingForMessage station index %d tid % d
+S 1 67 4 1737 tsManagerRecipientIllegalPacketReceivedInOpeningWaitingForPd station index %d tid % d
+S 1 67 4 1778 tsManagerRecipientPdAllocatedInClosedWaitingForMessage station index %d tid % d
+S 1 67 4 1815 tsManagerRecipientPdAllocatedInOpeningWaitingForPd station index %d tid % d
+S 1 67 4 1898 tsManagerRecipientPdAllocatedInClosingWaitingForPdForDelba station index %d tid % d
+S 1 67 4 1937 tsManagerRecipientPdAllocatedInClosingWaitingForPdForAddbaResponse station index %d tid % d
+S 1 67 4 2012 tsManagerRecipientBarReceivedInClosed station index %d tid % d
+S 1 67 4 2050 tsManagerRecipientBarReceivedInClosedWaitingForMessage station index %d tid % d
+S 1 67 4 2088 tsManagerRecipientBarReceivedInOpeningWaitingForPd station index %d tid % d
+S 1 67 4 2124 tsManagerRecipientBarReceivedInOpening station index %d tid % d
+S 1 67 4 2155 tsManagerRecipientBarReceivedInOpened station index %d tid % d
+S 1 67 4 2186 tsManagerRecipientBarReceivedInClosing station index %d tid % d
+S 1 67 4 2218 tsManagerRecipientBarReceivedInClosingWaitingForPdForDelba station index %d tid % d
+S 1 67 4 2250 tsManagerRecipientBarReceivedInClosingWaitingForPdForDelba station index %d tid % d
+S 1 67 4 2511 tsManagerRecipientCloseBaAgreement stationIndex %d tid %d 
+S 1 67 4 2626 tsManagerRecipientProcessAddbaRequest invalid parameters 
+S 1 67 4 2633 tsManagerRecipientProcessAddbaRequest invalid parameters 
+S 1 67 4 2775 tsManagerRecipientProcessAddbaRequest ADDBA request declined allocation status %d
+S 1 67 4 2836 Assert in file: "TsManagerRecipient.c" in line: 2836
+S 1 67 4 3092 Assert in file: "TsManagerRecipient.c" in line: 3092
+S 1 67 4 3094 tsManagerRecipientProcessAddbaReqExtension - IE lenght is zero, break ADDBA extension parsing 
+S 1 67 4 3193 Assert in file: "TsManagerRecipient.c" in line: 3193
+S 1 67 4 3386 TsManagerRecipient_BarReceived illegal BAR
+S 1 67 4 3573 Assert in file: "TsManagerRecipient.c" in line: 3573
+S 1 67 4 3611 TsManagerRecipient_PdAllocated stationIndex %d tid %d state %d
 S 1 68 0 323 Twt manager: enable TWT feature
 S 1 68 0 350 Twt manager: disable TWT feature
 S 1 68 0 364 Twt manager: TWT feature disabled
@@ -3805,59 +3882,62 @@ S 1 68 0 722 Twt Manager: twt request recieved, SID %d
 S 1 68 0 728 Twt Manager: twt teardown recieved, SID %d
 S 1 68 0 732 Twt Manager: twt unsupported frame recieved, SID %d, action code %d
 S 1 68 0 844 Twt manager: request accepted, TWT agreement created for SID: %d, flow ID: %d, sp ID: %d
-S 1 68 0 877 Twt manager: agreement has been teared down, SID: %d flow ID: %d
-S 1 68 0 1168 twtManagerSelectorConfiguration: delete
-S 1 68 0 1178 twtManagerSelectorConfiguration: add
-S 1 68 0 1442 Twt manager: PD cfm at state: %d, SID: %d flow ID: %d
-S 1 68 0 1460 Assert in file: "TwtManager.c" in line: 1460
-S 1 68 0 1529 Twt manager: TWT transmission, pushing PD to mgmt queue, SID: %d, flow ID: %d
-S 1 68 0 1574 Twt manager: tx cfm at state: %d, SID: %d flow ID: %d
-S 1 68 0 1586 Twt manager: Tx confirmation, ACK recieved on TWT transmission, SID: %d flow ID: %d
-S 1 68 0 1609 Twt manager:	Tx confirmation, NACK recieved on TWT transmission, sending again, SID: %d flow ID: %d
-S 1 68 0 1617 Assert in file: "TwtManager.c" in line: 1617
-S 1 68 0 1623 Assert in file: "TwtManager.c" in line: 1623
-S 1 68 0 1656 Twt manager: change state of SID: %d flow ID: %d to state: %d
-S 1 68 0 1693 Twt manager: remove station SID: %d
-S 1 68 0 1729 Twt manager: remove station at unexpected state: %d
-S 1 68 0 1730 Assert in file: "TwtManager.c" in line: 1730
-S 1 68 0 1759 Assert in file: "TwtManager.c" in line: 1759
-S 1 68 0 1760 Assert in file: "TwtManager.c" in line: 1760
-S 1 68 0 1850 Assert in file: "TwtManager.c" in line: 1850
+S 1 68 0 878 Twt manager: agreement has been teared down, SID: %d flow ID: %d
+S 1 68 0 1187 twtManagerSelectorConfiguration: delete
+S 1 68 0 1197 twtManagerSelectorConfiguration: add
+S 1 68 0 1507 Twt manager: PD cfm at state: %d, SID: %d flow ID: %d
+S 1 68 0 1525 Assert in file: "TwtManager.c" in line: 1525
+S 1 68 0 1594 Twt manager: TWT transmission, pushing PD to mgmt queue, SID: %d, flow ID: %d
+S 1 68 0 1639 Twt manager: tx cfm at state: %d, SID: %d flow ID: %d
+S 1 68 0 1651 Twt manager: Tx confirmation, ACK recieved on TWT transmission, SID: %d flow ID: %d
+S 1 68 0 1674 Twt manager:	Tx confirmation, NACK recieved on TWT transmission, sending again, SID: %d flow ID: %d
+S 1 68 0 1682 Assert in file: "TwtManager.c" in line: 1682
+S 1 68 0 1688 Assert in file: "TwtManager.c" in line: 1688
+S 1 68 0 1721 Twt manager: change state of SID: %d flow ID: %d to state: %d
+S 1 68 0 1758 Twt manager: remove station SID: %d
+S 1 68 0 1794 Twt manager: remove station at unexpected state: %d
+S 1 68 0 1795 Assert in file: "TwtManager.c" in line: 1795
+S 1 68 0 1824 Assert in file: "TwtManager.c" in line: 1824
+S 1 68 0 1825 Assert in file: "TwtManager.c" in line: 1825
+S 1 68 0 1915 Assert in file: "TwtManager.c" in line: 1915
 S 1 69 2 87 Assert in file: "TxHandlerNtd.c" in line: 87
-S 1 70 0 493 Assert in file: "TxManager.c" in line: 493
+S 1 70 0 492 Assert in file: "TxManager.c" in line: 492
+S 1 70 0 502 Assert in file: "TxManager.c" in line: 502
 S 1 70 0 503 Assert in file: "TxManager.c" in line: 503
 S 1 70 0 504 Assert in file: "TxManager.c" in line: 504
-S 1 70 0 505 Assert in file: "TxManager.c" in line: 505
-S 1 70 0 532 Assert in file: "TxManager.c" in line: 532
-S 1 70 0 544 Assert in file: "TxManager.c" in line: 544
-S 1 70 0 608 Assert in file: "TxManager.c" in line: 608
+S 1 70 0 531 Assert in file: "TxManager.c" in line: 531
+S 1 70 0 543 Assert in file: "TxManager.c" in line: 543
+S 1 70 0 607 Assert in file: "TxManager.c" in line: 607
+S 1 70 0 622 Assert in file: "TxManager.c" in line: 622
 S 1 70 0 623 Assert in file: "TxManager.c" in line: 623
-S 1 70 0 624 Assert in file: "TxManager.c" in line: 624
 S 1 70 0 699 Assert in file: "TxManager.c" in line: 699
 S 1 70 0 700 Assert in file: "TxManager.c" in line: 700
-S 1 70 0 862 Assert in file: "TxManager.c" in line: 862
-S 1 70 0 944 txManagerPackestFromFwListHandler packet descriptor %x
-S 1 70 0 1208 Fatal Error in file: "TxManager.c"; Fatal Print: txManagerCtrlHandler
-S 1 70 0 1484 Assert in file: "TxManager.c" in line: 1484
-S 1 70 0 1733 Assert in file: "TxManager.c" in line: 1733
-S 1 70 0 1764 Fatal Error in file: "TxManager.c"; Fatal Print: txManagerAssert
-S 1 70 0 1793 Fatal Error in file: "TxManager.c"; Fatal Print: txManagerListFatal
-S 1 70 0 1904 -------- NTD configured for Sniffer --------
-S 1 70 0 2023 Fatal Error in file: "TxManager.c"; Fatal Print: txManagerSetWmmParameters
-S 1 70 0 2204 Assert in file: "TxManager.c" in line: 2204
-S 1 70 0 2247 Assert in file: "TxManager.c" in line: 2247
-S 1 70 0 2449 Assert in file: "TxManager.c" in line: 2449
-S 1 70 0 2513 Assert in file: "TxManager.c" in line: 2513
-S 1 70 0 2520 Assert in file: "TxManager.c" in line: 2520
-S 1 70 0 2622 TxManagerdutTransmitPacketReq,vapId to send to DUt = %d
-S 1 70 0 2648 TxManagerdutTransmitPacketReq: fill payload
-S 1 70 0 2671 TxManagerdutTransmitPacketReq: Send Packet to Classifier!!!!!
-S 1 70 0 2682 ---- dutTransmitPacketReq, no free desc
-S 1 70 0 2696 TxManagerCBdutTransmitPacketCfm: Get CallBack packet from TxMngrDUT_ACTION_PACKET_CB_HNDLR_CFM!!!!!
-S 1 70 0 2704 Send again the packet TxPacketsClassifier_SendManagementPacketFromFw
-S 1 70 0 2713 RELEASE PACKET$$$$$ TxManagerCBdutTransmitPacketCfm
-S 1 70 1 539 TX Manager STA Manager, Station %d changed from %d to %d
-S 1 70 1 872 Fatal Error in file: "TxManager_StaManager.c"; Fatal Print: TX Manager STA Manager Fatal
+S 1 70 0 874 Assert in file: "TxManager.c" in line: 874
+S 1 70 0 956 txManagerPackestFromFwListHandler packet descriptor %x
+S 1 70 0 958 [CSA] txManagerPacketsFromFwListHandler :) pdType = 0x%x mgmtFrameSubtype = 0x%x 
+S 1 70 0 1223 Fatal Error in file: "TxManager.c"; Fatal Print: txManagerCtrlHandler
+S 1 70 0 1501 Assert in file: "TxManager.c" in line: 1501
+S 1 70 0 1503 [CSA] txManagerGeneralDiscardedPacketHandler pdType = 0x%x mgmtFrameSubtype = 0x%x 
+S 1 70 0 1646 [CSA] txManagerDeauthFrameHandler 1
+S 1 70 0 1755 Assert in file: "TxManager.c" in line: 1755
+S 1 70 0 1786 Fatal Error in file: "TxManager.c"; Fatal Print: txManagerAssert
+S 1 70 0 1815 Fatal Error in file: "TxManager.c"; Fatal Print: txManagerListFatal
+S 1 70 0 1926 -------- NTD configured for Sniffer --------
+S 1 70 0 2045 Fatal Error in file: "TxManager.c"; Fatal Print: txManagerSetWmmParameters
+S 1 70 0 2226 Assert in file: "TxManager.c" in line: 2226
+S 1 70 0 2269 Assert in file: "TxManager.c" in line: 2269
+S 1 70 0 2472 Assert in file: "TxManager.c" in line: 2472
+S 1 70 0 2536 Assert in file: "TxManager.c" in line: 2536
+S 1 70 0 2543 Assert in file: "TxManager.c" in line: 2543
+S 1 70 0 2645 TxManagerdutTransmitPacketReq,vapId to send to DUt = %d
+S 1 70 0 2671 TxManagerdutTransmitPacketReq: fill payload
+S 1 70 0 2694 TxManagerdutTransmitPacketReq: Send Packet to Classifier!!!!!
+S 1 70 0 2705 ---- dutTransmitPacketReq, no free desc
+S 1 70 0 2719 TxManagerCBdutTransmitPacketCfm: Get CallBack packet from TxMngrDUT_ACTION_PACKET_CB_HNDLR_CFM!!!!!
+S 1 70 0 2727 Send again the packet TxPacketsClassifier_SendManagementPacketFromFw
+S 1 70 0 2736 RELEASE PACKET$$$$$ TxManagerCBdutTransmitPacketCfm
+S 1 70 1 541 TX Manager STA Manager, Station %d changed from %d to %d
+S 1 70 1 874 Fatal Error in file: "TxManager_StaManager.c"; Fatal Print: TX Manager STA Manager Fatal
 S 1 71 0 146 Assert in file: "TxMulticastHandler.c" in line: 146
 S 1 71 0 147 Assert in file: "TxMulticastHandler.c" in line: 147
 S 1 71 0 232 Assert in file: "TxMulticastHandler.c" in line: 232
@@ -3872,17 +3952,18 @@ S 1 71 0 431 Assert in file: "TxMulticastHandler.c" in line: 431
 S 1 71 0 470 Assert in file: "TxMulticastHandler.c" in line: 470
 S 1 71 0 471 Assert in file: "TxMulticastHandler.c" in line: 471
 S 1 71 0 597 Assert in file: "TxMulticastHandler.c" in line: 597
-S 1 57 1 130 Assert in file: "TxPacketsClassifier.c" in line: 130
-S 1 57 1 169 Assert in file: "TxPacketsClassifier.c" in line: 169
-S 1 57 1 184 [AGER_POC] TxPacketClassifier_AddDelayStoreValue enabled = %d dealy = %d [uSec] reserved = %d
-S 1 57 1 248 TxPacketsClassifier_SendDataPacket tid = %d
-S 1 57 1 573 Assert in file: "TxPacketsClassifier.c" in line: 573
-S 1 57 1 602 Assert in file: "TxPacketsClassifier.c" in line: 602
-S 1 57 1 659 Assert in file: "TxPacketsClassifier.c" in line: 659
-S 1 57 1 778 Assert in file: "TxPacketsClassifier.c" in line: 778
-S 1 57 1 780 TxPacketsClassifier_SendNdpPd - pd 0x%x
+S 1 57 1 140 Assert in file: "TxPacketsClassifier.c" in line: 140
+S 1 57 1 179 Assert in file: "TxPacketsClassifier.c" in line: 179
+S 1 57 1 194 [AGER_POC] TxPacketClassifier_AddDelayStoreValue enabled = %d dealy = %d [uSec] reserved = %d
+S 1 57 1 258 TxPacketsClassifier_SendDataPacket tid = %d
+S 1 57 1 390 [CSA] TxPacketsClassifier_IsUcDeauthPacket uc = %d 
+S 1 57 1 631 Assert in file: "TxPacketsClassifier.c" in line: 631
+S 1 57 1 660 Assert in file: "TxPacketsClassifier.c" in line: 660
+S 1 57 1 717 Assert in file: "TxPacketsClassifier.c" in line: 717
+S 1 57 1 836 Assert in file: "TxPacketsClassifier.c" in line: 836
+S 1 57 1 838 TxPacketsClassifier_SendNdpPd - pd 0x%x
 S 1 3 10 118 [TxPdAcc_SetMgmtRetryLimit]: Msg params: retry limit - %d, getSetOperation - %d (set-0), status - %d
-S 1 3 10 166 [TxPdAcc_SetMgmtRetryLimit]: new retry limit: long - %d, short - %d, pdtype9
+S 1 3 10 178 [TxPdAcc_SetMgmtRetryLimit]: new retry limit: long - %d, short - %d, pdtype9
 S 1 3 3 572 Assert in file: "TxSelector.c" in line: 572
 S 1 3 3 1248 Fatal Error in file: "TxSelector.c"; Fatal Print: TxSelector_IsDataInQueue - back door not available in gen5b
 S 1 3 3 1328 Fatal Error in file: "TxSelector.c"; Fatal Print: ISR TX Selector Error
@@ -3943,80 +4024,81 @@ S 1 72 0 450 OMI is received. omi control: 0x%x
 S 1 72 0 469 [ulPostRx_ProcessHeControl] uph control bits %d
 S 1 72 0 487 [ulPostRx_ProcessHeControl] controlBitmap=%x, ulprHeControlCounters.bsrCounter=%d
 S 1 73 0 1074 [UMI_ADD_VAP_REQ LA]
-S 1 73 0 1315 UMI_SET_INTERFERER_DETECTION_PARAMS_REQ: time %u
-S 1 73 0 1402 UMI_POLL_CLIENT_REQ: Station %d is not showing activity
-S 1 73 0 1504 [vUM_SET_CHAN_CFM]
-S 1 73 0 1568 Assert in file: "um_interface_task.c" in line: 1568
-S 1 73 0 1634 Fatal Error in file: "um_interface_task.c"; Fatal Print: Debug Assert Requested by Host
-S 1 73 0 1640 Assert in file: "um_interface_task.c" in line: 1640
-S 1 73 0 1715 [vUM_SET_CHAN_REQ]
-S 1 73 0 1942 Assert in file: "um_interface_task.c" in line: 1942
-S 1 73 0 1960 Assert in file: "um_interface_task.c" in line: 1960
-S 1 73 0 2015 Assert in file: "um_interface_task.c" in line: 2015
-S 1 73 0 2029 Assert in file: "um_interface_task.c" in line: 2029
-S 1 73 0 2285 Assert in file: "um_interface_task.c" in line: 2285
-S 1 73 0 2310 Assert in file: "um_interface_task.c" in line: 2310
-S 1 73 0 2754 Assert in file: "um_interface_task.c" in line: 2754
-S 1 73 0 2811 [startLockAttempt 1] *** semaphore test start *** 
-S 1 73 0 2830 [startLockAttempt 2] UM is trying to get the lock -> lock is busy = %d
-S 1 73 0 2834 [startLockAttempt 3] Get a non used lock 
-S 1 73 0 2836 [startLockAttempt 4] Got the lock 
-S 1 73 0 2838 [startLockAttempt 5] Free the lock 
-S 1 73 0 2840 [startLockAttempt 6] Get a non used lock 
-S 1 73 0 2842 Assert in file: "um_interface_task.c" in line: 2842
-S 1 73 0 2843 [startLockAttempt 7] Got the lock 
-S 1 73 0 2844 [startLockAttempt 8] Free the lock
-S 1 73 0 2846 [startLockAttempt 9] Free 
-S 1 73 0 2848 [startLockAttempt 10] Get a busy lock 
-S 1 73 0 2850 [startLockAttempt 11] Locked 
-S 1 73 0 2851 [startLockAttempt 12] Free the lock 
-S 1 73 0 2853 [startLockAttempt 13] Free 
-S 1 73 0 2889 UMAC Rx UM_DBG_CLI_REQ from Host, action:%d, data1:%d, data2:%d, data3:%d
-S 1 73 0 2893 UMAC Rx UM_DBG_CLI_REQ from Host, action:%d, data1:%d, data2:%d, data3:%d
-S 1 73 0 3007 [UmDbgCliReq] Unknown message type
-S 1 73 0 3075 Fatal Error in file: "um_interface_task.c"; Fatal Print: NOT SUPPORTED
-S 1 73 0 3141 Assert in file: "um_interface_task.c" in line: 3141
-S 1 73 0 3312 Assert in file: "um_interface_task.c" in line: 3312
-S 1 73 0 3334 Assert in file: "um_interface_task.c" in line: 3334
-S 1 73 0 3342 Assert in file: "um_interface_task.c" in line: 3342
-S 1 73 0 3348 Assert in file: "um_interface_task.c" in line: 3348
-S 1 73 0 3378 Assert in file: "um_interface_task.c" in line: 3378
-S 1 73 0 3392 Assert in file: "um_interface_task.c" in line: 3392
-S 1 73 0 3394 Assert in file: "um_interface_task.c" in line: 3394
-S 1 73 0 3404 Assert in file: "um_interface_task.c" in line: 3404
-S 1 73 0 3414 Assert in file: "um_interface_task.c" in line: 3414
-S 1 73 0 3491 Assert in file: "um_interface_task.c" in line: 3491
-S 1 73 0 3500 Assert in file: "um_interface_task.c" in line: 3500
-S 1 73 0 3505 Assert in file: "um_interface_task.c" in line: 3505
-S 1 73 0 3694 UmDbgCliReq() dutyCycleMsg vapId: %d 
-S 1 73 0 3837 [vUMI_MAN_STA_ADD_REQ]
-S 1 73 0 3863 [vUMI_MAN_STA_ADD_CFM]
-S 1 73 0 3884 [vUMI_MAN_STA_REMOVE_REQ]
-S 1 73 0 3905 [vUMI_MAN_STA_REMOVE_CFM]
-S 1 73 0 3965 Assert in file: "um_interface_task.c" in line: 3965
-S 1 73 0 4185 Assert in file: "um_interface_task.c" in line: 4185
-S 1 73 0 4200 Assert in file: "um_interface_task.c" in line: 4200
-S 1 73 0 4226 Assert in file: "um_interface_task.c" in line: 4226
-S 1 73 0 4250 Assert in file: "um_interface_task.c" in line: 4250
-S 1 73 0 4320 [vUMI_MAN_REQUEST_SID_REQ]
-S 1 73 0 4570 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong station configuration for static HE group! station is not HE capable!
-S 1 73 0 4575 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong station configuration for static HE group! station not connected
-S 1 73 0 4586 Assert in file: "um_interface_task.c" in line: 4586
-S 1 73 0 4755 Assert in file: "um_interface_task.c" in line: 4755
-S 1 73 0 4818 Assert in file: "um_interface_task.c" in line: 4818
-S 1 73 0 4853 Assert in file: "um_interface_task.c" in line: 4853
-S 1 73 0 4876 Assert in file: "um_interface_task.c" in line: 4876
-S 1 73 0 4893 Assert in file: "um_interface_task.c" in line: 4893
-S 1 73 0 4908 Assert in file: "um_interface_task.c" in line: 4908
-S 1 73 0 5652 [vUMI_MAN_STOP_TRAFFIC_REQ]
-S 1 73 0 5670 [vUMI_MAN_STOP_TRAFFIC_CFM]
-S 1 73 0 7105 Assert in file: "um_interface_task.c" in line: 7105
-S 1 73 0 7106 Assert in file: "um_interface_task.c" in line: 7106
-S 1 73 0 7196 Assert in file: "um_interface_task.c" in line: 7196
-S 1 73 0 7260 [CPU LOAD] UMI_MAN_CPU_LOAD_REQ
-S 1 73 0 7278 [CPU LOAD] UMI_MAN_CPU_LOAD_CFM
-S 1 73 0 7300 Assert in file: "um_interface_task.c" in line: 7300
-S 1 73 0 7467 [UMI_NFRP_CONFIG_CFM]
+S 1 73 0 1313 UMI_SET_INTERFERER_DETECTION_PARAMS_REQ: time %u
+S 1 73 0 1400 UMI_POLL_CLIENT_REQ: Station %d is not showing activity
+S 1 73 0 1500 [vUM_SET_CHAN_CFM]
+S 1 73 0 1564 Assert in file: "um_interface_task.c" in line: 1564
+S 1 73 0 1630 Fatal Error in file: "um_interface_task.c"; Fatal Print: Debug Assert Requested by Host
+S 1 73 0 1636 Assert in file: "um_interface_task.c" in line: 1636
+S 1 73 0 1723 [vUM_SET_CHAN_REQ]
+S 1 73 0 1970 Assert in file: "um_interface_task.c" in line: 1970
+S 1 73 0 1988 Assert in file: "um_interface_task.c" in line: 1988
+S 1 73 0 2043 Assert in file: "um_interface_task.c" in line: 2043
+S 1 73 0 2057 Assert in file: "um_interface_task.c" in line: 2057
+S 1 73 0 2313 Assert in file: "um_interface_task.c" in line: 2313
+S 1 73 0 2338 Assert in file: "um_interface_task.c" in line: 2338
+S 1 73 0 2782 Assert in file: "um_interface_task.c" in line: 2782
+S 1 73 0 2839 [startLockAttempt 1] *** semaphore test start *** 
+S 1 73 0 2858 [startLockAttempt 2] UM is trying to get the lock -> lock is busy = %d
+S 1 73 0 2862 [startLockAttempt 3] Get a non used lock 
+S 1 73 0 2864 [startLockAttempt 4] Got the lock 
+S 1 73 0 2866 [startLockAttempt 5] Free the lock 
+S 1 73 0 2868 [startLockAttempt 6] Get a non used lock 
+S 1 73 0 2870 Assert in file: "um_interface_task.c" in line: 2870
+S 1 73 0 2871 [startLockAttempt 7] Got the lock 
+S 1 73 0 2872 [startLockAttempt 8] Free the lock
+S 1 73 0 2874 [startLockAttempt 9] Free 
+S 1 73 0 2876 [startLockAttempt 10] Get a busy lock 
+S 1 73 0 2878 [startLockAttempt 11] Locked 
+S 1 73 0 2879 [startLockAttempt 12] Free the lock 
+S 1 73 0 2881 [startLockAttempt 13] Free 
+S 1 73 0 2917 UMAC Rx UM_DBG_CLI_REQ from Host, action:%d, data1:%d, data2:%d, data3:%d
+S 1 73 0 2921 UMAC Rx UM_DBG_CLI_REQ from Host, action:%d, data1:%d, data2:%d, data3:%d
+S 1 73 0 3035 [UmDbgCliReq] Unknown message type
+S 1 73 0 3103 Fatal Error in file: "um_interface_task.c"; Fatal Print: NOT SUPPORTED
+S 1 73 0 3169 Assert in file: "um_interface_task.c" in line: 3169
+S 1 73 0 3340 Assert in file: "um_interface_task.c" in line: 3340
+S 1 73 0 3362 Assert in file: "um_interface_task.c" in line: 3362
+S 1 73 0 3370 Assert in file: "um_interface_task.c" in line: 3370
+S 1 73 0 3376 Assert in file: "um_interface_task.c" in line: 3376
+S 1 73 0 3406 Assert in file: "um_interface_task.c" in line: 3406
+S 1 73 0 3420 Assert in file: "um_interface_task.c" in line: 3420
+S 1 73 0 3422 Assert in file: "um_interface_task.c" in line: 3422
+S 1 73 0 3432 Assert in file: "um_interface_task.c" in line: 3432
+S 1 73 0 3442 Assert in file: "um_interface_task.c" in line: 3442
+S 1 73 0 3519 Assert in file: "um_interface_task.c" in line: 3519
+S 1 73 0 3528 Assert in file: "um_interface_task.c" in line: 3528
+S 1 73 0 3533 Assert in file: "um_interface_task.c" in line: 3533
+S 1 73 0 3722 UmDbgCliReq() dutyCycleMsg vapId: %d 
+S 1 73 0 3751 UmDbgCliReq() erpMsg vapId: %d 
+S 1 73 0 3763 Assert in file: "um_interface_task.c" in line: 3763
+S 1 73 0 3870 [vUMI_MAN_STA_ADD_REQ]
+S 1 73 0 3896 [vUMI_MAN_STA_ADD_CFM]
+S 1 73 0 3917 [vUMI_MAN_STA_REMOVE_REQ]
+S 1 73 0 3938 [vUMI_MAN_STA_REMOVE_CFM]
+S 1 73 0 3998 Assert in file: "um_interface_task.c" in line: 3998
+S 1 73 0 4221 Assert in file: "um_interface_task.c" in line: 4221
+S 1 73 0 4246 Assert in file: "um_interface_task.c" in line: 4246
+S 1 73 0 4276 Assert in file: "um_interface_task.c" in line: 4276
+S 1 73 0 4353 [vUMI_MAN_REQUEST_SID_REQ]
+S 1 73 0 4603 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong station configuration for static HE group! station is not HE capable!
+S 1 73 0 4608 [vUM_MAN_MU_STATIC_PLAN_CONFIG_REQ] Wrong station configuration for static HE group! station not connected
+S 1 73 0 4619 Assert in file: "um_interface_task.c" in line: 4619
+S 1 73 0 4788 Assert in file: "um_interface_task.c" in line: 4788
+S 1 73 0 4851 Assert in file: "um_interface_task.c" in line: 4851
+S 1 73 0 4886 Assert in file: "um_interface_task.c" in line: 4886
+S 1 73 0 4909 Assert in file: "um_interface_task.c" in line: 4909
+S 1 73 0 4926 Assert in file: "um_interface_task.c" in line: 4926
+S 1 73 0 4941 Assert in file: "um_interface_task.c" in line: 4941
+S 1 73 0 5716 [vUMI_MAN_STOP_TRAFFIC_REQ]
+S 1 73 0 5734 [vUMI_MAN_STOP_TRAFFIC_CFM]
+S 1 73 0 7169 Assert in file: "um_interface_task.c" in line: 7169
+S 1 73 0 7170 Assert in file: "um_interface_task.c" in line: 7170
+S 1 73 0 7260 Assert in file: "um_interface_task.c" in line: 7260
+S 1 73 0 7324 [CPU LOAD] UMI_MAN_CPU_LOAD_REQ
+S 1 73 0 7342 [CPU LOAD] UMI_MAN_CPU_LOAD_CFM
+S 1 73 0 7364 Assert in file: "um_interface_task.c" in line: 7364
+S 1 73 0 7531 [UMI_NFRP_CONFIG_CFM]
 S 1 39 0 103 Assert in file: "AlphaFilter.c" in line: 103
 S 1 39 0 190 Assert in file: "AlphaFilter.c" in line: 190
 S 1 74 0 357 Assert in file: "CalendarWheel.c" in line: 357
@@ -4035,9 +4117,9 @@ S 1 34 5 215 Assert in file: "Utils_Misc.c" in line: 215
 S 1 34 5 282 Assert in file: "Utils_Misc.c" in line: 282
 S 1 34 5 332 Assert in file: "Utils_Misc.c" in line: 332
 S 1 34 5 368 Assert in file: "Utils_Misc.c" in line: 368
-S 1 34 5 745 Fatal Error in file: "Utils_Misc.c"; Fatal Print: Utils_determineSourceTypeAndDmaDirection
-S 1 34 5 814 Fatal Error in file: "Utils_Misc.c"; Fatal Print: Utils_GetPrimaryChannel: 80+80 not supported
-S 1 34 5 817 Fatal Error in file: "Utils_Misc.c"; Fatal Print: Utils_GetPrimaryChannel: Illegal rate
+S 1 34 5 752 Fatal Error in file: "Utils_Misc.c"; Fatal Print: Utils_determineSourceTypeAndDmaDirection
+S 1 34 5 821 Fatal Error in file: "Utils_Misc.c"; Fatal Print: Utils_GetPrimaryChannel: 80+80 not supported
+S 1 34 5 824 Fatal Error in file: "Utils_Misc.c"; Fatal Print: Utils_GetPrimaryChannel: Illegal rate
 S 1 75 0 262 VapDb_AddVap: vapIndex is %X
 S 1 75 0 353 VapDb_ResetVapEntry: vapIndex is %X
 S 1 75 0 522 Assert in file: "VapDatabase.c" in line: 522
@@ -4051,8 +4133,8 @@ S 1 76 2 3315 Assert in file: "lib_wrx654_api.c" in line: 3315
 S 1 76 2 3355 Assert in file: "lib_wrx654_api.c" in line: 3355
 T 1 5 18 208 AutoRespErrFifo_t
 T 1 5 0 385 BaaRateAdaptiveFifo_t
-T 1 6 2 137 MbssIdParams_t
-T 1 6 2 195 BeaconHwParams_t
+T 1 6 2 179 MbssIdParams_t
+T 1 6 2 238 BeaconHwParams_t
 T 1 5 23 631 BsrcNdpfbReport_t
 T 1 9 0 162 PacManagerStart_t
 T 1 10 2 637 UMI_ADD_VAP
@@ -4085,15 +4167,15 @@ T 1 18 2 164 RssiCwPower_t
 T 1 18 2 177 S2dParams_t
 T 1 18 2 190 DutRssiOffsetGain_t
 T 1 18 2 298 dutPowerOutVecParams_t
-T 1 18 2 402 clbrHndlrResetConf_t
-T 1 18 2 425 dutStartCalibrationParams_t
-T 1 18 2 426 dutDB_t
-T 1 18 2 622 dutPowerOutVecParams_t
-T 1 18 2 652 dutSetRate_t
-T 1 18 2 674 LaFixedRateParams_t
-T 1 18 2 696 dutGetRate_t
-T 1 18 2 707 LaGetPhyRateParams_t
-T 1 18 2 786 dutGetFwInfo_t
+T 1 18 2 414 clbrHndlrResetConf_t
+T 1 18 2 437 dutStartCalibrationParams_t
+T 1 18 2 438 dutDB_t
+T 1 18 2 634 dutPowerOutVecParams_t
+T 1 18 2 664 dutSetRate_t
+T 1 18 2 686 LaFixedRateParams_t
+T 1 18 2 708 dutGetRate_t
+T 1 18 2 719 LaGetPhyRateParams_t
+T 1 18 2 798 dutGetFwInfo_t
 T 1 18 3 250 dutTxParams_t
 T 1 18 3 266 trafficParams_t
 T 1 26 15 661 rssiPathCalibrationHeaderParams_t
@@ -4104,13 +4186,13 @@ T 1 26 24 549 TxIQParams_t
 T 1 26 21 476 TxLo_DacIndexes_t
 T 1 26 21 492 TxLo_DacIndexes_t
 T 1 26 21 508 TxLo_DacIndexes_t
-T 1 26 2 760 ClbrMngr_CalibrateDB_t
-T 1 26 2 813 ClbrMngr_CalibrateDB_t
-T 1 26 2 885 HdkCdbManagerOfflineCalSmMsg_t
-T 1 26 2 909 HdkCdbManagerOfflineCalSmMsg_t
+T 1 26 2 759 ClbrMngr_CalibrateDB_t
+T 1 26 2 812 ClbrMngr_CalibrateDB_t
+T 1 26 2 884 HdkCdbManagerOfflineCalSmMsg_t
+T 1 26 2 908 HdkCdbManagerOfflineCalSmMsg_t
 T 1 27 1 203 UmiHwDependentConfig_t
-T 1 27 3 242 CdbManagerOnlineCalDb_t
-T 1 27 3 639 CdbManagerOnlineCalDb_t
+T 1 27 3 250 CdbManagerOnlineCalDb_t
+T 1 27 3 652 CdbManagerOnlineCalDb_t
 T 1 28 9 303 GoertzelRes_t
 T 1 28 9 374 CorrRes_t
 T 1 28 9 375 CorrOverflow_t
@@ -4119,23 +4201,23 @@ T 1 28 19 1591 SetChannelParams_t
 T 1 29 2 1889 SetChannelParams_t
 T 1 28 0 1292 SetChannelParams_t
 T 1 28 4 119 HdkSetChannelReqParams_t
-T 1 28 20 930 HdkNotificationParams_t
-T 1 28 20 946 HdkNotificationParams_t
-T 1 28 20 976 HdkNotificationParams_t
-T 1 28 20 990 HdkNotificationParams_t
-T 1 28 20 1100 tpcConfig_t
-T 1 28 20 1123 UMI_HDK_CONFIG
-T 1 28 20 3085 cocReq_t
-T 1 28 20 3994 SetChannelParams_t
-T 1 28 20 4524 HdkSetChannelReqParams_t
-T 1 28 20 4525 HdkSetChannelReqParams_t
+T 1 28 20 936 HdkNotificationParams_t
+T 1 28 20 952 HdkNotificationParams_t
+T 1 28 20 982 HdkNotificationParams_t
+T 1 28 20 996 HdkNotificationParams_t
+T 1 28 20 1106 tpcConfig_t
+T 1 28 20 1129 UMI_HDK_CONFIG
+T 1 28 20 3114 cocReq_t
+T 1 28 20 4022 SetChannelParams_t
+T 1 28 20 4552 HdkSetChannelReqParams_t
+T 1 28 20 4553 HdkSetChannelReqParams_t
 T 1 30 1 310 HeGroupGeneratorResults_t
 T 1 30 1 597 HeGroupManager_GroupDbEntry_t
 T 1 30 2 461 RequesterLockParams_t
-T 1 30 0 1154 UMI_STA_ADD
+T 1 30 0 1157 UMI_STA_ADD
 T 1 30 3 207 UMI_STA_ADD
 T 1 30 3 292 HeGroupManager_StationDbEntry_t
-T 1 32 0 1453 UMI_MULTICAST_MODE
+T 1 32 0 1456 UMI_MULTICAST_MODE
 T 1 5 19 746 RegTxPdAccTxpdIntErrorStatus_u
 T 1 5 19 784 RegMacTxHcTxHcIntErrorStatus_u
 T 1 5 19 817 RegTfGeneratorTfGenIntErrorStatus_u
@@ -4150,23 +4232,27 @@ T 1 5 24 788 RegOtfaErrorIrqStatus_u
 T 1 5 24 816 RegAutoRespIntErrStatus_u
 T 1 5 24 872 RegHostIfAccHostIfAccErrInt_u
 T 1 5 24 913 RegRxPpRxPpIntErrorStatus_u
-T 1 35 1 1429 radarAdaptiveSensDb_t
-T 1 35 1 1531 radarAdaptiveSensDb_t
-T 1 35 1 1532 radarAdaptiveSensConfig_t
-T 1 35 1 1533 radarAdaptiveSensConfig_t
-T 1 35 1 1557 radarAdaptiveSensConfig_t
+T 1 35 1 1591 radarAdaptiveSensDb_t
+T 1 35 1 1693 radarAdaptiveSensDb_t
+T 1 35 1 1694 radarAdaptiveSensConfig_t
+T 1 35 1 1695 radarAdaptiveSensConfig_t
+T 1 35 1 1719 radarAdaptiveSensConfig_t
 T 1 39 1 146 AntennaSelectionDatabase_t
 T 1 39 1 160 AntennaSelectionDatabase_t
 T 1 39 1 193 AntennaSelectionDatabase_t
 T 1 39 1 503 AntennaSelectionDatabase_t
 T 1 39 4 283 LaTcrModificationStruct_t
+T 1 39 23 471 DynamicMpduDB_t
+T 1 39 23 550 DynamicMpduDB_t
+T 1 39 23 635 DynamicMpduDB_t
+T 1 39 23 699 DynamicMpduDB_t
 T 1 39 19 330 DynamicTxopDB_t
-T 1 39 8 1529 LaStationGroupCommonParams_t
-T 1 39 8 1530 LaStationUspCommonParams_t
-T 1 39 8 1534 LaStationUniqueParams_t
-T 1 39 8 1538 LaGroupUniqueParams_t
-T 1 39 8 1542 LaVhtGroupUniqueParams_t
-T 1 39 8 1546 LaHeGroupUniqueParams_t
+T 1 39 8 1530 LaStationGroupCommonParams_t
+T 1 39 8 1531 LaStationUspCommonParams_t
+T 1 39 8 1535 LaStationUniqueParams_t
+T 1 39 8 1539 LaGroupUniqueParams_t
+T 1 39 8 1543 LaVhtGroupUniqueParams_t
+T 1 39 8 1547 LaHeGroupUniqueParams_t
 T 1 39 14 1707 LA_SET_TPC_DATA_t
 T 1 39 10 447 RateMask_t
 T 1 39 10 3489 LaMpduInAmpduConfigMsg_t
@@ -4201,47 +4287,47 @@ T 1 39 20 290 SoundingPhaseTfParameters_t
 T 1 39 20 291 SoundingPhaseTfCommonInfo_t
 T 1 39 20 294 SoundingPhaseTfUserInfo_t
 T 1 39 20 296 HeSoundingNdpaPointer_t
-T 1 39 16 559 RateMask_t
-T 1 39 16 661 RateMask_t
-T 1 39 16 758 RateMask_t
-T 1 39 16 4526 UMI_MSDU_IN_AMSDU_CONFIG
-T 1 39 15 274 UMI_SET_BSS
-T 1 39 15 509 vapEstimatorsDataBase_t
+T 1 39 16 569 RateMask_t
+T 1 39 16 671 RateMask_t
+T 1 39 16 768 RateMask_t
+T 1 39 16 4557 UMI_MSDU_IN_AMSDU_CONFIG
+T 1 39 15 273 UMI_SET_BSS
+T 1 39 15 458 vapEstimatorsDataBase_t
 T 1 39 5 413 RateMask_t
 T 1 39 5 662 RateMask_t
 T 1 39 5 663 RateMask_t
 T 1 39 5 687 RateMask_t
 T 1 39 5 706 RateMask_t
 T 1 39 5 707 RateMask_t
-T 1 39 6 953 RateMask_t
-T 1 39 9 933 LaUlPostRxOmiControl_u
-T 1 39 9 947 LaUlPostRxOmiControl_u
-T 1 39 9 1143 TxSequencerReport_t
-T 1 39 9 2056 LA_SET_CHANNEL_DATA_t
-T 1 39 9 2577 HE_MAC_PHY_CAPABILITIES_INFO
-T 1 39 9 2793 RateMask_t
-T 1 39 9 4089 HE_MCS_SUPPORT
-T 1 39 9 4121 RateMask_t
-T 1 39 9 8384 HdkCdbManagerConfigBandReq_t
-T 1 39 12 1388 overridePendingDb_t
-T 1 39 12 1621 BaaRateAdaptiveFullFifo_t
+T 1 39 6 959 RateMask_t
+T 1 39 9 936 LaUlPostRxOmiControl_u
+T 1 39 9 950 LaUlPostRxOmiControl_u
+T 1 39 9 1150 TxSequencerReport_t
+T 1 39 9 2090 LA_SET_CHANNEL_DATA_t
+T 1 39 9 2624 HE_MAC_PHY_CAPABILITIES_INFO
+T 1 39 9 2848 RateMask_t
+T 1 39 9 4153 HE_MCS_SUPPORT
+T 1 39 9 4185 RateMask_t
+T 1 39 9 8483 HdkCdbManagerConfigBandReq_t
+T 1 39 12 1451 overridePendingDb_t
+T 1 39 12 1686 BaaRateAdaptiveFullFifo_t
 T 1 39 21 123 TurboRatesDataBase_t
 T 1 39 21 124 LinkAdaptationDatabaseDistributionPack_t
 T 1 39 21 184 TurboRatesDataBase_t
 T 1 41 2 208 UmiLoggerMsgSetMode_t
 T 1 41 2 247 UmiLoggerMsgFlushBuffer_t
-T 1 3 8 367 OtfaErrFifo_t
-T 1 3 8 400 TxPd_t
+T 1 3 8 373 OtfaErrFifo_t
+T 1 3 8 407 TxPd_t
 T 1 48 0 540 PtaDb_t
 T 1 48 0 541 PtaRepetitionParams_t
-T 1 51 0 575 HeGroupManagerPhaseBitmap_t
-T 1 51 0 5705 LaAddHeGroupParams_t
-T 1 51 0 5826 LaAddHeGroupParams_t
-T 1 51 0 6507 RuAllocationPerUser_t
-T 1 51 0 6600 RuAllocMask_t
-T 1 51 0 6601 RuAllocMask_t
-T 1 51 0 6605 RuAllocMask_t
-T 1 51 0 6925 RuAllocMask_t
+T 1 51 0 577 HeGroupManagerPhaseBitmap_t
+T 1 51 0 5731 LaAddHeGroupParams_t
+T 1 51 0 5852 LaAddHeGroupParams_t
+T 1 51 0 6541 RuAllocationPerUser_t
+T 1 51 0 6634 RuAllocMask_t
+T 1 51 0 6635 RuAllocMask_t
+T 1 51 0 6639 RuAllocMask_t
+T 1 51 0 6959 RuAllocMask_t
 T 1 3 1 1715 PreAggUserReportFifo_t
 T 1 3 1 1762 PreAggCommonReportFifo_t
 T 1 54 1 229 PsManagerStatusFifoEntry_t
@@ -4279,24 +4365,25 @@ T 1 66 0 3144 MuEffectiveRateDbRamEntry_u
 T 1 66 0 3221 MuEffectiveRateDbRamEntry_u
 T 1 66 0 3298 MuEffectiveRateDbRamEntry_u
 T 1 66 0 3481 GroupCombinationTableEntry_t
-T 1 68 0 977 TwtFramePayload_t
-T 1 68 0 1119 TwtFramePayload_t
-T 1 70 0 2649 FM_PAYLOAD_MANAGEMENT_ACTION_PUBLIC_FRAME
-T 1 70 0 2672 TxPd_t
+T 1 68 0 979 TwtFramePayload_t
+T 1 68 0 1138 TwtFramePayload_t
+T 1 70 0 2672 FM_PAYLOAD_MANAGEMENT_ACTION_PUBLIC_FRAME
+T 1 70 0 2695 TxPd_t
 T 1 3 6 1444 TxSelectorStaTidRam_t
 T 1 3 6 1454 TxSelectorStaTidRam_t
 T 1 72 0 164 LaUlprReport_t
-T 1 73 0 1408 UMI_POLL_CLIENT_t
-T 1 73 0 1537 UMI_SET_KEY
-T 1 73 0 1764 UMI_GROUP_PN
-T 1 73 0 3025 CARD_CONFIGURATION_MODE
-T 1 73 0 3071 BaaRateAdaptiveFullFifo_t
-T 1 73 0 4413 UMI_REMOVE_SID
-T 1 73 0 4539 UMI_STATIC_PLAN_CONFIG
-T 1 73 0 5000 UMI_FIXED_RATE_CONFIG
-T 1 73 0 6661 UMI_802_1X_FILTER
-T 1 73 0 7487 UMI_DYNAMIC_MU_TYPE
-T 1 73 0 7524 UMI_HE_MU_FIXED_PARAMTERS
-T 1 73 0 7567 UMI_HE_MU_DURATION
-T 1 73 0 7645 UMI_GET_TWT_PARAMS
-T 1 73 0 7673 UMI_GET_TWT_PARAMS
+T 1 73 0 1406 UMI_POLL_CLIENT_t
+T 1 73 0 1533 UMI_SET_KEY
+T 1 73 0 1743 UM_SET_CHAN_PARAMS
+T 1 73 0 1792 UMI_GROUP_PN
+T 1 73 0 3053 CARD_CONFIGURATION_MODE
+T 1 73 0 3099 BaaRateAdaptiveFullFifo_t
+T 1 73 0 4446 UMI_REMOVE_SID
+T 1 73 0 4572 UMI_STATIC_PLAN_CONFIG
+T 1 73 0 5033 UMI_FIXED_RATE_CONFIG
+T 1 73 0 6725 UMI_802_1X_FILTER
+T 1 73 0 7551 UMI_DYNAMIC_MU_TYPE
+T 1 73 0 7588 UMI_HE_MU_FIXED_PARAMTERS
+T 1 73 0 7631 UMI_HE_MU_DURATION
+T 1 73 0 7709 UMI_GET_TWT_PARAMS
+T 1 73 0 7737 UMI_GET_TWT_PARAMS
